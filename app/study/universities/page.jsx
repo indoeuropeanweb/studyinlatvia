@@ -1,0 +1,447 @@
+import Breadcrumb from "@/app/components/Breadcrumb"
+import Image from "next/image"
+import { IoIosArrowForward } from "react-icons/io"
+
+export const metadata = {
+  title: "Universities in Lithuania  | Top Lithuanian Universities for International Students",
+  description: "Explore the top universities in Lithuania for international students. Compare programs, tuition fees, rankings, admission requirements, scholarships, and study opportunities at leading Lithuanian universities for Bachelor's, Master's, and PhD studies. Supported by globally recognized degrees and English-taught programs",
+  keywords: ["Universities in Lithuania", "Lithuania Universities", "Study in Lithuania Universities", "Top Universities in Lithuania", "Lithuanian Universities", "Lithuania Higher Education", "Best Universities in Lithuania", "Vilnius University", "VILNIUS TECH", "Kaunas University of Technology", "Vytautas Magnus University", "Mykolas Romeris University", "ISM University", "Klaipeda University", "SMK University", "Kauno Kolegija", "Study in Europe", "International Students Lithuania", "English Taught Programs Lithuania", "Lithuania Education"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/study/universities"
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://www.studyinlithuania.in/study/universities/",
+    siteName: "Study in Lithuania",
+    title:
+    "Universities in Lithuania 2026 | Top Lithuanian Universities for International Students",
+    description:
+    "Explore the best universities in Lithuania offering Bachelor's, Master's and PhD programs for international students.",
+    images: [
+    {
+    url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+    alt: "Top Universities in Lithuania",
+    },
+  ],
+},
+}
+
+const page = () => {
+
+const universitiesData = [
+  {
+    id: 1,
+    name: "Riga Technical University (RTU)",
+    img_url: "/images/universities/01.webp",
+    rankingRecognition:
+      "One of the oldest and most prestigious technical universities in the Baltic region, widely recognised for engineering, technology, and innovation-focused education.",
+    academicStrength: [
+      "Engineering",
+      "Information Technology",
+      "Artificial Intelligence",
+      "Computer Science",
+      "Architecture",
+    ],
+  },
+  {
+    id: 2,
+    name: "University of Latvia",
+    img_url: "/images/universities/02.webp",
+    rankingRecognition:
+      "The largest and one of the most respected universities in Latvia, known for its strong academic research and diverse range of programmes.",
+    academicStrength: [
+      "Business Administration",
+      "Economics",
+      "Medicine",
+      "Law",
+      "Social Sciences",
+    ],
+  },
+  {
+    id: 3,
+    name: "Riga Stradiņš University (RSU)",
+    img_url: "/images/universities/03.webp",
+    rankingRecognition:
+      "A leading university for healthcare and medical education, attracting international students from many countries.",
+    academicStrength: [
+      "Medicine",
+      "Dentistry",
+      "Pharmacy",
+      "Public Health",
+      "Healthcare Management",
+    ],
+  },
+  {
+    id: 4,
+    name: "Latvia University of Life Sciences and Technologies",
+    img_url: "/images/universities/04.webp",
+    rankingRecognition:
+      "Known for practical education and research in agriculture, environmental sciences, engineering, and business-related disciplines.",
+    academicStrength: [
+      "Agriculture",
+      "Environmental Science",
+      "Food Technology",
+      "Business Management",
+      "Engineering",
+    ],
+  },
+  {
+    id: 5,
+    name: "Transport and Telecommunication Institute (TSI)",
+    img_url: "/images/universities/05.webp",
+    rankingRecognition:
+      "A modern private university recognised for technology, aviation, logistics, and digital innovation programmes.",
+    academicStrength: [
+      "Computer Science",
+      "Data Analytics",
+      "Aviation Management",
+      "Logistics",
+      "Business Technology",
+    ],
+  },
+  {
+    id: 6,
+    name: "Turība University",
+    img_url: "/images/universities/06.webp",
+    rankingRecognition:
+      "One of Latvia's leading private universities, known for entrepreneurship-focused education and strong industry connections.",
+    academicStrength: [
+      "Business Administration",
+      "Tourism and Hospitality",
+      "Marketing",
+      "International Communication",
+      "Management",
+    ],
+  },
+  {
+    id: 7,
+    name: "BA School of Business and Finance",
+    img_url: "/images/universities/07.webp",
+    rankingRecognition:
+      "A specialised institution with a strong reputation in finance, banking, and business education.",
+    academicStrength: [
+      "Finance",
+      "Banking",
+      "Economics",
+      "Business Management",
+      "Accounting",
+    ],
+  },
+  {
+    id: 8,
+    name: "Vidzeme University of Applied Sciences",
+    img_url: "/images/universities/08.webp",
+    rankingRecognition:
+      "Recognised for applied learning, innovation, and international collaboration across multiple academic disciplines.",
+    academicStrength: [
+      "Information Technology",
+      "Tourism Management",
+      "Business Studies",
+      "Communication",
+      "Media Studies",
+    ],
+  },
+  {
+    id: 9,
+    name: "RISEBA University of Applied Sciences",
+    img_url: "/images/universities/09.webp",
+    rankingRecognition:
+      "A well-known private university offering creative, business, and technology-focused programmes with international perspectives.",
+    academicStrength: [
+      "Business",
+      "Media and Communication",
+      "Architecture",
+      "Creative Industries",
+      "Project Management",
+    ],
+  },
+];
+
+const schema = {
+      "@context": "https://schema.org",
+      "@graph": [
+      {
+      "@type": "Organization",
+      "@id": "https://www.studyinlithuania.in/#organization",
+      name: "Study in Lithuania",
+      url: "https://www.studyinlithuania.in",
+      logo: {
+      "@type": "ImageObject",
+      url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+      },
+      },
+      {
+      "@type": "WebSite",
+      "@id": "https://www.studyinlithuania.in/#website",
+      url: "https://www.studyinlithuania.in",
+      name: "Study in Lithuania",
+      publisher: {
+      "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      potentialAction: {
+      "@type": "SearchAction",
+      target:
+      "https://www.studyinlithuania.in/?s={search_term_string}",
+      "query-input": "required name=search_term_string",
+      },
+      },
+      {
+      "@type": "WebPage",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#webpage",
+      url: "https://www.studyinlithuania.in/study/universities/",
+      name: "Universities in Lithuania",
+      description:
+      "Explore top universities in Lithuania offering Bachelor's, Master's and PhD programs for international students.",
+      isPartOf: {
+      "@id": "https://www.studyinlithuania.in/#website",
+      },
+      breadcrumb: {
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#breadcrumb",
+      },
+      inLanguage: "en",
+      },
+      {
+      "@type": "CollectionPage",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#collectionpage",
+      url: "https://www.studyinlithuania.in/study/universities/",
+      name: "Universities in Lithuania",
+      description:
+      "A comprehensive list of universities and colleges in Lithuania for international students.",
+      mainEntity: {
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#itemlist",
+      },
+      },
+      {
+      "@type": "Article",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#article",
+      headline:
+      "Top Universities in Lithuania for International Students",
+      description:
+      "Explore Lithuania's leading universities, admission requirements, tuition fees, scholarships and study opportunities.",
+      mainEntityOfPage: {
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#webpage",
+      },
+      publisher: {
+      "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      author: {
+      "@type": "Organization",
+      name: "Study in Lithuania",
+      },
+      datePublished: "2026-06-11",
+      dateModified: "2026-06-11",
+      },
+      {
+      "@type": "BreadcrumbList",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#breadcrumb",
+      itemListElement: [
+      {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.studyinlithuania.in/",
+      },
+      {
+      "@type": "ListItem",
+      position: 2,
+      name: "Study",
+      item: "https://www.studyinlithuania.in/study/",
+      },
+      {
+      "@type": "ListItem",
+      position: 3,
+      name: "Universities",
+      item: "https://www.studyinlithuania.in/study/universities/",
+      },
+      ],
+      },
+      {
+      "@type": "ItemList",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#itemlist",
+      name: "Top Universities in Lithuania",
+      itemListElement: [
+      {
+      "@type": "CollegeOrUniversity",
+      position: 1,
+      name: "Vilnius University",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 2,
+      name: "Vilnius Gediminas Technical University (VILNIUS TECH)",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 3,
+      name: "Kaunas University of Technology",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 4,
+      name: "Vytautas Magnus University",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 5,
+      name: "Mykolas Romeris University",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 6,
+      name: "Lithuanian University of Health Sciences",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 7,
+      name: "ISM University of Management and Economics",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 8,
+      name: "Klaipeda University",
+      },
+      ],
+      },
+      {
+      "@type": "ImageObject",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#image",
+      contentUrl:
+      "https://www.studyinlithuania.in/study/lithuania-01.webp",
+      caption:
+      "Top Universities in Lithuania for International Students",
+      representativeOfPage: true,
+      },
+      ],
+};
+
+
+  return (
+    <>
+      <Breadcrumb heading={'Explore Top Universities of Lithuania'}/>
+      <div className="px-10 mt-10">
+         <h2 className="font-aino text-2xl md:text-4xl">Top Universities in Latvia for Indian Students</h2>
+         <p className="mt-5">Latvia is home to several internationally recognised universities known for academic excellence,
+          research opportunities, industry-focused education, and affordable tuition fees. Students can
+          choose from a wide range of programmes in Business, Engineering, Information Technology,
+          Medicine, Healthcare, Social Sciences, and Management.<br />
+          Many Latvian universities offer English-taught programmes and maintain strong partnerships
+          with institutions and industries across Europe, helping students gain valuable international
+          exposure and career opportunities.
+          </p>
+          <div className="mt-12">
+          <h2 className="font-aino text-2xl md:text-4xl">Discover Leading Universities in Latvia</h2>
+          <div className="mt-5">
+                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {universitiesData.map((university) => (
+                    <div
+                      key={university.id}
+                      className="group relative overflow-hidden rounded-3xl bg-white border border-gray-100 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
+                    >
+                      <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-primary via-secondary to-tertiary" />
+
+                      <div className="relative h-60 overflow-hidden">
+                        <Image
+                          width={400}
+                          height={240}
+                          src={university.img_url}
+                          alt={university.name}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        />
+
+                        <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent" />
+
+                        <div className="absolute bottom-5 left-5 right-5">
+                          <h2 className="text-2xl font-bold text-white leading-snug">
+                            {university.name}
+                          </h2>
+                        </div>
+                      </div>
+
+                      <div className="p-6">
+                        <div className="mb-5">
+                          <div className="flex items-center gap-2 mb-2">
+                            <span className="w-2 h-2 rounded-full bg-primarydark" />
+                            <h3 className="font-semibold text-primary">
+                              Ranking & Recognition
+                            </h3>
+                          </div>
+
+                          <p className="text-gray-600 text-sm leading-relaxed">
+                            {university.rankingRecognition}
+                          </p>
+                        </div>
+                        <div>
+                          <div className="flex items-center gap-2 mb-3">
+                            <span className="w-2 h-2 rounded-full bg-primarydark" />
+                            <h3 className="font-semibold text-primary">
+                              Academic Strength
+                            </h3>
+                          </div>
+
+                          <div className="flex flex-wrap gap-2">
+                            {university.academicStrength.map((course, index) => (
+                              <span
+                                key={index}
+                                className="px-3 py-1.5 text-xs font-medium rounded-full
+                                  text-primarydark
+                                  border border-[#000000]/20"
+                              >
+                                {course}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    ))}
+                  </div>
+          </div>
+          <div className="mt-10">
+             <h2 className="font-roboto text-xl md:text-2xl">Why opt for Latvian Universities?</h2>
+             <ul className="mt-4 space-y-2">
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Internationally recognised European degrees</li>
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Affordable tuition fees and living costs</li>
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English-taught Bachelor's and Master's programmes</li>
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Modern campuses and research facilities</li>
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Industry-oriented learning approach</li>
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Multicultural student environment</li>
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Internship and career development opportunities</li>
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Access to the European Union education network</li>
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Strong academic support for international students</li>
+             </ul>
+          </div>
+          <div className="mt-10">
+             <h2 className="font-roboto text-xl md:text-2xl">Study at the Best Universities in Latvia</h2>
+             <p className="font-inter text-base mt-3">Whether you are interested in Medicine, Engineering, Business, Information Technology,
+              Healthcare, or Social Sciences, Latvian universities offer quality education combined with
+              international exposure. With affordable study options, globally recognised qualifications, and
+              growing career opportunities, Latvia continues to attract students looking to build a successful
+              future in Europe.</p>
+          </div>
+          </div>
+      </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schema),
+        }}
+      />
+    </>
+  )
+}
+
+export default page
