@@ -175,7 +175,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Lithuania has a modern, dynamic, and rapidly growing economy, making it one of the most attractive countries in the Baltic region. The country is known for its strengths in technology, fintech, manufacturing, logistics, and life sciences. As a member of the European Union and the Eurozone, Lithuania offers a stable economic environment and strong international business connections. Its growing startup ecosystem, skilled workforce, and increasing foreign investment continue to create new career opportunities for students and graduates.'} />
+      <Breadcrumb heading={"Latvia's​‍​‌‍​‍‌ Economy: A Driving Force of Growth, Innovation, and Opening up Global ​‍​‌‍​‍‌Opportunities"} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Economy of Latvia</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>

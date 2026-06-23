@@ -148,7 +148,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'latvia is divided into several administrative regions and municipalities, each offering a unique blend of culture, education, and economic opportunities. Major cities such as Vilnius, Kaunas, Klaipėda, and Šiauliai are popular among international students due to their universities, affordable living costs, and student-friendly environments. Each region contributes to latvia&#39;s strong economy, rich heritage, and high quality of life. Students can enjoy modern infrastructure, safe communities, and easy access to travel across Europe while studying in latvia.'} />
+      <Breadcrumb heading={"Education​‍​‌‍​‍‌ in Latvia: Opportunity Cost at European Level, Affordable ​‍​‌‍​‍‌Excellence!"} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Latvia</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>

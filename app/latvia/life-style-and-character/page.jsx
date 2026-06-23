@@ -19,7 +19,7 @@ export const metadata = {
 const page = () => {
   return (
     <div className=''>
-      <Breadcrumb heading={'Lithuania offers a relaxed, safe, and balanced lifestyle that combines modern living with strong cultural values. People are known for being hardworking, friendly, and respectful, while cities provide a clean, organized, and student-friendly environment. Residents enjoy a good work-life balance, excellent public services, and a strong connection to nature. For international students, Lithuania provides a welcoming atmosphere and a high quality of life at an affordable cost.'} />
+      <Breadcrumb heading={"Explore​‍​‌‍​‍‌ Latvia's national character and unique way of ​‍​‌‍​‍‌life"} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>The Lifestyle and Character of Latvia</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>

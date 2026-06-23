@@ -175,7 +175,7 @@ const page = () => {
 
   return (
     <>
-     <Breadcrumb heading={'Learn more about us'}/>
+     <Breadcrumb heading={'Who​‍​‌‍​‍‌​‍​‌‍​‍‌ We Are – Your Trustworthy Study Abroad Consultants for Latvia & ​‍​‌‍​‍‌​‍​‌‍​‍‌Europe'}/>
      <div className='mx-auto max-w-6xl'>
          <div className='py-10 px-5'>
                <h2 className='font-aino text-2xl md:text-4xl'>Who We Are?</h2>

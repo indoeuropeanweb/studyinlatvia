@@ -194,7 +194,7 @@ const page = () => {
 
   return (
     <>
-        <Breadcrumb heading={"Living Costs of Latvia"}/>
+        <Breadcrumb heading={"Cost​‍​‌‍​‍‌ of Living in Latvia for Indian and International ​‍​‌‍​‍‌Students"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div className=''>

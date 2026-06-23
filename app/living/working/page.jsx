@@ -221,7 +221,7 @@ const page = () => {
 
   return (
     <>
-        <Breadcrumb heading={"Work in Latvia"}/>
+        <Breadcrumb heading={"Job​‍​‌‍​‍‌ openings in Latvia for foreign ​‍​‌‍​‍‌students"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div className=''>

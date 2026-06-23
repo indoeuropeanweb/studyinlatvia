@@ -1,4 +1,4 @@
-import LithuaniaClient from "./LithuaniaClient";
+import LatviaClient from "./LatviaClient";
 
 
 export const metadata = {
@@ -99,7 +99,7 @@ export default function Home() {
 
   return (
     <>
-     <LithuaniaClient />
+     <LatviaClient />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

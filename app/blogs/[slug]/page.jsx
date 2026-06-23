@@ -2,6 +2,7 @@ import { blogs } from "@/public/data/blogs";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Script from "next/script";
+import Link from "next/link";
 
 export async function generateStaticParams() {
   return blogs.map((blog) => ({
@@ -24,13 +25,13 @@ export async function generateMetadata({ params }) {
     keywords: blog.keywords,
 
     alternates: {
-      canonical: `https://www.studyinlithuania.in/blogs/${slug}`,
+      canonical: `https://www.studyinlatvia.in/blogs/${slug}`,
     },
 
     openGraph: {
       title: blog.metaTitle || blog.title,
       description: blog.metaDescription,
-      url: `https://www.studyinlithuania.in/blogs/${slug}`,
+      url: `https://www.studyinlatvia.in/blogs/${slug}`,
       type: "article",
       images: [
         {
@@ -74,51 +75,51 @@ export default async function BlogPage({ params }) {
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": `https://www.studyinlithuania.in/blogs/${slug}#article`,
+      "@id": `https://www.studyinlatvia.in/blogs/${slug}#article`,
       headline: blog.title,
       description: blog.metaDescription,
       image: [blog.image],
       author: {
         "@type": "Organization",
-        name: "Study in Lithuania",
+        name: "Study in latvia",
       },
       publisher: {
         "@type": "Organization",
-        name: "Study in Lithuania",
+        name: "Study in latvia",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.studyinlithuania.in/logo.png",
+          url: "https://www.studyinlatvia.in/logo.png",
         },
       },
       datePublished: blog.date,
       dateModified: blog.date,
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": `https://www.studyinlithuania.in/blogs/${slug}`,
+        "@id": `https://www.studyinlatvia.in/blogs/${slug}`,
       },
     },
 
     {
       "@type": "BreadcrumbList",
-      "@id": `https://www.studyinlithuania.in/blogs/${slug}#breadcrumb`,
+      "@id": `https://www.studyinlatvia.in/blogs/${slug}#breadcrumb`,
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in",
+          item: "https://www.studyinlatvia.in",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Blogs",
-          item: "https://www.studyinlithuania.in/blogs",
+          item: "https://www.studyinlatvia.in/blogs",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: blog.title,
-          item: `https://www.studyinlithuania.in/blogs/${slug}`,
+          item: `https://www.studyinlatvia.in/blogs/${slug}`,
         },
       ],
     },
@@ -154,16 +155,30 @@ export default async function BlogPage({ params }) {
           {blog.title}
         </h1>
 
-        <p className="text-gray-500 mt-2 text-inter">
+        <p className="text-gray-500 mt-4 text-inter text-justify">
           {blog.date}
         </p>
 
       {blog.sections.map((section, index) => {
+
+        if (section.type === "image") {
+          return (
+            <Image
+              key={index}
+              src={section.content}
+              alt={section.text}
+              className="w-full rounded-xl mt-3"
+              width={720}
+              height={540}
+            />
+          );
+        }
+
         if (section.type === "heading") {
           return (
             <h2
               key={index}
-              className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-[#048D4E]"
+              className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-primary"
             >
               {section.content}
             </h2>
@@ -187,7 +202,27 @@ export default async function BlogPage({ params }) {
               key={index}
               className="mt-4 text-justify text-gray-700 leading-8 font-inter"
             >
-              {section.content}
+              {Array.isArray(section.content)
+                ? section.content.map((item, i) => {
+                    if (item.type === "text") {
+                      return <span key={i}>{item.text}</span>;
+                    }
+
+                    if (item.type === "link") {
+                      return (
+                        <Link
+                          key={i}
+                          href={item.href}
+                          className="text-primary font-medium hover:underline"
+                        >
+                          {item.text}
+                        </Link>
+                      );
+                    }
+
+                    return null;
+                  })
+                : section.content}
             </p>
           );
         }
@@ -218,17 +253,17 @@ export default async function BlogPage({ params }) {
     })}
 
         <div className="mt-10">
-          <h2 className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-[#048D4E]">
+          <h2 className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-primary mb-5">
             FAQs
           </h2>
 
           {blog.faqs.map((faq, index) => (
-            <div key={index} className="mt-4">
+            <div key={index} className="mt-5">
               <h3 className="font-semibold font-roboto">
-                {faq.question}
+                {`Q.${index + 1}`}&nbsp;{faq.question}
               </h3>
 
-              <p className="font-inter text-justify">
+              <p className="font-inter text-justify mt-2">
                 {faq.answer}
               </p>
             </div>

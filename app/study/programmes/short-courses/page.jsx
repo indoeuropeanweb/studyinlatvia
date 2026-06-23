@@ -210,7 +210,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Latvia offers a variety of short-term courses, certificate programs, and professional training opportunities for international students and working professionals. These courses are designed to enhance practical skills, industry knowledge, and career prospects in areas such as Information Technology, Business Management, Digital Marketing, Engineering, Healthcare, Languages, and Entrepreneurship. With affordable fees, modern learning facilities, and internationally recognized certifications, Latvia is becoming an attractive destination for skill development and professional growth in Europe.'}/>
+      <Breadcrumb heading={'Short​‍​‌‍​‍‌ Courses in Latvia to Enhance Your Skills and Boost Your ​‍​‌‍​‍‌Career'}/>
       <div className='py-12 px-10'>
         <h2 className='text-2xl md:text-4xl font-aino'>Short Courses in Latvia</h2>
         <p className='mt-3 text-justify text-roboto'>Short courses in Latvia provide an excellent opportunity for students and professionals to

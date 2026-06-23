@@ -3,11 +3,11 @@ import Image from "next/image"
 import { IoIosArrowForward } from "react-icons/io"
 
 export const metadata = {
-  title: "Universities in Lithuania  | Top Lithuanian Universities for International Students",
-  description: "Explore the top universities in Lithuania for international students. Compare programs, tuition fees, rankings, admission requirements, scholarships, and study opportunities at leading Lithuanian universities for Bachelor's, Master's, and PhD studies. Supported by globally recognized degrees and English-taught programs",
-  keywords: ["Universities in Lithuania", "Lithuania Universities", "Study in Lithuania Universities", "Top Universities in Lithuania", "Lithuanian Universities", "Lithuania Higher Education", "Best Universities in Lithuania", "Vilnius University", "VILNIUS TECH", "Kaunas University of Technology", "Vytautas Magnus University", "Mykolas Romeris University", "ISM University", "Klaipeda University", "SMK University", "Kauno Kolegija", "Study in Europe", "International Students Lithuania", "English Taught Programs Lithuania", "Lithuania Education"],
+  title: "Universities in latvia  | Top latvian Universities for International Students",
+  description: "Explore the top universities in latvia for international students. Compare programs, tuition fees, rankings, admission requirements, scholarships, and study opportunities at leading latvian universities for Bachelor's, Master's, and PhD studies. Supported by globally recognized degrees and English-taught programs",
+  keywords: ["Universities in latvia", "latvia Universities", "Study in latvia Universities", "Top Universities in latvia", "latvian Universities", "latvia Higher Education", "Best Universities in latvia", "Vilnius University", "VILNIUS TECH", "Kaunas University of Technology", "Vytautas Magnus University", "Mykolas Romeris University", "ISM University", "Klaipeda University", "SMK University", "Kauno Kolegija", "Study in Europe", "International Students latvia", "English Taught Programs latvia", "latvia Education"],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/study/universities"
+    canonical: "https://www.studyinlatvia.in/study/universities"
   },
   robots: {
     index: true,
@@ -16,16 +16,16 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.studyinlithuania.in/study/universities/",
-    siteName: "Study in Lithuania",
+    url: "https://www.studyinlatvia.in/study/universities/",
+    siteName: "Study in latvia",
     title:
-    "Universities in Lithuania 2026 | Top Lithuanian Universities for International Students",
+    "Universities in latvia 2026 | Top latvian Universities for International Students",
     description:
-    "Explore the best universities in Lithuania offering Bachelor's, Master's and PhD programs for international students.",
+    "Explore the best universities in latvia offering Bachelor's, Master's and PhD programs for international students.",
     images: [
     {
-    url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
-    alt: "Top Universities in Lithuania",
+    url: "https://www.studyinlatvia.in/images/study/latvia-01.webp",
+    alt: "Top Universities in latvia",
     },
   ],
 },
@@ -167,77 +167,77 @@ const schema = {
       "@graph": [
       {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinlatvia.in/#organization",
+      name: "Study in latvia",
+      url: "https://www.studyinlatvia.in",
       logo: {
       "@type": "ImageObject",
-      url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+      url: "https://www.studyinlatvia.in/images/study/latvia-01.webp",
       },
       },
       {
       "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
+      "@id": "https://www.studyinlatvia.in/#website",
+      url: "https://www.studyinlatvia.in",
+      name: "Study in latvia",
       publisher: {
-      "@id": "https://www.studyinlithuania.in/#organization",
+      "@id": "https://www.studyinlatvia.in/#organization",
       },
       potentialAction: {
       "@type": "SearchAction",
       target:
-      "https://www.studyinlithuania.in/?s={search_term_string}",
+      "https://www.studyinlatvia.in/?s={search_term_string}",
       "query-input": "required name=search_term_string",
       },
       },
       {
       "@type": "WebPage",
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#webpage",
-      url: "https://www.studyinlithuania.in/study/universities/",
-      name: "Universities in Lithuania",
+      "https://www.studyinlatvia.in/study/universities/#webpage",
+      url: "https://www.studyinlatvia.in/study/universities/",
+      name: "Universities in latvia",
       description:
-      "Explore top universities in Lithuania offering Bachelor's, Master's and PhD programs for international students.",
+      "Explore top universities in latvia offering Bachelor's, Master's and PhD programs for international students.",
       isPartOf: {
-      "@id": "https://www.studyinlithuania.in/#website",
+      "@id": "https://www.studyinlatvia.in/#website",
       },
       breadcrumb: {
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#breadcrumb",
+      "https://www.studyinlatvia.in/study/universities/#breadcrumb",
       },
       inLanguage: "en",
       },
       {
       "@type": "CollectionPage",
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#collectionpage",
-      url: "https://www.studyinlithuania.in/study/universities/",
-      name: "Universities in Lithuania",
+      "https://www.studyinlatvia.in/study/universities/#collectionpage",
+      url: "https://www.studyinlatvia.in/study/universities/",
+      name: "Universities in latvia",
       description:
-      "A comprehensive list of universities and colleges in Lithuania for international students.",
+      "A comprehensive list of universities and colleges in latvia for international students.",
       mainEntity: {
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#itemlist",
+      "https://www.studyinlatvia.in/study/universities/#itemlist",
       },
       },
       {
       "@type": "Article",
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#article",
+      "https://www.studyinlatvia.in/study/universities/#article",
       headline:
-      "Top Universities in Lithuania for International Students",
+      "Top Universities in latvia for International Students",
       description:
-      "Explore Lithuania's leading universities, admission requirements, tuition fees, scholarships and study opportunities.",
+      "Explore latvia's leading universities, admission requirements, tuition fees, scholarships and study opportunities.",
       mainEntityOfPage: {
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#webpage",
+      "https://www.studyinlatvia.in/study/universities/#webpage",
       },
       publisher: {
-      "@id": "https://www.studyinlithuania.in/#organization",
+      "@id": "https://www.studyinlatvia.in/#organization",
       },
       author: {
       "@type": "Organization",
-      name: "Study in Lithuania",
+      name: "Study in latvia",
       },
       datePublished: "2026-06-11",
       dateModified: "2026-06-11",
@@ -245,33 +245,33 @@ const schema = {
       {
       "@type": "BreadcrumbList",
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#breadcrumb",
+      "https://www.studyinlatvia.in/study/universities/#breadcrumb",
       itemListElement: [
       {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.studyinlithuania.in/",
+      item: "https://www.studyinlatvia.in/",
       },
       {
       "@type": "ListItem",
       position: 2,
       name: "Study",
-      item: "https://www.studyinlithuania.in/study/",
+      item: "https://www.studyinlatvia.in/study/",
       },
       {
       "@type": "ListItem",
       position: 3,
       name: "Universities",
-      item: "https://www.studyinlithuania.in/study/universities/",
+      item: "https://www.studyinlatvia.in/study/universities/",
       },
       ],
       },
       {
       "@type": "ItemList",
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#itemlist",
-      name: "Top Universities in Lithuania",
+      "https://www.studyinlatvia.in/study/universities/#itemlist",
+      name: "Top Universities in latvia",
       itemListElement: [
       {
       "@type": "CollegeOrUniversity",
@@ -301,7 +301,7 @@ const schema = {
       {
       "@type": "CollegeOrUniversity",
       position: 6,
-      name: "Lithuanian University of Health Sciences",
+      name: "latvian University of Health Sciences",
       },
       {
       "@type": "CollegeOrUniversity",
@@ -318,11 +318,11 @@ const schema = {
       {
       "@type": "ImageObject",
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#image",
+      "https://www.studyinlatvia.in/study/universities/#image",
       contentUrl:
-      "https://www.studyinlithuania.in/study/lithuania-01.webp",
+      "https://www.studyinlatvia.in/study/latvia-01.webp",
       caption:
-      "Top Universities in Lithuania for International Students",
+      "Top Universities in latvia for International Students",
       representativeOfPage: true,
       },
       ],
@@ -331,7 +331,7 @@ const schema = {
 
   return (
     <>
-      <Breadcrumb heading={'Explore Top Universities of Lithuania'}/>
+      <Breadcrumb heading={'Top​‍​‌‍​‍‌ Universities in Latvia for International Students and ​‍​‌‍​‍‌Indians'}/>
       <div className="px-10 mt-10">
          <h2 className="font-aino text-2xl md:text-4xl">Top Universities in Latvia for Indian Students</h2>
          <p className="mt-5">Latvia is home to several internationally recognised universities known for academic excellence,

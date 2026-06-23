@@ -216,7 +216,7 @@ const students = [
 
   return (
     <>
-     <Breadcrumb heading="Real​‍​‌‍​‍‌ accounts from students studying in ​‍​‌‍​‍‌Latvia"/>
+     <Breadcrumb heading="True​‍​‌‍​‍‌ Experiences of Indian Students in ​‍​‌‍​‍‌Latvia"/>
      <section className='max-w-6xl mx-auto'>
        <div className='py-10 px-5'>
         <div className="grid grid-cols-1 gap-5 lg:gap-8">

@@ -163,7 +163,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Language in Latvia'} />
+      <Breadcrumb heading={'Latvia​‍​‌‍​‍‌ is a student-friendly multilingual environment in terms of ​‍​‌‍​‍‌language.'} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Language in Latvia</h2>
         <div className=''>

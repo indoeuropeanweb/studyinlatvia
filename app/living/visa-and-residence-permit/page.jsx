@@ -228,7 +228,7 @@ const page = () => {
 
   return (
     <>
-        <Breadcrumb heading={"Visa and Residence Permit"}/>
+        <Breadcrumb heading={"International​‍​‌‍​‍‌ Students Latvia Student Visa ​‍​‌‍​‍‌Guidelines"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
             <div className=''>

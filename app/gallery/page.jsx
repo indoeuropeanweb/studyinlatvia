@@ -138,7 +138,7 @@ const page = () => {
 
   return (
     <>
-     <Breadcrumb heading={'Our Students Eperience'}/>
+     <Breadcrumb heading={'Student​‍​‌‍​‍‌​‍​‌‍​‍‌ Life in Latvia - Real Stories from International ​‍​‌‍​‍‌​‍​‌‍​‍‌Students'}/>
      <section className='mx-auto max-w-6xl'>
        <div className='py-10 px-5'>
          <h2 className='text-2xl md:text-4xl font-aino'>Life in Latvia Through Student Eyes</h2>

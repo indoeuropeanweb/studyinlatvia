@@ -212,7 +212,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={"Latvia has become one of Europe's most attractive destinations for international students seeking affordable and globally recognized Master's degrees. Universities offer English-taught programs in Engineering, Information Technology, Business, Management, Data Science, Health Sciences, and Social Sciences. With tuition fees starting from around €2,000 per year, strong industry connections, and post-study career opportunities across the European Union, Latvia provides excellent value for postgraduate education."}/>
+      <Breadcrumb heading={"Explore Master’s in Latvia: Build Expertise and Global Careers"}/>
       <div className='py-12 px-10'>
         <h2 className='text-2xl md:text-4xl font-aino'>Master's Degree in Latvia</h2>
         <p className='mt-3 text-justify text-roboto'>Latvia has become a popular destination for international students seeking advanced education,

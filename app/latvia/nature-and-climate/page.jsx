@@ -180,7 +180,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Lithuania is known for its beautiful forests, lakes, rivers, and Baltic Sea coastline, making it one of the greenest countries in Europe. The country enjoys four distinct seasons, with warm summers, colorful autumns, snowy winters, and pleasant springs. Its clean environment, fresh air, and natural beauty provide an excellent quality of life for students and residents. Lithuania offers the perfect balance between modern city life and peaceful natural surroundings.'} />
+      <Breadcrumb heading={"Discover​‍​‌‍​‍‌ Latvia's Diverse Nature and Climate Changing With All Four ​‍​‌‍​‍‌Seasons"} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Nature and Weather</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>

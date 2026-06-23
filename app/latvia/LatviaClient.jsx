@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const LithuaniaClient = () => {
   return (
     <>
-         <Breadcrumb heading={'Information About Latvia'}/>
+         <Breadcrumb heading={'Get​‍​‌‍​‍‌ a world-recognized qualification in Latvia with a combination of excellent education, low cost of living, and great job prospects in ​‍​‌‍​‍‌Europe.'}/>
          <div className='py-5 px-5'>
                <h2 className='font-aino text-2xl md:text-4xl'>Study in Latvia – Your Gateway to Quality Education in Europe</h2>
                <p className='text-justify font-roboto text-lg mt-3'>Latvia is emerging as one of the most preferred study destinations in Europe for Indian students

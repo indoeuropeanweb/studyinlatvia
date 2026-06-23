@@ -6,7 +6,7 @@ import Image from "next/image";
 const LivingClient = () => {
   return (
     <>
-        <Breadcrumb heading={"Important topics to Live in Latvia"}/>
+        <Breadcrumb heading={"Life​‍​‌‍​‍‌ in Latvia: Cheap and Cozy Student Lifestyle in ​‍​‌‍​‍‌Europe"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
             <div>

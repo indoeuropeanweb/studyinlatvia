@@ -216,7 +216,7 @@ const page = () => {
 
   return (
     <>
-         <Breadcrumb heading={'Latvia offers a simple and transparent admission process for international students applying for Bachelor&#39;s, Master&#39;s, and PhD programs. Students can apply directly to Latvian universities by submitting their academic documents, passport, English proficiency proof (or Medium of Instruction where accepted), and other supporting documents. Most universities offer English-taught programs and provide dedicated support throughout the admission process. With affordable tuition fees, globally recognized degrees, and a student-friendly environment, Latvia has become one of the most popular European destinations for international students'}/>
+         <Breadcrumb heading={'Initiate​‍​‌‍​‍‌ your overseas education trip to Latvia with an easy admissions ​‍​‌‍​‍‌process'}/>
          <div className='py-5 px-5'>
            <h2 className='font-aino text-2xl md:text-4xl'>Start Your Study Journey in Latvia</h2>
                <p className='text-justify font-roboto text-md mt-3'>Latvia has become a preferred European destination for students seeking internationally

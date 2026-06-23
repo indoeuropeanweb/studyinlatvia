@@ -167,7 +167,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Lithuania has a rich cultural heritage shaped by centuries of history, traditions, and European influences. The country is known for its vibrant festivals, folk music, traditional dances, and strong sense of national identity. Lithuanians value family, community, and cultural celebrations, creating a welcoming environment for international students. From historic old towns and museums to modern arts and events, Lithuania offers a unique blend of tradition and contemporary European lifestyle.'} />
+      <Breadcrumb heading={"Latvia's​‍​‌‍​‍‌ Unique Culture: A Mash-up of Heritage, Diversity, and ​‍​‌‍​‍‌Novelty"} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Unique Culture</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>

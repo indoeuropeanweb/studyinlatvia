@@ -211,7 +211,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={"Latvia offers internationally recognized PhD programs for students seeking advanced research opportunities in Engineering, Information Technology, Business, Economics, Health Sciences, Social Sciences, and Natural Sciences. Most doctoral programs are research-focused and typically last four years. With affordable tuition fees, funded research positions, scholarship opportunities, modern research facilities, and degrees recognized throughout Europe and beyond, Latvia is becoming an increasingly attractive destination for international PhD candidates. Many doctoral programs are available in English, making Latvia accessible to researchers from around the world."}/>
+      <Breadcrumb heading={"Study​‍​‌‍​‍‌ PhD Latvia: Deepen your research and grow academic ​‍​‌‍​‍‌excellence"}/>
       <div className='py-12 px-10'>
         <h2 className='text-2xl md:text-4xl font-aino'>PhD Programs in Latvia</h2>
         <p className='mt-3 text-justify text-roboto'>Latvia offers excellent opportunities for students who wish to pursue advanced research and

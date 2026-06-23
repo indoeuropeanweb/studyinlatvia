@@ -183,7 +183,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={"Latvia offers a wide range of Bachelor's degree programs for international students in fields such as Engineering, Information Technology, Business, Health Sciences, Aviation, Social Sciences, and Creative Arts. Most undergraduate programs are taught entirely in English and typically last 3–4 years. With affordable tuition fees, globally recognized degrees, scholarship opportunities, and excellent career prospects across Europe, Latvia has become one of the fastest-growing study destinations for Indian students. Additionally, many universities accept the Medium of Instruction (MOI), allowing students to apply without IELTS in eligible cases."}/>
+      <Breadcrumb heading={"Earn​‍​‌‍​‍‌ your bachelor's degree in Latvia: quality education at lower ​‍​‌‍​‍‌prices"}/>
       <div className='py-12 px-10'>
         <h2 className='text-2xl md:text-4xl font-aino'>Bachelor's Degree in Latvia</h2>
         <p className='mt-3 text-justify text-roboto'>Latvia has become an attractive destination for international students seeking a high-quality

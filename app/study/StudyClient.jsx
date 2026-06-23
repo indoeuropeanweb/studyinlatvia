@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const StudyClient = () => {
   return (
     <>
-         <Breadcrumb heading={'Study in Lithuania'}/>
+         <Breadcrumb heading={'Discover​‍​‌‍​‍‌ Your Career Opportunities with College Degree in ​‍​‌‍​‍‌Latvia'}/>
          <div className='py-5 px-5'>
                <h2 className='font-aino text-2xl md:text-4xl'>Study in Latvia – Where European Education Meets Opportunity</h2>
                <p className='text-justify font-roboto text-lg mt-3'>Latvia has emerged as one of Europe&#39;s most attractive study destinations for international
