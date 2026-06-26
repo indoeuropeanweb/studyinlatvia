@@ -30,7 +30,7 @@ const StudyClient = () => {
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Opportunity to travel within the Schengen region</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Growing demand for skilled graduates in various industries</li>
                       </ul>
-                   <Image className="h-90 w-70 rounded-md" src="/images/study/study.webp" width={240} height={320} alt="study abroad lithuania" />
+                   <Image className="h-90 w-70 rounded-md" src="/images/study/study.webp" width={240} height={320} alt="study abroad Latvia" />
                  </div>
                  <div className=''>
                   <ul className='mt-3 space-y-3'>

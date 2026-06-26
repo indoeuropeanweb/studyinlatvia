@@ -2,11 +2,11 @@ import Breadcrumb from '@/app/components/Breadcrumb'
 import Image from 'next/image';
 
 export const metadata = {
-  title: "Lithuania Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
-  description: "Explore Lithuania's economy, major industries, GDP, technology sector, exports, manufacturing, investment opportunities, and economic growth. Learn why Lithuania is one of Europe's fastest-growing and most innovative economies",
-  keywords: ["Latvia economy", "Latvia GDP", "Latvia economic growth", "Lithuania industries", "Lithuania business environment", "Lithuania technology sector", "Lithuania manufacturing industry", "Lithuania exports", "Lithuania investment opportunities", "Lithuania startup ecosystem", "Lithuania ICT sector", "Lithuania biotech industry", "Lithuania laser technology", "Lithuania service sector", "Lithuania economic development", "Lithuania business opportunities", "study in Lithuania", "Lithuania market overview", "Lithuania innovation economy", "Lithuania trade and exports"],
+  title: "latvia Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
+  description: "Explore latvia's economy, major industries, GDP, technology sector, exports, manufacturing, investment opportunities, and economic growth. Learn why latvia is one of Europe's fastest-growing and most innovative economies",
+  keywords: ["Latvia economy", "Latvia GDP", "Latvia economic growth", "latvia industries", "latvia business environment", "latvia technology sector", "latvia manufacturing industry", "latvia exports", "latvia investment opportunities", "latvia startup ecosystem", "latvia ICT sector", "latvia biotech industry", "latvia laser technology", "latvia service sector", "latvia economic development", "latvia business opportunities", "study in latvia", "latvia market overview", "latvia innovation economy", "latvia trade and exports"],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/latvia/economy"
+    canonical: "https://www.studyinlatvia.in/latvia/economy"
   },
   robots: {
     index: true,
@@ -16,16 +16,16 @@ export const metadata = {
   openGraph: {
     type: "article",
     title:
-      "Lithuania Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
+      "latvia Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
     description:
-      "Discover Lithuania's economy, major industries, exports, manufacturing, technology sector, startups, and economic growth opportunities.",
-    url: "https://www.studyinlithuania.in/latvia/economy/",
-    siteName: "Study in Lithuania",
+      "Discover latvia's economy, major industries, exports, manufacturing, technology sector, startups, and economic growth opportunities.",
+    url: "https://www.studyinlatvia.in/latvia/economy/",
+    siteName: "Study in latvia",
     locale: "en_US",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/economy/economy/economy.webp",
-        alt: "Lithuania Economy",
+        url: "https://www.studyinlatvia.in/images/economy/economy/economy.webp",
+        alt: "latvia Economy",
       },
     ],
   },
@@ -33,11 +33,11 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Lithuania Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
+      "latvia Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
     description:
-      "Discover Lithuania's economy, major industries, exports, manufacturing, technology sector, startups, and economic growth opportunities.",
+      "Discover latvia's economy, major industries, exports, manufacturing, technology sector, startups, and economic growth opportunities.",
     images: [
-      "https://www.studyinlithuania.in/images/economy/economy/economy.webp",
+      "https://www.studyinlatvia.in/images/economy/economy/economy.webp",
     ],
   },
 }
@@ -49,12 +49,12 @@ const page = () => {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinlatvia.in/#organization",
+      name: "Study in latvia",
+      url: "https://www.studyinlatvia.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/logos/logo.png",
+        url: "https://www.studyinlatvia.in/images/logos/logo.png",
       },
       sameAs: [
         "https://www.facebook.com/",
@@ -64,110 +64,110 @@ const page = () => {
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
+      "@id": "https://www.studyinlatvia.in/#website",
+      url: "https://www.studyinlatvia.in",
+      name: "Study in latvia",
       publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
+        "@id": "https://www.studyinlatvia.in/#organization",
       },
       potentialAction: {
         "@type": "SearchAction",
         target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
+          "https://www.studyinlatvia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/economy/#webpage",
-      url: "https://www.studyinlithuania.in/lithuania/economy/",
-      name: "Lithuania Economy",
+        "https://www.studyinlatvia.in/latvia/economy/#webpage",
+      url: "https://www.studyinlatvia.in/latvia/economy/",
+      name: "latvia Economy",
       description:
-        "Learn about Lithuania's economy, major industries, GDP growth, technology sector, exports, innovation ecosystem, manufacturing and investment opportunities.",
+        "Learn about latvia's economy, major industries, GDP growth, technology sector, exports, innovation ecosystem, manufacturing and investment opportunities.",
       isPartOf: {
-        "@id": "https://www.studyinlithuania.in/#website",
+        "@id": "https://www.studyinlatvia.in/#website",
       },
       breadcrumb: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/economy/#breadcrumb",
+          "https://www.studyinlatvia.in/latvia/economy/#breadcrumb",
       },
       about: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/economy/#country",
+          "https://www.studyinlatvia.in/latvia/economy/#country",
       },
       inLanguage: "en",
     },
     {
       "@type": "Article",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/economy/#article",
-      headline: "Economy of Lithuania",
+        "https://www.studyinlatvia.in/latvia/economy/#article",
+      headline: "Economy of latvia",
       description:
-        "Comprehensive guide covering Lithuania's economy, GDP, industries, exports, technology sector, manufacturing, innovation, and business opportunities.",
+        "Comprehensive guide covering latvia's economy, GDP, industries, exports, technology sector, manufacturing, innovation, and business opportunities.",
       mainEntityOfPage: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/economy/#webpage",
+          "https://www.studyinlatvia.in/latvia/economy/#webpage",
       },
       publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
+        "@id": "https://www.studyinlatvia.in/#organization",
       },
       author: {
         "@type": "Organization",
-        name: "Study in Lithuania",
+        name: "Study in latvia",
       },
       datePublished: "2026-06-10",
       dateModified: "2026-06-10",
       image: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/logos/logo.png",
+        url: "https://www.studyinlatvia.in/images/logos/logo.png",
       },
       about: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/economy/#country",
+          "https://www.studyinlatvia.in/latvia/economy/#country",
       },
     },
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/economy/#breadcrumb",
+        "https://www.studyinlatvia.in/latvia/economy/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in/",
+          item: "https://www.studyinlatvia.in/",
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "Lithuania",
-          item: "https://www.studyinlithuania.in/lithuania/",
+          name: "latvia",
+          item: "https://www.studyinlatvia.in/latvia/",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Economy",
-          item: "https://www.studyinlithuania.in/lithuania/economy/",
+          item: "https://www.studyinlatvia.in/latvia/economy/",
         },
       ],
     },
     {
       "@type": "Country",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/economy/#country",
-      name: "Lithuania",
+        "https://www.studyinlatvia.in/latvia/economy/#country",
+      name: "latvia",
       description:
-        "Lithuania has a modern, high-income European economy driven by services, manufacturing, information technology, biotechnology, laser technology, exports, and innovation. The country is recognized as one of the most digitalized and startup-friendly economies in Europe.",
+        "latvia has a modern, high-income European economy driven by services, manufacturing, information technology, biotechnology, laser technology, exports, and innovation. The country is recognized as one of the most digitalized and startup-friendly economies in Europe.",
     },
     {
       "@type": "ImageObject",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/economy/#image",
+        "https://www.studyinlatvia.in/latvia/economy/#image",
       contentUrl:
-        "https://www.studyinlithuania.in/images/latvia/economy/economy.webp",
+        "https://www.studyinlatvia.in/images/latvia/economy/economy.webp",
       caption:
-        "Lithuania's modern economy, business districts and innovation ecosystem",
+        "latvia's modern economy, business districts and innovation ecosystem",
       representativeOfPage: true,
     },
   ],
@@ -183,7 +183,7 @@ const page = () => {
          Latvia has developed into one of the fastest-growing economies in the Baltic region, offering a stable business environment, modern infrastructure, and strong connections to European and global markets. As a member of the European Union, the Eurozone, and the Schengen Area, Latvia benefits from international trade opportunities and a strategic location that supports economic growth and innovation.<br />
          For Indian students, understanding Latvia’s economy provides valuable insight into the country’s employment opportunities, growing industries, and future career prospects after graduation.
         </p>
-        <Image className="rounded-md w-auto h-auto" width={400} height={360} src="/images/latvia/economy/economy.webp" alt="Economy of Lithuania"/>
+        <Image className="rounded-md w-auto h-auto" width={400} height={360} src="/images/latvia/economy/economy.webp" alt="Economy of latvia"/>
         </div>
         <div className='mt-10'>
            <h2 className='text-xl md:text-2xl font-roboto'>Overview of Latvia’s Economy</h2>

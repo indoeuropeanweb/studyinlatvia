@@ -126,27 +126,32 @@ const handleSubmit = async (e) => {
   if (Object.keys(validationErrors).length > 0) return;
 
   try {
-    const {data, service, status} = await SendData(
+    const response = await SendData(
       user,
       "https://crm.indoeuropean.in/WebService/Lead.asmx/OnlineLead"
     );
     
-    if(data?.status){
-    setResData(data?.status);
-    if (data?.status === "Emaildulicate" || data.data === "Email Id Allready Exist") {
+    const firstObject = response.match(/^\{.*?\}(?=\{)/)?.[0];
+
+    if (firstObject) {
+      const { status, data } = JSON.parse(firstObject);
+
+    if(status){
+    setResData(status);
+    if (status === "Emaildulicate" || data === "Email Id Allready Exist") {
       setErrors({
         email: "Email ID already exists!"
       });
       return; 
     }
-    if (data?.status === "Mobiledulicate" || data.data === "Mobile No Allready Exist") {
+    if (status === "Mobiledulicate" || data === "Mobile No Allready Exist") {
       setErrors({
         phone: "Mobile No. already exists!"
       });
       return; 
     }
     }
-
+    }
     setUser(initialForm);
     setIsSubmitted(true);
 

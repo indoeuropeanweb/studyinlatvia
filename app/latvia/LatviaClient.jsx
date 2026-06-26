@@ -2,7 +2,7 @@ import Breadcrumb from '../components/Breadcrumb'
 import Image from 'next/image'
 import { IoIosArrowForward } from "react-icons/io";
 
-const LithuaniaClient = () => {
+const latviaClient = () => {
   return (
     <>
          <Breadcrumb heading={'Get​‍​‌‍​‍‌ a world-recognized qualification in Latvia with a combination of excellent education, low cost of living, and great job prospects in ​‍​‌‍​‍‌Europe.'}/>
@@ -20,7 +20,7 @@ const LithuaniaClient = () => {
                Europe and beyond.</p>
               <div className='mt-10'>
                 <h2 className='font-roboto text-xl md:text-2xl'>Benefits of Studying in Latvia for Indian Students</h2>
-                <h4 className='text-lg font-inter mt-3'>Studying in Lithuania offers several benefits beyond academics:</h4>
+                <h4 className='text-lg font-inter mt-3'>Studying in latvia offers several benefits beyond academics:</h4>
                 <div className='grid grid-cols-1 md:grid-cols-2 justify-center mt-4 gap-3'>
                       <ul className='mt-3 space-y-3'>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Affordable Tuition Fees and Living Expenses: </b> One of the biggest advantages of studying in Latvia is its affordability. Compared to many
@@ -34,7 +34,7 @@ const LithuaniaClient = () => {
                            and social sciences. These programs combine academic knowledge with practical learning
                            experiences.</li>
                       </ul>
-                   <Image className="h-100 w-85 rounded-md" src="/images/latvia/study-in-latvia.webp" width={250} height={125} alt="study in lithuania centre" />
+                   <Image className="h-100 w-85 rounded-md" src="/images/latvia/study-in-latvia.webp" width={250} height={125} alt="study in latvia centre" />
                  </div>
                  <div className=''>
                   <ul className='mt-3 space-y-3'>
@@ -64,4 +64,4 @@ const LithuaniaClient = () => {
   )
 }
 
-export default LithuaniaClient
+export default latviaClient

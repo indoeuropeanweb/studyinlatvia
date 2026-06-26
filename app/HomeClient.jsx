@@ -77,10 +77,10 @@ const HomeClient = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10">
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/bachelors.webp'} alt="bachelors in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/bachelors.webp'} alt="bachelors in Latvia" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Bachelor's</h4>
-               <p className="text-white text-sm md:text-md text-center">Bachelor’s programs in Lithuania offer internationally recognised degrees, affordable tuition, and strong academic foundation for global career opportunities.</p>
+               <p className="text-white text-sm md:text-md text-center">Bachelor’s programs in Latvia offer internationally recognised degrees, affordable tuition, and strong academic foundation for global career opportunities.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/programmes/bachelors'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -88,7 +88,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/masters.webp'} alt="bachelors in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/masters.webp'} alt="bachelors in Latvia" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Master's</h4>
                <p className="text-white text-sm md:text-md text-center">Gain specialised knowledge through industry-focused postgraduate education designed to support global career advancement and professional growth.</p>
@@ -99,7 +99,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/Phd.webp'} alt="bachelors in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/Phd.webp'} alt="bachelors in Latvia" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">PhD</h4>
                <p className="text-white text-sm md:text-md text-center">Pursue advanced research opportunities with expert guidance, academic innovation, and internationally recognised doctoral qualifications.</p>
@@ -110,7 +110,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div>
-               <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/short-courses.webp'} alt="bachelors in lithuania" />
+               <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/short-courses.webp'} alt="bachelors in Latvia" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Short Courses</h4>
                <p className="text-white text-sm md:text-md text-center">Develop practical skills through flexible learning programmes that enhance employability and support career development goals.</p>
@@ -127,18 +127,18 @@ const HomeClient = () => {
       <div className="py-12 px-4 flex flex-col justify-center items-center gap-6">
         <h2 className="font-aino text-2xl md:text-4xl">Application deadlines are approaching</h2>
         <p className="font-roboto text-lg md:text-base">Visit our online admission system to apply to Bachelor's, Master's or Doctoral programmes.</p>
-      <Link className="px-6 py-2 bg-primary hover:bg-primary/75 duration-300 ease-in-out text-white text-lg rounded-full" href={'/contact'}>Go to DreamApply</Link>
+      <Link className="px-6 py-2 bg-primary hover:bg-primary/75 duration-300 ease-in-out text-white text-lg rounded-full flex justify-center items-center" href={'/contact'}>Apply Now &nbsp;<FaArrowRightLong className="size-5 inline-block"/></Link>
       </div>
     </section>
     <section className="">
         <div className="relative">
-          <Image className="h-auto w-full max-h-200" width={1080} height={600} src="/images/home/why-lithuania.webp" alt="Study in Lithuania" />
+          <Image className="h-auto w-full max-h-200" width={1080} height={600} src="/images/home/why-latvia.webp" alt="Study in Latvia" />
           <div className="absolute z-2 bottom-0 w-full h-full bg-linear-to-t from-primary via-primary to-primary/10" />
           <h2 className="absolute top-12 left-1/2 -translate-x-1/2 z-3 text-2xl md:text-4xl font-aino">why Latvia?</h2>
           <div className="relative z-3 max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-5 px-8">
               <div className="mx-auto">
-                 <Image className="mb-5 rounded-md" width={360} height={480} src="/images/home/map.webp" alt="study abroad lithuania map"/>
+                 <Image className="mb-5 rounded-md" width={360} height={480} src="/images/home/map.webp" alt="study abroad latvia map"/>
               </div>
               <div className="mb-5">
                  <ul className="pr-5">
@@ -159,7 +159,7 @@ const HomeClient = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/scholarships.webp'} alt="scholarships in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/scholarships.webp'} alt="scholarships in Latvia" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Scholarships</h4>
                <p className="text-white text-sm md:text-md text-center">Scholarships in Latvia help students reduce tuition fees and living expenses. Many universities and government programs offer financial support based on academic merit and eligibility criteria.</p>
@@ -170,7 +170,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/admission.webp'} alt="admission in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/admission.webp'} alt="admission in Latvia" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Admission</h4>
                <p className="text-white text-sm md:text-md text-center">The admission process in Latvia is straightforward. Students generally need academic transcripts, a valid passport, proof of English proficiency, and other supporting documents before the application deadline.</p>
@@ -181,7 +181,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/working.webp'} alt="working in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/working.webp'} alt="working in Latvia" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Working</h4>
                <p className="text-white text-sm md:text-md text-center">Indian students in Latvia can work part-time while pursuing their studies. This helps them gain practical experience, improve professional skills, and support their living expenses.</p>
@@ -192,7 +192,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div>
-               <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/visa-and-residence-permit.webp'} alt="visa and residence permit in lithuania" />
+               <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/visa-and-residence-permit.webp'} alt="visa and residence permit in Latvia" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino text-center">Visa and Residence Permit</h4>
                <p className="text-white text-sm md:text-md text-center">Students admitted to Latvian universities must apply for a student visa and residence permit. These documents allow legal stay in Latvia and provide access to education, healthcare, and other student benefits.</p>

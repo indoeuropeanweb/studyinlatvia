@@ -28,7 +28,7 @@ const AccordionSummary = styled((props) => (
     {...props}
   />
 ))(({ theme }) => ({
-  backgroundColor: '#048D4E',
+  backgroundColor: '#A4343A',
   flexDirection: 'row-reverse',
   [`& .${accordionSummaryClasses.expandIconWrapper}.${accordionSummaryClasses.expanded}`]:
     {
@@ -38,7 +38,7 @@ const AccordionSummary = styled((props) => (
     marginLeft: theme.spacing(1),
   },
   ...theme.applyStyles('light', {
-    backgroundColor: '#048D4E',
+    backgroundColor: '#A4343A',
     color: "#fff"
   }),
 }));

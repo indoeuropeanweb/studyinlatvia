@@ -42,10 +42,10 @@ const Header = () => {
         <div className="flex items-center justify-between h-18 lg:h-24">
           <Link href="/" className="flex items-center">
             <Image
-              src={ "/images/logos/light-logo.png"}
+              src={ "/images/logos/study-in-latvia-logo.png"}
               alt="Study in Latvia"
-              width={200}
-              height={90}
+              width={125}
+              height={45}
               loading="lazy"
               className="transition duration-300"
             />

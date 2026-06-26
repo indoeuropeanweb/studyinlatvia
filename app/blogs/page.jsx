@@ -5,11 +5,11 @@ import Image from "next/image";
 
 
 export const metadata = {
-  title: "Study in Lithuania Blogs | Student Guides, Visa Tips, Universities & Scholarships",
-  description: "Explore expert blogs on studying in Lithuania. Get insights on universities, admissions, visas, scholarships, student life, accommodation, and career opportunities for Indian students.",
-  keywords: ["Study in Lithuania Blogs", "Lithuania Student Blog", "Study in Lithuania Guide", "Lithuania Universities Blog", "Lithuania Admission Guide", "Lithuania Student Visa Blog", "Lithuania Scholarships Blog", "Lithuania Student Life", "Study Abroad Lithuania", "Lithuania Living Costs", "Lithuania Accommodation Guide", "Lithuania Work Opportunities", "Lithuania Career Guide", "Lithuania Education Blog", "International Students Lithuania", "Lithuania Application Process", "Lithuania Universities", "Indian Students Lithuania", "Lithuania Study Tips", "Study in Europe Blog"],
+  title: "Study in latvia Blogs | Student Guides, Visa Tips, Universities & Scholarships",
+  description: "Explore expert blogs on studying in latvia. Get insights on universities, admissions, visas, scholarships, student life, accommodation, and career opportunities for Indian students.",
+  keywords: ["Study in latvia Blogs", "latvia Student Blog", "Study in latvia Guide", "latvia Universities Blog", "latvia Admission Guide", "latvia Student Visa Blog", "latvia Scholarships Blog", "latvia Student Life", "Study Abroad latvia", "latvia Living Costs", "latvia Accommodation Guide", "latvia Work Opportunities", "latvia Career Guide", "latvia Education Blog", "International Students latvia", "latvia Application Process", "latvia Universities", "Indian Students latvia", "latvia Study Tips", "Study in Europe Blog"],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/blogs"
+    canonical: "https://www.studyinlatvia.in/blogs"
   },
   robots: {
     index: true,
@@ -17,19 +17,19 @@ export const metadata = {
   },
     openGraph: {
     type: "website",
-    url: "https://www.studyinlithuania.in/blogs/",
+    url: "https://www.studyinlatvia.in/blogs/",
     title:
-      "Study in Lithuania Blogs | Student Guides, Visa Tips & University Updates",
+      "Study in latvia Blogs | Student Guides, Visa Tips & University Updates",
     description:
-      "Read expert blogs on Lithuanian universities, admissions, scholarships, visas, accommodation, student life and career opportunities.",
-    siteName: "Study in Lithuania",
+      "Read expert blogs on latvian universities, admissions, scholarships, visas, accommodation, student life and career opportunities.",
+    siteName: "Study in latvia",
     locale: "en_US",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/logos/logo.png",
+        url: "https://www.studyinlatvia.in/images/logos/logo.png",
         width: 1200,
         height: 630,
-        alt: "Study in Lithuania Blog for International Students",
+        alt: "Study in latvia Blog for International Students",
       },
     ],
   },
@@ -43,78 +43,78 @@ const schema = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinlatvia.in/#organization",
+      name: "Study in latvia",
+      url: "https://www.studyinlatvia.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/wp-content/uploads/logo.png",
+        url: "https://www.studyinlatvia.in/wp-content/uploads/logo.png",
       },
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
+      "@id": "https://www.studyinlatvia.in/#website",
+      url: "https://www.studyinlatvia.in",
+      name: "Study in latvia",
       publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
+        "@id": "https://www.studyinlatvia.in/#organization",
       },
       potentialAction: {
         "@type": "SearchAction",
         target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
+          "https://www.studyinlatvia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "Blog",
-      "@id": "https://www.studyinlithuania.in/blogs/#blog",
-      url: "https://www.studyinlithuania.in/blogs/",
-      name: "Study in Lithuania Blog",
+      "@id": "https://www.studyinlatvia.in/blogs/#blog",
+      url: "https://www.studyinlatvia.in/blogs/",
+      name: "Study in latvia Blog",
       description:
-        "Educational resources, admission guides, scholarship updates, visa information, student life tips and university insights for international students planning to study in Lithuania.",
+        "Educational resources, admission guides, scholarship updates, visa information, student life tips and university insights for international students planning to study in latvia.",
       publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
+        "@id": "https://www.studyinlatvia.in/#organization",
       },
       inLanguage: "en",
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.studyinlithuania.in/blogs/#webpage",
-      url: "https://www.studyinlithuania.in/blogs/",
-      name: "Study in Lithuania Blog",
+      "@id": "https://www.studyinlatvia.in/blogs/#webpage",
+      url: "https://www.studyinlatvia.in/blogs/",
+      name: "Study in latvia Blog",
       description:
-        "Explore blogs about Lithuanian universities, admissions, scholarships, visas, accommodation, living costs and student life.",
+        "Explore blogs about latvian universities, admissions, scholarships, visas, accommodation, living costs and student life.",
       isPartOf: {
-        "@id": "https://www.studyinlithuania.in/#website",
+        "@id": "https://www.studyinlatvia.in/#website",
       },
       breadcrumb: {
-        "@id": "https://www.studyinlithuania.in/blogs/#breadcrumb",
+        "@id": "https://www.studyinlatvia.in/blogs/#breadcrumb",
       },
     },
     {
       "@type": "CollectionPage",
-      "@id": "https://www.studyinlithuania.in/blogs/#collectionpage",
-      url: "https://www.studyinlithuania.in/blogs/",
-      name: "Study in Lithuania Blogs",
+      "@id": "https://www.studyinlatvia.in/blogs/#collectionpage",
+      url: "https://www.studyinlatvia.in/blogs/",
+      name: "Study in latvia Blogs",
       description:
         "Collection of blog articles and study guides for international students.",
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.studyinlithuania.in/blogs/#breadcrumb",
+      "@id": "https://www.studyinlatvia.in/blogs/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in/",
+          item: "https://www.studyinlatvia.in/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Blogs",
-          item: "https://www.studyinlithuania.in/blogs/",
+          item: "https://www.studyinlatvia.in/blogs/",
         },
       ],
     },
@@ -123,7 +123,7 @@ const schema = {
       mainEntity: [
         {
           "@type": "Question",
-          name: "What topics are covered in the Study in Lithuania Blog?",
+          name: "What topics are covered in the Study in latvia Blog?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "The blog covers universities, admissions, scholarships, visas, accommodation, student life, living costs, work opportunities and study abroad guidance.",
@@ -134,7 +134,7 @@ const schema = {
           name: "Are these blogs useful for Indian students?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, the blogs are designed to help Indian students understand the admission process, visa requirements, scholarships and life in Lithuania.",
+            text: "Yes, the blogs are designed to help Indian students understand the admission process, visa requirements, scholarships and life in latvia.",
           },
         },
         {
@@ -149,10 +149,10 @@ const schema = {
     },
     {
       "@type": "ImageObject",
-      "@id": "https://www.studyinlithuania.in/blogs/#image",
+      "@id": "https://www.studyinlatvia.in/blogs/#image",
       contentUrl:
-        "https://www.studyinlithuania.in/wp-content/uploads/study-in-lithuania-blog.jpg",
-      caption: "Study in Lithuania Blog for International Students",
+        "https://www.studyinlatvia.in/wp-content/uploads/study-in-latvia-blog.jpg",
+      caption: "Study in latvia Blog for International Students",
       representativeOfPage: true,
     },
   ],
@@ -162,8 +162,8 @@ const schema = {
     <>
     <Breadcrumb heading="Study in Latvia Blog – Guides, Tips, and ​‍​‌‍​‍‌Student" />
     <div className="max-w-6xl mx-auto py-10 px-5">
-      <h2 className="text-2xl md:text-4xl font-aino mt-5">Study in Lithuania Blogs & Student Guides</h2>
-      <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in Lithuania. From university admissions and Lithuania student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their study abroad journey. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in Lithuania.</p>
+      <h2 className="text-2xl md:text-4xl font-aino mt-5">Study in Latvia Blogs & Student Guides</h2>
+      <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in latvia. From university admissions and latvia student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their study abroad journey. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in latvia.</p>
       <div className="grid md:grid-cols-3 gap-6">
         {blogs.map((blog) => (
           <Link

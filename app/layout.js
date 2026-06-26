@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Script from "next/script";
+import Link from "next/link";
+import { FaWhatsapp } from "react-icons/fa";
 
 const interSans = Inter({
   variable: "--font-inter",
@@ -27,27 +29,27 @@ const ainoFont = localFont({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://www.studyinlithuania.in'),
+  metadataBase: new URL('https://www.studyinlatvia.in'),
 
   title:
-    "Study in Lithuania for Indian Students | Universities, Visa & Admission",
+    "Study in Latvia for Indian Students | Universities, Visa & Admission",
 
   description:
-    "Study in Lithuania with expert guidance for Indian students. Get help with admissions, student visa, scholarships, universities, tuition fees, and accommodation in Lithuania.",
+    "Study in Latvia with expert guidance for Indian students. Get help with admissions, student visa, scholarships, universities, tuition fees, and accommodation in Latvia.",
 
   keywords: [
-    'study in lithuania',
-    'lithuania student visa',
-    'study in lithuania from india',
-    'lithuania universities',
-    'lithuania scholarship',
-    'study abroad lithuania',
+    'study in Latvia',
+    'Latvia student visa',
+    'study in Latvia from india',
+    'Latvia universities',
+    'Latvia scholarship',
+    'study abroad Latvia',
     'europe study visa',
-    'lithuania admission consultants'
+    'Latvia admission consultants'
   ],
 
   alternates: {
-    canonical: 'https://www.studyinlithuania.in',
+    canonical: 'https://www.studyinlatvia.in',
   },
 
   icons: {
@@ -65,6 +67,9 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <Link className="fixed z-5 bottom-10 right-10 bg-green-600 p-2 rounded-full" href="https://wa.link/67ng4e" target="_blank">
+           <FaWhatsapp className="size-8 text-white"/>
+        </Link>
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];

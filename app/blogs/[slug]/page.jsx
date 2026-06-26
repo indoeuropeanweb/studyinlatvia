@@ -253,9 +253,9 @@ export default async function BlogPage({ params }) {
     })}
 
         <div className="mt-10">
-          <h2 className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-primary mb-5">
+          {blog?.faqs?.length > 0 && <h2 className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-primary mb-5">
             FAQs
-          </h2>
+          </h2>}
 
           {blog.faqs.map((faq, index) => (
             <div key={index} className="mt-5">

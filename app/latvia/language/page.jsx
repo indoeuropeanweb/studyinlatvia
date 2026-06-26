@@ -19,7 +19,7 @@ export const metadata = {
     title:
       "Latvian Language Guide 2026 | Official Language of Latvia, Usage & Student Life",
     description:
-      "Discover the Latvian language, its history, significance, English usage, and language opportunities for international students studying in Lithuania.",
+      "Discover the Latvian language, its history, significance, English usage, and language opportunities for international students studying in latvia.",
     images: [
       {
         url: "https://www.studyinlatvia.in/images/logos/logo.webp",
@@ -30,9 +30,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Lithuanian Language Guide 2026 | Official Language of Lithuania, Usage & Student Life",
+      "latvian Language Guide 2026 | Official Language of latvia, Usage & Student Life",
     description:
-      "Discover the Lithuanian language, its history, significance, English usage, and language opportunities for international students studying in Lithuania.",
+      "Discover the latvian language, its history, significance, English usage, and language opportunities for international students studying in latvia.",
     images: [
       "https://www.studyinlatvia.in/images/logos/logo.webp",
     ],
@@ -47,7 +47,7 @@ const page = () => {
     {
       "@type": "Organization",
       "@id": "https://www.studyinlatvia.in/#organization",
-      name: "Study in Lithuania",
+      name: "Study in latvia",
       url: "https://www.studyinlatvia.in",
       logo: {
         "@type": "ImageObject",
@@ -94,9 +94,9 @@ const page = () => {
       "@type": "Article",
       "@id":
         "https://www.studyinlatvia.in/latvia/language/#article",
-      headline: "Lithuanian Language",
+      headline: "latvian Language",
       description:
-        "Comprehensive guide to the Latvian language, one of the oldest living Indo-European languages, and its role in education, culture, and everyday life in Lithuania.",
+        "Comprehensive guide to the Latvian language, one of the oldest living Indo-European languages, and its role in education, culture, and everyday life in latvia.",
       mainEntityOfPage: {
         "@id":
           "https://www.studyinlatvia.in/latvia/language/#webpage",
@@ -144,9 +144,9 @@ const page = () => {
       "@type": "Country",
       "@id":
         "https://www.studyinlatvia.in/latvia/language/#country",
-      name: "Lithuania",
+      name: "latvia",
       description:
-        "Latvian is the official language of Latvia and one of the oldest living Indo-European languages. English is widely spoken among students and young professionals, making Lithuania an attractive destination for international students.",
+        "Latvian is the official language of Latvia and one of the oldest living Indo-European languages. English is widely spoken among students and young professionals, making latvia an attractive destination for international students.",
     },
     {
       "@type": "ImageObject",
@@ -155,7 +155,7 @@ const page = () => {
       contentUrl:
         "https://www.studyinlatvia.in/images/logos/logo.webp",
       caption:
-        "Lithuanian language, culture and education in Lithuania",
+        "latvian language, culture and education in latvia",
       representativeOfPage: true,
     },
   ],

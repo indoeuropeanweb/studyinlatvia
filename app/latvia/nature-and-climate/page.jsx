@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: "Nature and Climate of Latvia | Weather, Seasons & Student Life",
-  description: "Explore Latvia's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania",
+  description: "Explore Latvia's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in latvia",
   keywords: ["Latvia nature and climate", "Latvia weather", "climate in Latvia", "Latvia seasons", "Latvia forests", "Latvia lakes", "Latvia environment", "Latvia student life", "study in Latvia", "Latvia weather for students"],
   alternates: {
     canonical: "https://www.studyinlatvia.in/latvia/nature-and-climate"
@@ -16,17 +16,17 @@ export const metadata = {
     openGraph: {
     type: "article",
     title:
-      "Nature and Climate of Lithuania | Weather, Seasons & Student Life",
+      "Nature and Climate of latvia | Weather, Seasons & Student Life",
     description:
-      "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
+      "Explore latvia's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in latvia.",
     url: "https://www.studyinlatvia.in/latvia/nature-and-climate/",
-    siteName: "Study in Lithuania",
+    siteName: "Study in latvia",
     images: [
       {
         url: "https://www.studyinlatvia.in/images/nature-and-weather/nature-and-weather.webp",
         width: 1200,
         height: 630,
-        alt: "Nature and Climate of Lithuania",
+        alt: "Nature and Climate of latvia",
       },
     ],
   },
@@ -34,11 +34,11 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Nature and Climate of Lithuania | Weather, Seasons & Student Life",
+      "Nature and Climate of latvia | Weather, Seasons & Student Life",
     description:
-      "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons.",
+      "Explore latvia's nature and climate, from beautiful forests and lakes to its four distinct seasons.",
     images: [
-      "https://www.studyinlithuania.in/images/nature-and-weather/nature-and-weather.webp",
+      "https://www.studyinlatvia.in/images/nature-and-weather/nature-and-weather.webp",
     ],
   },
 }
@@ -50,12 +50,12 @@ const page = () => {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinlatvia.in/#organization",
+      name: "Study in latvia",
+      url: "https://www.studyinlatvia.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/logos/logo.png",
+        url: "https://www.studyinlatvia.in/images/logos/logo.png",
       },
       sameAs: [
         "https://www.facebook.com/",
@@ -65,114 +65,114 @@ const page = () => {
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
+      "@id": "https://www.studyinlatvia.in/#website",
+      url: "https://www.studyinlatvia.in",
+      name: "Study in latvia",
       publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
+        "@id": "https://www.studyinlatvia.in/#organization",
       },
       potentialAction: {
         "@type": "SearchAction",
         target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
+          "https://www.studyinlatvia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#webpage",
+        "https://www.studyinlatvia.in/latvia/nature-and-climate/#webpage",
       url:
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
-      name: "Lithuania Nature and Climate",
+        "https://www.studyinlatvia.in/latvia/nature-and-climate/",
+      name: "latvia Nature and Climate",
       isPartOf: {
-        "@id": "https://www.studyinlithuania.in/#website",
+        "@id": "https://www.studyinlatvia.in/#website",
       },
       about: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#country",
+          "https://www.studyinlatvia.in/latvia/nature-and-climate/#country",
       },
       description:
-        "Learn about Lithuania's climate, seasons, forests, lakes, biodiversity, and natural landscapes. Explore why Lithuania is considered one of Europe's greenest countries.",
+        "Learn about latvia's climate, seasons, forests, lakes, biodiversity, and natural landscapes. Explore why latvia is considered one of Europe's greenest countries.",
       breadcrumb: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#breadcrumb",
+          "https://www.studyinlatvia.in/latvia/nature-and-climate/#breadcrumb",
       },
       inLanguage: "en",
     },
     {
       "@type": "Article",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#article",
-      headline: "Nature and Climate in Lithuania",
+        "https://www.studyinlatvia.in/latvia/nature-and-climate/#article",
+      headline: "Nature and Climate in latvia",
       description:
-        "Comprehensive guide to Lithuania's weather, seasons, forests, lakes, national parks, and natural environment.",
+        "Comprehensive guide to latvia's weather, seasons, forests, lakes, national parks, and natural environment.",
       mainEntityOfPage: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#webpage",
+          "https://www.studyinlatvia.in/latvia/nature-and-climate/#webpage",
       },
       publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
+        "@id": "https://www.studyinlatvia.in/#organization",
       },
       author: {
         "@type": "Organization",
-        name: "Study in Lithuania",
+        name: "Study in latvia",
       },
       datePublished: "2026-06-10",
       dateModified: "2026-06-10",
       image: {
         "@type": "ImageObject",
         url:
-          "https://www.studyinlithuania.in/images/lithuania/nature-and-weather/nature-and-weather.webp",
+          "https://www.studyinlatvia.in/images/latvia/nature-and-weather/nature-and-weather.webp",
       },
       about: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#country",
+          "https://www.studyinlatvia.in/latvia/nature-and-climate/#country",
       },
     },
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#breadcrumb",
+        "https://www.studyinlatvia.in/latvia/nature-and-climate/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in/",
+          item: "https://www.studyinlatvia.in/",
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "Lithuania",
-          item: "https://www.studyinlithuania.in/lithuania/",
+          name: "latvia",
+          item: "https://www.studyinlatvia.in/latvia/",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Nature and Climate",
           item:
-            "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
+            "https://www.studyinlatvia.in/latvia/nature-and-climate/",
         },
       ],
     },
     {
       "@type": "Country",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#country",
-      name: "Lithuania",
+        "https://www.studyinlatvia.in/latvia/nature-and-climate/#country",
+      name: "latvia",
       description:
-        "Lithuania is a Baltic country known for its extensive forests, over 3,000 lakes, national parks, rich biodiversity, and four distinct seasons.",
+        "latvia is a Baltic country known for its extensive forests, over 3,000 lakes, national parks, rich biodiversity, and four distinct seasons.",
       url:
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
+        "https://www.studyinlatvia.in/latvia/nature-and-climate/",
     },
     {
       "@type": "ImageObject",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#image",
+        "https://www.studyinlatvia.in/latvia/nature-and-climate/#image",
       contentUrl:
-        "https://www.studyinlithuania.in/wp-content/uploads/lithuania-nature-climate.jpg",
-      caption: "Forests, lakes and natural landscapes of Lithuania",
+        "https://www.studyinlatvia.in/wp-content/uploads/latvia-nature-climate.jpg",
+      caption: "Forests, lakes and natural landscapes of latvia",
       representativeOfPage: true,
     },
   ],
@@ -190,7 +190,7 @@ const page = () => {
           <br />
           Its clean environment, fresh air, and well-preserved natural attractions make Latvia an appealing destination for Indian students seeking both quality education and a high quality of life.
         </p>
-        <Image className="rounded-md w-auto h-auto" width={450} height={200} src="/images/latvia/nature-and-weather/nature-and-weather.webp" alt="nature and weather of lithuania"/>
+        <Image className="rounded-md w-auto h-auto" width={450} height={200} src="/images/latvia/nature-and-weather/nature-and-weather.webp" alt="nature and weather of latvia"/>
         </div>
         <div className='mt-10'>
             <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Latvia’s Natural Beauty</h2>
