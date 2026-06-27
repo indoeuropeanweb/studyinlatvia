@@ -5,7 +5,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 export const metadata = {
     title: "Lifestyle and Character of Latvia | Culture, Values, Student Life & Living Experience",
-    description: "Explore the lifestyle and character of Latvia, including its friendly people, safety, work-life balance, modern European lifestyle, student-friendly environment, cultural values, and quality of life for international students. Lithuania offers a peaceful, affordable, and welcoming atmosphere in the heart of Europe.",
+    description: "Explore the lifestyle and character of Latvia, including its friendly people, safety, work-life balance, modern European lifestyle, student-friendly environment, cultural values, and quality of life for international students. latvia offers a peaceful, affordable, and welcoming atmosphere in the heart of Europe.",
     keywords: ["Latvia lifestyle", "Latvia character", "life in Latvia", "Latvia people", "Latvia student life", "Latvia quality of life", "Latvia culture and lifestyle", "living in Latvia", "Latvia work life balance", "Latvia international students", "Latvia safety", "Latvia European lifestyle", "Latvia society", "Latvia living experience", "Latvia student experience", "Latvia affordable living", "Latvia friendly people", "Latvia modern lifestyle", "study in Latvia", "Latvia daily life"],
     alternates: {
         canonical: "https://www.studyinlatvia.in/latvia/life-style-and-character"
@@ -28,7 +28,7 @@ const page = () => {
         <br />
         The Latvian way of life is shaped by values such as independence, responsibility, respect for nature, and continuous learning. While the country embraces innovation and modern development, it also maintains strong cultural traditions that remain an important part of everyday life. This combination of progress, stability, and cultural identity makes Latvia an appealing destination for Indian students and visitors alike.
         </p>
-        <Image className="rounded-md" width={540} height={320} src="/images/latvia/lifestyle/lifestyle.webp" alt="Lifestyle of Lithuania"/>
+        <Image className="rounded-md" width={540} height={320} src="/images/latvia/lifestyle/lifestyle.webp" alt="Lifestyle of latvia"/>
         </div>
         <div className='mt-10'>
             <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Lifestyle of Latvia </h2>
@@ -47,7 +47,7 @@ const page = () => {
                 </li>
                 <li className='space-y-2'>
                     <h4 className='text-lg md:text-xl font-roboto'>Respectful and Reserved Nature</h4>
-                    <p className='text-md text-justify font-inter'>Lithuanians are very polite, well-behaved, and respectful of your personal space. Relationships are often real and long-lasting, but friendships can take time to develop. </p>
+                    <p className='text-md text-justify font-inter'>latvians are very polite, well-behaved, and respectful of your personal space. Relationships are often real and long-lasting, but friendships can take time to develop. </p>
                 </li>
                 <li className='space-y-2'>
                     <h4 className='text-lg md:text-xl font-roboto'>Independent and Responsible Mindset</h4>

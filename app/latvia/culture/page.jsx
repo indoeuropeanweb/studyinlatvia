@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export const metadata = {
     title: "Latvian Culture Guide | Traditions, Festivals, Language, Food & Lifestyle",
-    description: "Discover Latvia's rich cultural heritage, traditions, festivals, language, cuisine, arts, music, and modern lifestyle. Learn about Lithuanian customs, student life, and cultural experiences in one of Europe's most vibrant Baltic nations.",
+    description: "Discover Latvia's rich cultural heritage, traditions, festivals, language, cuisine, arts, music, and modern lifestyle. Learn about latvian customs, student life, and cultural experiences in one of Europe's most vibrant Baltic nations.",
     keywords: ["Latvian Culture", "Latvian Culture", "Latvian Traditions", "Latvia Festivals", "Latvian Language", "Latvian Lifestyle", "Latvian Heritage", "Latvia Customs", "Latvian Food", "Latvia Cuisine", "Latvia Arts and Music", "Latvia Cultural Heritage", "Latvia Student Life", "Baltic Culture", "Latvia Society", "Study in Latvia", "Latvian Celebrations", "Latvia Folk Traditions", "Latvia History and Culture", "Culture of Latvia"],
     alternates: {
       canonical: "https://www.studyinlatvia.in/latvia/culture"
@@ -18,15 +18,15 @@ export const metadata = {
     type: "article",
     locale: "en_US",
     url: "https://www.studyinlatvia.in/latvia/culture/",
-    siteName: "Study in Lithuania",
+    siteName: "Study in latvia",
     title:
-      "Lithuanian Culture Guide 2026 | Traditions, Festivals, Language, Food & Lifestyle",
+      "latvian Culture Guide 2026 | Traditions, Festivals, Language, Food & Lifestyle",
     description:
-      "Explore Lithuania's traditions, festivals, language, cuisine, arts, music and cultural heritage. Learn about student life and everyday culture in Lithuania.",
+      "Explore latvia's traditions, festivals, language, cuisine, arts, music and cultural heritage. Learn about student life and everyday culture in latvia.",
     images: [
       {
         url: "https://www.studyinlatvia.in/images/culture/culture.webp",
-        alt: "Lithuanian Culture",
+        alt: "latvian Culture",
       },
     ],
   },
@@ -60,63 +60,63 @@ const page = () => {
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
+      "@id": "https://www.studyinlatvia.in/#website",
+      url: "https://www.studyinlatvia.in",
+      name: "Study in latvia",
       publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
+        "@id": "https://www.studyinlatvia.in/#organization",
       },
       potentialAction: {
         "@type": "SearchAction",
         target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
+          "https://www.studyinlatvia.in/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/culture/#webpage",
-      url: "https://www.studyinlithuania.in/lithuania/culture/",
-      name: "Lithuanian Culture",
+        "https://www.studyinlatvia.in/latvia/culture/#webpage",
+      url: "https://www.studyinlatvia.in/latvia/culture/",
+      name: "latvian Culture",
       description:
-        "Explore Lithuania's traditions, language, festivals, cuisine, arts, music, and cultural heritage.",
+        "Explore latvia's traditions, language, festivals, cuisine, arts, music, and cultural heritage.",
       isPartOf: {
-        "@id": "https://www.studyinlithuania.in/#website",
+        "@id": "https://www.studyinlatvia.in/#website",
       },
       breadcrumb: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/culture/#breadcrumb",
+          "https://www.studyinlatvia.in/latvia/culture/#breadcrumb",
       },
       about: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/culture/#country",
+          "https://www.studyinlatvia.in/latvia/culture/#country",
       },
       inLanguage: "en",
     },
     {
       "@type": "Article",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/culture/#article",
-      headline: "Culture of Lithuania",
+        "https://www.studyinlatvia.in/latvia/culture/#article",
+      headline: "Culture of latvia",
       description:
-        "A complete guide to Lithuanian culture, traditions, language, festivals, arts, cuisine, and lifestyle.",
+        "A complete guide to latvian culture, traditions, language, festivals, arts, cuisine, and lifestyle.",
       mainEntityOfPage: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/culture/#webpage",
+          "https://www.studyinlatvia.in/latvia/culture/#webpage",
       },
       publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
+        "@id": "https://www.studyinlatvia.in/#organization",
       },
       author: {
         "@type": "Organization",
-        name: "Study in Lithuania",
+        name: "Study in latvia",
       },
       datePublished: "2026-06-11",
       dateModified: "2026-06-11",
       image: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/latvia/culture/culture.webp",
+        url: "https://www.studyinlatvia.in/images/latvia/culture/culture.webp",
       },
     },
     {
@@ -128,12 +128,12 @@ const page = () => {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in/",
+          item: "https://www.studyinlatvia.in/",
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "Lithuania",
+          name: "latvia",
           item: "https://www.studyinlatvia.in/latvia/",
         },
         {
@@ -148,9 +148,9 @@ const page = () => {
       "@type": "Country",
       "@id":
         "https://www.studyinlatvia.in/latvia/culture/#country",
-      name: "Lithuania",
+      name: "latvia",
       description:
-        "Lithuania is known for its rich cultural heritage, folk traditions, song festivals, unique Baltic language, historic customs, vibrant arts scene, and modern European lifestyle.",
+        "latvia is known for its rich cultural heritage, folk traditions, song festivals, unique Baltic language, historic customs, vibrant arts scene, and modern European lifestyle.",
     },
     {
       "@type": "ImageObject",
@@ -176,7 +176,7 @@ const page = () => {
           <br />
           Understanding Latvian culture helps students adapt more easily to life in the country and enjoy a rewarding international experience beyond the classroom.
         </p>
-        <Image className="rounded-md" width={320} height={240} src="/images/latvia/culture/culture.webp" alt="Culture of Lithuania"/>
+        <Image className="rounded-md" width={320} height={240} src="/images/latvia/culture/culture.webp" alt="Culture of latvia"/>
         </div>
         <div className="mt-10">
          <h2 className='text-xl md:text-2xl font-roboto'>A Rich Cultural Heritage</h2>
