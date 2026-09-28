@@ -2,9 +2,9 @@ import StudyClient from "./StudyClient";
 
 
 export const metadata = {
-  title: "Why Study in Latvia? | Universities, Courses & Benefits for Indian Students",
-  description: "Discover why Indian students choose to study in Latvia. Explore affordable tuition fees, English-taught programs, EU-recognized degrees, scholarships, part-time work, and career opportunities.",
-  keywords: ["why study in Latvia", "study in Latvia", "study in Latvia for Indian students", "Latvian universities", "English taught programs Latvia", "affordable study in Europe", "Latvia courses", "Latvia scholarships", "Latvia student visa", "study abroad Latvia"],
+  title: "Why Study in Latvia | Why Affordable For Indian Student",
+  description: "Why study in Latvia? Discover low tuition fees and cheap living costs for Indian students. Get a world-class degree. Start your application today.",
+  keywords: ["Why Study in Latvia", "Study in Latvia Consultant", "Study in Latvia Consultant India", "Latvia Education Consultant", "Study Abroad Latvia", "Latvia Universities", "Latvia Student Visa", "Study in Europe", "Study in Latvia for Indian Students", "Latvia Admission Consultant"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/study"
   },
@@ -15,9 +15,9 @@ export const metadata = {
     openGraph: {
     type: "article",
     title:
-      "Why Study in Latvia? | Universities, Courses & Benefits for Indian Students",
+      "Why Study in Latvia | Why Affordable For Indian Student",
     description:
-      "Learn why Latvia is becoming a popular European study destination.",
+      "Why study in Latvia? Discover low tuition fees and cheap living costs for Indian students. Get a world-class degree. Start your application today.",
     url: "https://www.studyinLatvia.in/study/",
     siteName: "Study in Latvia",
     images: [
@@ -32,9 +32,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Why Study in Latvia? | Universities, Courses & Benefits for Indian Students",
+      "Why Study in Latvia | Why Affordable For Indian Student",
     description:
-      "Learn why Latvia is becoming a popular European study destination.",
+      "Why study in Latvia? Discover low tuition fees and cheap living costs for Indian students. Get a world-class degree. Start your application today.",
     images: [
       "https://www.studyinLatvia.in/images/logos/logo.png",
     ],

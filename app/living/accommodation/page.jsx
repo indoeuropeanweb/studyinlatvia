@@ -4,9 +4,9 @@ import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Student Accommodation in Latvia  | Housing, Dormitories & Living Costs for Indian Students",
-  description: "Find student accommodation in Latvia, including university dormitories, private apartments, shared housing, and living costs. Discover affordable and comfortable housing options for international students studying in Latvia",
-  keywords: ["Student Accommodation Latvia", "Accommodation in Latvia", "Student Housing Latvia", "Latvia Dormitories", "University Accommodation Latvia", "Private Accommodation Latvia", "Living in Latvia", "Student Apartments Latvia", "Latvia Student Residence", "Housing for International Students Latvia", "Latvia Living Costs", "Latvia Dorm Rooms", "Shared Accommodation Latvia", "Study in Latvia Accommodation", "Affordable Housing Latvia", "Latvia Student Life", "Latvia Universities Accommodation", "International Students Latvia", "Latvia Housing Guide", "Living Expenses Latvia"],
+  title: "Living Cost & Accommodation In Latvia for Indian Students",
+  description: "Find the best accommodation in Latvia for Indian students. Explore affordable Travel, Food and house rental costs according to Your budget, Apply Now",
+  keywords: ["Accommodation in Latvia", "Student Accommodation in Latvia", "Accommodation in Latvia for International Students", "Latvia Student Housing", "Student Dormitories in Latvia", "Apartments in Latvia for Students", "Rent in Latvia", "Affordable Accommodation in Latvia", "Latvia University Accommodation", "Shared Accommodation in Latvia", "Private Accommodation in Latvia", "Living in Latvia", "Study in Latvia", "Student Housing Latvia", "Accommodation Cost in Latvia"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/living/accommodation"
   },
@@ -19,9 +19,9 @@ export const metadata = {
     url: "https://www.studyinLatvia.in/living/accommodation/",
     siteName: "Study in Latvia",
     title:
-      "Student Accommodation in Latvia 2026 | Housing, Dormitories & Living Costs",
+      "Living Cost & Accommodation In Latvia for Indian Students",
     description:
-      "Explore student accommodation options in Latvia including dormitories, private apartments, shared housing and living costs.",
+      "Find the best accommodation in Latvia for Indian students. Explore affordable Travel, Food and house rental costs according to Your budget, Apply Now",
     images: [
       {
         url: "https://www.studyinLatvia.in/images/living/accommodation/accommodation.webp",
@@ -36,9 +36,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Student Accommodation in Latvia 2026 | Housing, Dormitories & Living Costs",
+      "Living Cost & Accommodation In Latvia for Indian Students",
     description:
-      "Explore student accommodation options in Latvia including dormitories, private apartments, shared housing and living costs.",
+      "Find the best accommodation in Latvia for Indian students. Explore affordable Travel, Food and house rental costs according to Your budget, Apply Now",
     images: [
       "https://www.studyinLatvia.in/images/living/accommodation/accommodation.webp",
     ],

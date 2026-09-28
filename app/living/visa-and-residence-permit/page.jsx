@@ -5,9 +5,9 @@ import Image from "next/image";
 
 
 export const metadata = {
-  title: "Latvia Student Visa & Residence Permit  | Visa Requirements, TRP & Application Process",
-  description: "Learn about Latvia student visa and temporary residence permit (TRP) requirements, application process, documents, fees, processing times, and work rights for international students.",
-  keywords: ["Latvia Student Visa", "Latvia Residence Permit", "Latvia TRP", "Latvia Study Visa", "Temporary Residence Permit Latvia", "Latvia Visa Requirements", "Latvia Student Visa Process", "Latvia Immigration", "Latvia Student Residence Permit", "Study in Latvia Visa", "Latvia Visa Documents", "Latvia Student Permit", "Latvia Visa Application", "Latvia International Students", "Latvia Study Abroad", "Latvia Visa Guide", "Latvia Residence Permit Process", "Latvia Student Immigration", "Latvia Visa Fees", "Latvia TRP Application"],
+  title: "Latvia Study Visa: Requirements and Residence Permits",
+  description: "Get your Latvia student visa | Check documents, fees, and wait times for Indian students. Meet our expert to guide you and Start your application process today.",
+  keywords: ["Latvia Student Visa", "Latvia Student Visa for Indian Students", "Study Visa for Latvia", "Latvia Study Visa", "Latvia Student Visa Requirements", "Latvia Student Visa Process", "Latvia Residence Permit", "Latvia Residence Permit for Students", "Student Visa Latvia from India", "Latvia Visa Documents", "Latvia Student Visa Fees", "Latvia Student Visa Processing Time", "Study in Latvia", "Latvia Universities", "Study in Latvia for Indian Students"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/living/visa-and-residence-permit"
   },
@@ -20,9 +20,9 @@ export const metadata = {
     url: "https://www.studyinLatvia.in/living/visa-and-residence-permit/",
     siteName: "Study in Latvia",
     title:
-      "Latvia Student Visa & Residence Permit 2026 | TRP & Application Process",
+      "Latvia Study Visa: Requirements and Residence Permits",
     description:
-      "Learn about Latvia student visas, temporary residence permits, required documents, application procedures and work rights.",
+      "Get your Latvia student visa | Check documents, fees, and wait times for Indian students. Meet our expert to guide you and Start your application process today.",
     images: [
       {
         url: "https://www.studyinLatvia.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
@@ -37,9 +37,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Latvia Student Visa & Residence Permit 2026 | TRP & Application Process",
+      "Latvia Study Visa: Requirements and Residence Permits",
     description:
-      "Learn about Latvia student visas, temporary residence permits, required documents, application procedures and work rights.",
+      "Get your Latvia student visa | Check documents, fees, and wait times for Indian students. Meet our expert to guide you and Start your application process today.",
     images: [
       "https://www.studyinLatvia.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
     ],

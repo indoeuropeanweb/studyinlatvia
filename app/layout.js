@@ -32,21 +32,12 @@ export const metadata = {
   metadataBase: new URL('https://www.studyinlatvia.in'),
 
   title:
-    "Study in Latvia for Indian Students | Universities, Visa & Admission",
+    "Study in Latvia Consultant | Top Universities, Student Visa & Admission",
 
   description:
-    "Study in Latvia with expert guidance for Indian students. Get help with admissions, student visa, scholarships, universities, tuition fees, and accommodation in Latvia.",
+    "Study in Latvia consultant. We provide clear steps by step for top university Admission and visa approvals. Check out our top University lists and apply today.",
 
-  keywords: [
-    'study in Latvia',
-    'Latvia student visa',
-    'study in Latvia from india',
-    'Latvia universities',
-    'Latvia scholarship',
-    'study abroad Latvia',
-    'europe study visa',
-    'Latvia admission consultants'
-  ],
+  keywords: ["Study in Latvia", "Study in Latvia for Indian Students", "Latvia Universities", "Study Abroad Latvia", "Latvia Student Visa", "Latvia Education Consultants", "Universities in Latvia", "Study in Europe", "Latvia Admission", "Latvia Scholarships"],
 
   alternates: {
     canonical: 'https://www.studyinlatvia.in',

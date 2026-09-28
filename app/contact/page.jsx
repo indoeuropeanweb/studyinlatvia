@@ -8,9 +8,9 @@ import Image from 'next/image';
 
 
 export const metadata = {
-  title: "Contact Study in Latvia Centre | Latvia Education Consultants in India",
-  description: "Contact Study in Latvia Centre for expert guidance on Latvian university admissions, scholarships, student visas, course selection, and study abroad support for Indian students",
-  keywords: ["contact Study in Latvia Centre", "Latvia education consultants India", "study in Latvia contact", "Latvia admission consultants", "Latvia visa consultants", "study abroad Latvia consultants", "Latvia university admission India", "Indian students Latvia", "Latvia counselling", "study in Latvia support"],
+  title: "Study in Latvia Consultants | Expert Education Advice",
+  description: "Connect with trusted Study in Latvia Consultants for expert guidance on admissions, student visas, scholarships, and university selection. Contact our team today",
+  keywords: ["Study in Latvia Consultants", "Latvia Education Consultants", "Study in Latvia", "Latvia Student Visa Consultants", "Latvia Universities", "Study Abroad Consultants", "Latvia Admission Consultants", "Study in Europe", "Latvia Education", "Overseas Education Consultants", "Latvia Student Visa", "Latvia Universities for Indian Students"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/contact"
   },
@@ -21,9 +21,9 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "Contact Study in Latvia Centre | Latvia Education Consultants in India",
+      "Study in Latvia Consultants | Expert Education Advice",
     description:
-      "Get expert support for Latvia university admissions, scholarships, student visas, and study abroad counselling.",
+      "Connect with trusted Study in Latvia Consultants for expert guidance on admissions, student visas, scholarships, and university selection. Contact our team today",
     url: "https://www.studyinLatvia.in/contact/",
     siteName: "Study in Latvia Centre",
     images: [
@@ -38,9 +38,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Contact Study in Latvia Centre | Latvia Education Consultants in India",
+      "Study in Latvia Consultants | Expert Education Advice",
     description:
-      "Contact our Latvia education consultants for admissions, scholarships, student visa guidance, and course selection support.",
+      "Connect with trusted Study in Latvia Consultants for expert guidance on admissions, student visas, scholarships, and university selection. Contact our team today",
     images: [
       "https://www.studyinLatvia.in/assets/images/contact/our-expert.webp",
     ],
@@ -183,7 +183,7 @@ const page = () => {
               <div className='grid md:grid-cols-3 grid-cols-1 gap-5 border-2 border-dotted border-secondary p-4 rounded-lg bg-gray-100'>
                 <div className='col-span-1 px-3'>
                 <h2 className='text-xl md:text-2xl font-aino mt-3'>Book Your Free Latvia Study Consultation</h2>
-                <p className='text-md font-inter mt-3 text-justify'>Need expert advice before applying? Schedule a free consultation with our study abroad
+                <p className='text-md font-inter mt-3 text-justify'>Need expert advice before applying? Schedule a free consultation with our latvia
                   specialists and receive guidance tailored to your academic profile, study preferences, and future
                   career plans.</p>
                 <div className='mt-5'>

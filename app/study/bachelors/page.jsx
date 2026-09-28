@@ -5,11 +5,11 @@ import Script from 'next/script'
 
 
 export const metadata = {
-  title: "Bachelor’s Programs in Latvia  | Study Undergraduate Degrees in Latvia",
-  description: "Study Bachelor's programs in Latvia with affordable fees, English-taught courses, scholarships, and globally recognized degrees.",
-  keywords: ["Bachelors in Latvia", "Bachelor Programs in Latvia", "Undergraduate Degree Latvia", "Study Bachelors in Latvia", "Latvia Bachelor Courses", "Engineering in Latvia", "Computer Science Latvia", "Business Studies Latvia", "International Students Latvia", "English Taught Programs Latvia", "Latvia Universities", "Study in Europe", "Latvia Higher Education", "Bachelor Degree Europe", "Latvia Admission Requirements", "Latvia Scholarships", "Affordable Education Europe", "Latvia Student Visa", "Latvia Undergraduate Programs", "Study Abroad Latvia"],
+  title: "Bachelor's Degree in Latvia: Guide for Indian Students",
+  description: "Study in Latvia with a recognized bachelors degree. Enjoy affordable costs and English courses. Our team guides Indian students through every step. Apply Now.",
+  keywords: ["bachelors degree", "bachelors degree in Latvia", "study bachelors degree in Latvia", "bachelor's programs in Latvia", "Latvia universities", "undergraduate degree Latvia", "study in Latvia", "Latvia bachelor courses", "bachelor's degree for Indian students", "affordable bachelor's degree Europe", "English taught bachelor's programs", "study abroad Latvia", "higher education Latvia", "Latvia admission consultants", "Indo European"],
   alternates: {
-    canonical: "https://www.studyinlatvia.in/study/programmes/bachelors"
+    canonical: "https://www.studyinlatvia.in/study/bachelors"
   },
   robots: {
     index: true,
@@ -17,12 +17,12 @@ export const metadata = {
   },
    openGraph: {
     type: "website",
-    url: "https://www.studyinlatvia.in/study/programmes/bachelors/",
+    url: "https://www.studyinlatvia.in/study/bachelors/",
     siteName: "Study in Latvia",
     title:
-      "Bachelor's Programs in Latvia 2026 | Study Undergraduate Degrees in Latvia",
+      "Bachelor's Degree in Latvia: Guide for Indian Students",
     description:
-      "Explore Bachelor's programs in Latvia including tuition fees, admission requirements, scholarships, and top universities for international students.",
+      "Study in Latvia with a recognized bachelors degree. Enjoy affordable costs and English courses. Our team guides Indian students through every step. Apply Now.",
     images: [
       {
         url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
@@ -36,9 +36,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Bachelor's Programs in Latvia 2026 | Study Undergraduate Degrees in Latvia",
+      "Bachelor's Degree in Latvia: Guide for Indian Students",
     description:
-      "Explore Bachelor's programs in Latvia including tuition fees, admission requirements, scholarships, and top universities for international students.",
+      "Study in Latvia with a recognized bachelors degree. Enjoy affordable costs and English courses. Our team guides Indian students through every step. Apply Now.",
     images: [
       "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
     ],
@@ -73,9 +73,9 @@ const page = () => {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinLatvia.in/study/programmes/bachelors/#webpage",
+        "https://www.studyinLatvia.in/study/bachelors/#webpage",
       url:
-        "https://www.studyinLatvia.in/study/programmes/bachelors/",
+        "https://www.studyinLatvia.in/study/bachelors/",
       name: "Bachelor's Programs in Latvia",
       description:
         "Explore undergraduate degree programs in Latvia for international students including admission requirements, tuition fees and career opportunities.",
@@ -100,7 +100,7 @@ const page = () => {
     {
       "@type": "Article",
       "@id":
-        "https://www.studyinLatvia.in/study/programmes/bachelors/#article",
+        "https://www.studyinLatvia.in/study/bachelors/#article",
       headline:
         "Bachelor's Programs in Latvia for International Students",
       description:
@@ -167,14 +167,14 @@ const page = () => {
           "@type": "ListItem",
           position: 3,
           name: "Programmes",
-          item: "https://www.studyinLatvia.in/study/programmes/",
+          item: "https://www.studyinLatvia.in/study/",
         },
         {
           "@type": "ListItem",
           position: 4,
           name: "Bachelor's",
           item:
-            "https://www.studyinLatvia.in/study/programmes/bachelors/",
+            "https://www.studyinLatvia.in/study/bachelors/",
         },
       ],
     },
@@ -197,7 +197,7 @@ const page = () => {
           market.</p>
         <div className='mt-10'>
           <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Bachelor's Courses in Latvia</h2>
-          <p className='mt-3 text-base font-inter'>Bachelor&#39;s degree programmes in Latvia generally last 3 to 4 years, depending on the course
+          <p className='mt-3 text-base font-inter'>Bachelor's courses programmes in Latvia generally last 3 to 4 years, depending on the course
             and university. Students benefit from modern teaching methods, industry-oriented learning, and
             international exposure throughout their studies.</p>
           <h2 className='text-xl md:text-2xl mt-3 font-roboto text-[#5d5b5b]'>Popular Bachelor's Courses</h2>
@@ -218,7 +218,7 @@ const page = () => {
         </div>
         <div className='mt-10'>
           <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Eligibility Requirements</h2>
-          <p className='text-base font-inter mt-3'>Students applying for a Bachelor's degree in Latvia generally need:</p>
+          <p className='text-base font-inter mt-3'>Students applying for a Bachelor's course in Latvia generally need:</p>
           <ul className='mt-5 space-y-2'>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Completion of 12th Grade (Higher Secondary Education)</li>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Academic transcripts and certificates</li>

@@ -2,9 +2,9 @@ import Breadcrumb from '@/app/components/Breadcrumb'
 import Image from 'next/image';
 
 export const metadata = {
-  title: "latvia Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
-  description: "Explore latvia's economy, major industries, GDP, technology sector, exports, manufacturing, investment opportunities, and economic growth. Learn why latvia is one of Europe's fastest-growing and most innovative economies",
-  keywords: ["Latvia economy", "Latvia GDP", "Latvia economic growth", "latvia industries", "latvia business environment", "latvia technology sector", "latvia manufacturing industry", "latvia exports", "latvia investment opportunities", "latvia startup ecosystem", "latvia ICT sector", "latvia biotech industry", "latvia laser technology", "latvia service sector", "latvia economic development", "latvia business opportunities", "study in latvia", "latvia market overview", "latvia innovation economy", "latvia trade and exports"],
+  title: "Latvia Economy: Growth, Industries & Business for Students",
+  description: "Analyze the Latvia economy and top industries. See how GDP and job trends help Indian students find great careers. Start your journey now.",
+  keywords: ["Latvia economy", "Economy of Latvia", "Latvia GDP", "Latvia economic growth", "Latvia industries", "Latvia business opportunities", "Latvia employment", "Study in Latvia", "Latvia for international students", "Latvia education", "Latvia jobs", "Latvia market economy", "Latvia investment", "Latvia economic sectors", "Latvia universities"],
   alternates: {
     canonical: "https://www.studyinlatvia.in/latvia/economy"
   },
@@ -16,9 +16,9 @@ export const metadata = {
   openGraph: {
     type: "article",
     title:
-      "latvia Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
+      "Latvia Economy: Growth, Industries & Business for Students",
     description:
-      "Discover latvia's economy, major industries, exports, manufacturing, technology sector, startups, and economic growth opportunities.",
+      "Analyze the Latvia economy and top industries. See how GDP and job trends help Indian students find great careers. Start your journey now.",
     url: "https://www.studyinlatvia.in/latvia/economy/",
     siteName: "Study in latvia",
     locale: "en_US",
@@ -33,9 +33,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "latvia Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
+      "Latvia Economy: Growth, Industries & Business for Students",
     description:
-      "Discover latvia's economy, major industries, exports, manufacturing, technology sector, startups, and economic growth opportunities.",
+      "Analyze the Latvia economy and top industries. See how GDP and job trends help Indian students find great careers. Start your journey now.",
     images: [
       "https://www.studyinlatvia.in/images/economy/economy/economy.webp",
     ],

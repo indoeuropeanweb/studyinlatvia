@@ -7,6 +7,7 @@
   --primary-dark: #74191e; 
   --secondary: #FFFFFF;
   --tertiary: #BE3A34;
+  --extracolor: #34A350;
 }
 
 @theme inline {
@@ -19,6 +20,7 @@
   --color-secondary: var(--secondary);
   --color-tertiary: var(--tertiary);
   --color-primarydark: var(--primary-dark);
+  --color-extra: var(--extracolor);
 }
 
 /* @media (prefers-color-scheme: dark) {

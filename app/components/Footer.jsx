@@ -8,7 +8,7 @@ const footer = () => {
         <div className='py-6 grid grid-cols-1 md:grid-cols-4 gap-5 px-6'>
           <div className='max-w-100 col-span-1'>
             <Link className='' href={'/'}><Image className="" width={250} height={90} src='/images/logos/logo.png' alt="study in latvia centre" /></Link>
-            <p className='mt-3'>The Study Visa and the Residence Permit guarantee legal stay in the country and will enable you to enjoy the student benefits.</p>
+            <p className='mt-3'>Helping students achieve their dream of studying in Latvia with expert guidance on university admissions, student visas, scholarships, and career opportunities.</p>
             <div className='flex gap-5 mt-3'>
               <span className=''>Follow us on</span>
               <ul className='flex gap-3'>

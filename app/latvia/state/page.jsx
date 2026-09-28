@@ -4,9 +4,9 @@ import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
 
 export const metadata = {
-  title: "Study in latvia | Universities, Education System, Cost of Living & Student Life",
-  description: "Discover latvia, one of Europe's fastest-growing study destinations. Explore top universities, affordable tuition fees, scholarships, student life, safe cities, and globally recognized degrees for international students.&quot;",
-  keywordds: ["Discover latvia – a top European study destination offering quality education", "affordable tuition fees", "internationally recognized degrees", "scholarships", "safe living conditions and excellent career opportunities for international students."],
+  title: "Best State Universities in Latvia for Indian Students",
+  description: "Explore the Best State Universities in Latvia offering globally recognized degrees, affordable tuition fees, and excellent career opportunities.",
+  keywordds: ["Best State Universities in Latvia", "State Universities in Latvia", "Public Universities in Latvia", "Latvia State Universities", "Top State Universities in Latvia", "Latvia Public Universities for International Students", "Study in Latvia", "Universities in Latvia", "Higher Education in Latvia", "Latvia Universities", "Latvia Education", "Study Abroad Latvia", "Latvia Admission", "Latvia Student Visa", "Indo European"],
   alternates: {
     canonical: "https://www.studyinlatvia.in/latvia/state"
   },
@@ -17,9 +17,9 @@ export const metadata = {
      openGraph: {
     type: "website",
     title:
-      "Study in latvia | Universities, Education System, Cost of Living & Student Life",
+      "Best State Universities in Latvia for Indian Students",
     description:
-      "Get expert support for latvia university admissions, scholarships, student visas, and study abroad counselling.",
+      "Explore the Best State Universities in Latvia offering globally recognized degrees, affordable tuition fees, and excellent career opportunities.",
     url: "https://www.studyinlatvia.in/contact/",
     siteName: "Study in latvia Centre",
     images: [
@@ -34,9 +34,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Contact Study in latvia Centre | latvia Education Consultants in India",
+      "Best State Universities in Latvia for Indian Students",
     description:
-      "Contact our latvia education consultants for admissions, scholarships, student visa guidance, and course selection support.",
+      "Explore the Best State Universities in Latvia offering globally recognized degrees, affordable tuition fees, and excellent career opportunities.",
     images: [
       "https://www.studyinlatvia.in/images/contact/our-expert.webp",
     ],

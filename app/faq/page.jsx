@@ -3,9 +3,9 @@ import FAQ from '../components/FAQ';
 
 
 export const metadata = {
-  title: "Frequently Asked Questions About Studying in Latvia | Study in Latvia Centre",
-  description: "Find answers to the most frequently asked questions about studying in Latvia. Learn about admissions, universities, tuition fees, scholarships, student visas, accommodation, work opportunities, and student life in Latvia.",
-  keywords: ["study in Latvia FAQ", "Latvia student visa FAQ", "Latvia university admission questions", "scholarships in Latvia", "study in Latvia for Indian students", "Latvia tuition fees", "Latvia accommodation", "Latvia student life", "Latvia universities FAQ", "Study in Latvia Centre"],
+  title: "Study in Latvia Consultant: Expert FAQ Guide for Indian Students",
+  description: "Get clear facts from a study in Latvia consultant. Our FAQ helps Indian students with costs, permits, and top university. See how to move to Latvia now.",
+  keywords: ["Study In Latvia Consultants", "Latvia Study Consultants", "Study In Latvia", "Latvia Education Consultants", "Latvia Student Visa Consultants", "Study Abroad Consultants", "Latvia Universities", "Study In Latvia For Indian Students", "Latvia Admission Consultants", "Latvia Scholarships", "Latvia Student Visa", "Study In Europe Consultants"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/faq"
   },
@@ -16,9 +16,9 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "Frequently Asked Questions About Studying in Latvia | Study in Latvia Centre",
+      "Study in Latvia Consultant: Expert FAQ Guide for Indian Students",
     description:
-      "Get answers to common questions about studying and living in Latvia.",
+      "Get clear facts from a study in Latvia consultant. Our FAQ helps Indian students with costs, permits, and top university. See how to move to Latvia now.",
     url: "https://www.studyinLatvia.in/faq/",
     siteName: "Study in Latvia Centre",
     images: [
@@ -34,9 +34,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Frequently Asked Questions About Studying in Latvia | Study in Latvia Centre",
+      "Study in Latvia Consultant: Expert FAQ Guide for Indian Students",
     description:
-      "Explore answers to common questions about studying in Latvia.",
+      "Get clear facts from a study in Latvia consultant. Our FAQ helps Indian students with costs, permits, and top university. See how to move to Latvia now.",
     images: [
       "https://www.studyinLatvia.in/images/logos/logo.png",
     ],

@@ -1,9 +1,9 @@
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Study in Latvia for Indian Students | Universities, Visa & Admission",
-  description: "Study in Latvia with expert guidance for Indian students. Explore top Latvian universities, admission requirements, tuition fees, scholarships, student visa process, accommodation, and career opportunities.",
-  keywords: ["study in Latvia", "study in Latvia for Indian students", "Latvia universities", "Latvia admission", "Latvia student visa", "scholarships in Latvia", "MBBS in Latvia", "masters in Latvia", "bachelors in Latvia", "study abroad Latvia", "Latvia education consultant", "Latvia education"],
+  title: "Study in Latvia Consultant | Top Universities, Student Visa & Admission",
+  description: "Study in Latvia consultant. We provide clear steps by step for top university Admission and visa approvals. Check out our top University lists and apply today.",
+  keywords: ["Study in Latvia", "Study in Latvia for Indian Students", "Latvia Universities", "Study Abroad Latvia", "Latvia Student Visa", "Latvia Education Consultants", "Universities in Latvia", "Study in Europe", "Latvia Admission", "Latvia Scholarships"],
   alternates: {
     canonical: "https://www.studyinlatvia.in"
   },
@@ -14,9 +14,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Study in Latvia for Indian Students | Admissions, Universities, Visa & Scholarships",
+      "Study in Latvia Consultant | Top Universities, Student Visa & Admission",
     description:
-      "Explore top Latvian universities, admission process, scholarships, tuition fees and student visa guidance for Indian students.",
+      "Study in Latvia consultant. We provide clear steps by step for top university Admission and visa approvals. Check out our top University lists and apply today.",
     url: "https://www.studyinlatvia.in/",
     siteName: "Study in Latvia",
     images: [
@@ -54,9 +54,9 @@ export const metadata = {
         "@id": "https://www.studyinlatvia.in/#webpage",
         "url": "https://www.studyinlatvia.in/",
         "name":
-          "Study in Latvia for Indian Students | Admissions, Universities, Visa & Scholarships",
+          "Study in Latvia Consultant | Top Universities, Student Visa & Admission",
         "description":
-          "Study in Latvia with expert guidance for Indian students.",
+          "Study in Latvia consultant. We provide clear steps by step for top university Admission and visa approvals. Check out our top University lists and apply today.",
         "isPartOf": {
           "@id": "https://www.studyinlatvia.in/#website"
         },

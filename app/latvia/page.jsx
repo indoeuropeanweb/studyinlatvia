@@ -2,9 +2,9 @@ import LatviaClient from "./LatviaClient";
 
 
 export const metadata = {
-  title: "Study in latvia for Indian Students | Benefits, Universities & Career",
-  description: "Discover why Indian students choose latvia for higher education. Learn about affordable universities, European degrees, part-time work, career opportunities, lifestyle, and expert study abroad guidance.",
-  keywords: ["study in latvia", "study in latvia for Indian students", "latvia education", "latvian universities", "study abroad latvia", "latvia study consultant", "latvian study consultants in Delhi", "benefits of studying in latvia", "Europe study abroad", "affordable study in Europe"],
+  title: "Study in Latvia Consultant for Indian Students with Expert Help",
+  description: "Study in Latvia consultant for Indian students. Get expert help with visas, University apply and living cost. Start your journey today for a bright future in Europe.",
+  keywords: ["Study in Latvia", "Study in Latvia Consultant", "Latvia Education Consultant", "Study in Latvia for Indian Students", "Latvia Student Visa Consultant", "Latvia Universities", "Study Abroad Latvia", "Latvia Admission Consultant", "Higher Education in Latvia", "Study in Europe"],
   alternates: {
     canonical: "https://www.studyinlatvia.in/latvia"
   },
@@ -15,9 +15,9 @@ export const metadata = {
    openGraph: {
     type: "article",
     title:
-      "Study in latvia for Indian Students | Benefits, Universities & Career",
+      "Study in Latvia Consultant for Indian Students with Expert Help",
     description:
-      "Explore the advantages of studying in latvia, including affordable education, European universities, part-time work options, global exposure, and career opportunities.",
+      "Study in Latvia consultant for Indian students. Get expert help with visas, University apply and living cost. Start your journey today for a bright future in Europe.",
     url: "https://www.studyinlatvia.in/latvia/",
     siteName: "Study in latvia",
     images: [
@@ -32,9 +32,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Study in latvia for Indian Students | Benefits, Universities & Career",
+      "Study in Latvia Consultant for Indian Students with Expert Help",
     description:
-      "Explore the advantages of studying in latvia.",
+      "Study in Latvia consultant for Indian students. Get expert help with visas, University apply and living cost. Start your journey today for a bright future in Europe.",
     images: [
       "https://www.studyinlatvia.in/images/logos/logo.png",
     ],

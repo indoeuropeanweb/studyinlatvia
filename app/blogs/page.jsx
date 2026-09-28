@@ -5,11 +5,11 @@ import Image from "next/image";
 
 
 export const metadata = {
-  title: "Study in latvia Blogs | Student Guides, Visa Tips, Universities & Scholarships",
-  description: "Explore expert blogs on studying in latvia. Get insights on universities, admissions, visas, scholarships, student life, accommodation, and career opportunities for Indian students.",
-  keywords: ["Study in latvia Blogs", "latvia Student Blog", "Study in latvia Guide", "latvia Universities Blog", "latvia Admission Guide", "latvia Student Visa Blog", "latvia Scholarships Blog", "latvia Student Life", "Study Abroad latvia", "latvia Living Costs", "latvia Accommodation Guide", "latvia Work Opportunities", "latvia Career Guide", "latvia Education Blog", "International Students latvia", "latvia Application Process", "latvia Universities", "Indian Students latvia", "latvia Study Tips", "Study in Europe Blog"],
+  title: "Best Study in Latvia Consultants Blog: By Our Top Expert Advice",
+  description: "Explore Study in Latvia Consultants Blogs for expert advice on Latvian universities, student visas, admissions, scholarships, living costs, and student life.",
+  keywords: ["Study in Latvia Consultants Blogs", "Study in Latvia Blogs", "Latvia Study Abroad Blogs", "Study in Latvia Consultants", "Latvia Universities", "Latvia Student Visa", "Study in Latvia for Indian Students", "Latvia Scholarships", "Latvia Admission Process", "Study Abroad Consultants"],
   alternates: {
-    canonical: "https://www.studyinlatvia.in/blogs"
+    canonical: "https://www.studyinlatvia.in/blogs/"
   },
   robots: {
     index: true,
@@ -19,9 +19,9 @@ export const metadata = {
     type: "website",
     url: "https://www.studyinlatvia.in/blogs/",
     title:
-      "Study in latvia Blogs | Student Guides, Visa Tips & University Updates",
+      "Best Study in Latvia Consultants Blog: By Our Top Expert Advice",
     description:
-      "Read expert blogs on latvian universities, admissions, scholarships, visas, accommodation, student life and career opportunities.",
+      "Explore Study in Latvia Consultants Blogs for expert advice on Latvian universities, student visas, admissions, scholarships, living costs, and student life.",
     siteName: "Study in latvia",
     locale: "en_US",
     images: [
@@ -29,14 +29,13 @@ export const metadata = {
         url: "https://www.studyinlatvia.in/images/logos/logo.png",
         width: 1200,
         height: 630,
-        alt: "Study in latvia Blog for International Students",
+        alt: "International Students Blog Latvia",
       },
     ],
   },
 }
 
 export default function Blogs() {
-
 
 const schema = {
   "@context": "https://schema.org",
@@ -163,9 +162,9 @@ const schema = {
     <Breadcrumb heading="Study in Latvia Blog – Guides, Tips, and ​‍​‌‍​‍‌Student" />
     <div className="max-w-6xl mx-auto py-10 px-5">
       <h2 className="text-2xl md:text-4xl font-aino mt-5">Study in Latvia Blogs & Student Guides</h2>
-      <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in latvia. From university admissions and latvia student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their study abroad journey. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in latvia.</p>
+      <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in latvia. From university admissions and latvia student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their latvia journey. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in latvia.</p>
       <div className="grid md:grid-cols-3 gap-6">
-        {blogs.map((blog) => (
+        {[...blogs].reverse().map((blog) => (
           <Link
             href={`/blogs/${blog.slug}`}
             key={blog.id}

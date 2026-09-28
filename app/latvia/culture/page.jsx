@@ -4,9 +4,9 @@ import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
 
 export const metadata = {
-    title: "Latvian Culture Guide | Traditions, Festivals, Language, Food & Lifestyle",
-    description: "Discover Latvia's rich cultural heritage, traditions, festivals, language, cuisine, arts, music, and modern lifestyle. Learn about latvian customs, student life, and cultural experiences in one of Europe's most vibrant Baltic nations.",
-    keywords: ["Latvian Culture", "Latvian Culture", "Latvian Traditions", "Latvia Festivals", "Latvian Language", "Latvian Lifestyle", "Latvian Heritage", "Latvia Customs", "Latvian Food", "Latvia Cuisine", "Latvia Arts and Music", "Latvia Cultural Heritage", "Latvia Student Life", "Baltic Culture", "Latvia Society", "Study in Latvia", "Latvian Celebrations", "Latvia Folk Traditions", "Latvia History and Culture", "Culture of Latvia"],
+    title: "Latvian Culture and Festivals: A Complete Traditions Guide",
+    description: "Explore Latvian culture and traditions. Learn about local food, festivals, and the lifestyle. See why students love living here. Start your journey today.",
+    keywords: ["Latvian Culture", "Culture of Latvia", "Latvian Traditions", "Latvian Festivals", "Latvian Lifestyle", "Latvian Customs", "Latvian Heritage", "Latvian Food", "Latvian Language", "Living in Latvia", "Study in Latvia", "International Students in Latvia", "Latvia Culture Guide", "Latvia Tourism", "Latvia History and Culture"],
     alternates: {
       canonical: "https://www.studyinlatvia.in/latvia/culture"
     },
@@ -20,9 +20,9 @@ export const metadata = {
     url: "https://www.studyinlatvia.in/latvia/culture/",
     siteName: "Study in latvia",
     title:
-      "latvian Culture Guide 2026 | Traditions, Festivals, Language, Food & Lifestyle",
+      "Latvian Culture and Festivals: A Complete Traditions Guide",
     description:
-      "Explore latvia's traditions, festivals, language, cuisine, arts, music and cultural heritage. Learn about student life and everyday culture in latvia.",
+      "Explore Latvian culture and traditions. Learn about local food, festivals, and the lifestyle. See why students love living here. Start your journey today.",
     images: [
       {
         url: "https://www.studyinlatvia.in/images/culture/culture.webp",
@@ -34,9 +34,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Latvian Culture Guide 2026 | Traditions, Festivals, Language, Food & Lifestyle",
+      "Latvian Culture and Festivals: A Complete Traditions Guide",
     description:
-      "Explore Latvia's traditions, festivals, language, cuisine, arts, music and cultural heritage.",
+      "Explore Latvian culture and traditions. Learn about local food, festivals, and the lifestyle. See why students love living here. Start your journey today.",
     images: [
       "https://www.studyinlatvia.in/images/culture/culture.webp",
     ],

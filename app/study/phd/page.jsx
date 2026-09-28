@@ -2,11 +2,11 @@ import Breadcrumb from '@/app/components/Breadcrumb'
 import { IoIosArrowForward } from 'react-icons/io'
 
 export const metadata = {
-  title: "PhD Programs in Latvia  | Doctoral Studies in Latvia for Indian Students",
-  description: "Pursue a PhD in Latvia with affordable tuition fees, research opportunities, scholarships, and internationally recognized doctoral degrees.",
-  keywords: ["PhD in Latvia", "Doctoral Programs Latvia", "PhD Programs Latvia", "Study PhD in Latvia", "Doctorate Latvia", "Research Programs Latvia", "PhD Scholarships Latvia", "Latvia Universities PhD", "International Students PhD Latvia", "Doctoral Studies Europe", "Latvia Research Opportunities", "Engineering PhD Latvia", "Business PhD Latvia", "Computer Science PhD Latvia", "Health Sciences PhD Latvia", "Study in Latvia", "Higher Education Latvia", "Latvia Research Universities", "PhD Admission Latvia", "Doctoral Degree Europe"],
+  title: "PhD Programs in Latvia: Complete Guide for Indian Students",
+  description: "Explore Phd programs in Latvia for Indian students. Learn about university entry needs and low tuition fees. See how to secure a scholarship and start now.",
+  keywords: ["phd programs in latvia", "phd in latvia", "doctorate in latvia", "study phd in latvia", "latvia phd universities", "phd admission in latvia", "phd for international students in latvia", "research programs in latvia", "doctoral degree in latvia", "universities in latvia for phd", "study in latvia", "phd scholarships in latvia", "higher education in latvia", "international phd programs", "study abroad latvia"],
   alternates: {
-    canonical: "https://www.studyinLatvia.in/study/programmes/phd"
+    canonical: "https://www.studyinLatvia.in/study/phd"
   },
   robots: {
     index: true,
@@ -14,12 +14,12 @@ export const metadata = {
   },
    openGraph: {
     type: "website",
-    url: "https://www.studyinLatvia.in/study/programmes/phd/",
+    url: "https://www.studyinLatvia.in/study/phd/",
     siteName: "Study in Latvia",
     title:
-      "PhD Programs in Latvia 2026 | Doctoral Studies in Latvia for International Students",
+      "PhD Programs in Latvia: Complete Guide for Indian Students",
     description:
-      "Explore PhD programs in Latvia with research opportunities, scholarships, affordable tuition fees, and globally recognized doctoral degrees.",
+      "Explore Phd programs in Latvia for Indian students. Learn about university entry needs and low tuition fees. See how to secure a scholarship and start now.",
     images: [
       {
         url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
@@ -34,9 +34,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "PhD Programs in Latvia 2026 | Doctoral Studies in Latvia for International Students",
+      "PhD Programs in Latvia: Complete Guide for Indian Students",
     description:
-      "Explore PhD programs in Latvia with research opportunities, scholarships, affordable tuition fees, and globally recognized doctoral degrees.",
+      "Explore Phd programs in Latvia for Indian students. Learn about university entry needs and low tuition fees. See how to secure a scholarship and start now.",
     images: [
       "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
     ],
@@ -77,9 +77,9 @@ const page = () => {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinLatvia.in/study/programmes/phd/#webpage",
+        "https://www.studyinLatvia.in/study/phd/#webpage",
       url:
-        "https://www.studyinLatvia.in/study/programmes/phd/",
+        "https://www.studyinLatvia.in/study/phd/",
       name: "PhD Programs in Latvia",
       description:
         "Explore doctoral and research degree programs in Latvia for international students, including admission requirements, scholarships, and research opportunities.",
@@ -91,9 +91,9 @@ const page = () => {
     {
       "@type": "CollectionPage",
       "@id":
-        "https://www.studyinLatvia.in/study/programmes/phd/#collectionpage",
+        "https://www.studyinLatvia.in/study/phd/#collectionpage",
       url:
-        "https://www.studyinLatvia.in/study/programmes/phd/",
+        "https://www.studyinLatvia.in/study/phd/",
       name: "PhD Programs in Latvia",
       description:
         "Browse doctoral and research programs offered by Latvian universities.",
@@ -101,14 +101,14 @@ const page = () => {
     {
       "@type": "Article",
       "@id":
-        "https://www.studyinLatvia.in/study/programmes/phd/#article",
+        "https://www.studyinLatvia.in/study/phd/#article",
       headline:
         "PhD Programs in Latvia for International Students",
       description:
         "Comprehensive guide to doctoral studies in Latvia, including universities, research opportunities, scholarships, funding, and admission requirements.",
       mainEntityOfPage: {
         "@id":
-          "https://www.studyinLatvia.in/study/programmes/phd/#webpage",
+          "https://www.studyinLatvia.in/study/phd/#webpage",
       },
       publisher: {
         "@id": "https://www.studyinLatvia.in/#organization",
@@ -143,14 +143,14 @@ const page = () => {
           "@type": "ListItem",
           position: 3,
           name: "Programmes",
-          item: "https://www.studyinLatvia.in/study/programmes/",
+          item: "https://www.studyinLatvia.in/study/",
         },
         {
           "@type": "ListItem",
           position: 4,
           name: "PhD",
           item:
-            "https://www.studyinLatvia.in/study/programmes/phd/",
+            "https://www.studyinLatvia.in/study/phd/",
         },
       ],
     },
@@ -199,7 +199,7 @@ const page = () => {
     {
       "@type": "ImageObject",
       "@id":
-        "https://www.studyinLatvia.in/study/programmes/phd/#image",
+        "https://www.studyinLatvia.in/study/phd/#image",
       contentUrl:
         "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
       caption:

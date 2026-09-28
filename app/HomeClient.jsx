@@ -112,9 +112,9 @@ const HomeClient = () => {
             <div>
                <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/short-courses.webp'} alt="bachelors in Latvia" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
-               <h4 className="text-white text-lg md:text-2xl font-aino">Short Courses</h4>
+               <h4 className="text-white text-lg md:text-2xl font-aino">All Programmes</h4>
                <p className="text-white text-sm md:text-md text-center">Develop practical skills through flexible learning programmes that enhance employability and support career development goals.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/study/programmes/short-courses'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/study/programmes'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />

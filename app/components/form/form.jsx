@@ -126,15 +126,11 @@ const handleSubmit = async (e) => {
   if (Object.keys(validationErrors).length > 0) return;
 
   try {
-    const response = await SendData(
+    const {data, service, status} = await SendData(
       user,
       "https://crm.indoeuropean.in/WebService/Lead.asmx/OnlineLead"
     );
     
-    const firstObject = response.match(/^\{.*?\}(?=\{)/)?.[0];
-
-    if (firstObject) {
-      const { status, data } = JSON.parse(firstObject);
 
     if(status){
     setResData(status);
@@ -151,7 +147,6 @@ const handleSubmit = async (e) => {
       return; 
     }
     }
-    }
     setUser(initialForm);
     setIsSubmitted(true);
 
@@ -165,7 +160,7 @@ const handleSubmit = async (e) => {
 
   const {data:highestQualification, loading:loadingQualification} = useFetch("https://crm.indoeuropean.in/WebService/Lead.asmx", "GetHighestQualification", "");
   const {data:CallBackTime, loading:loadingCallback} = useFetch("https://crm.indoeuropean.in/WebService/Lead.asmx", "GetPreferredCallBackTime", "");
-  const {data:CourseLevel, loading:loadingLevel} = useFetch("https://crm.indoeuropean.in/WebService/Lead.asmx", "GetLevel", "");
+  const {data:CourseLevel, loading:loadingLevel} = useFetch("https://crm.indoeuropean.in/WebService/Lead.asmx", "GetCourseLevel", "");
   const {data:destinations, loading:loadingDestination} = useFetch("https://crm.indoeuropean.in/WebService/CourseFinder/Programs_api.asmx", "CountryAPI", "");
   const {data:countryID, loading:loadingCountryID} = useFetch("https://crm.indoeuropean.in/webService/lead.asmx", "GetCountryCode", "");
 
@@ -304,13 +299,12 @@ const handleSubmit = async (e) => {
             {loadingLevel ? (
                 <option value="">No data</option>
             ) : (
-                CourseLevel?.map((course, i) => (
+                CourseLevel.slice(0, 5)?.map((course, i) => (
                 <option value={course.QUALLEVELID} key={i}>
                     {course.QUALDESC}
                 </option>
                 ))
             )}
-            <option value="131">Intermediate (12th)</option>
             </select>
             {errors.CourseLevel && touched.CourseLevel && (
             <p className="text-red-500 text-sm">{errors.CourseLevel}</p>

@@ -11,9 +11,9 @@ import {
 } from "react-icons/fa";
 
 export const metadata = {
-  title: "About Study in Latvia Centre | Trusted Latvia Education Consultants",
-  description: "Learn about Study in Latvia Centre, a trusted education consultancy helping Indian students secure admissions, scholarships, visa guidance, and career opportunities in Latvia.",
-  keywords: ["Study in Latvia Centre", "about Study in Latvia", "Latvia education consultants", "study in Latvia consultants India", "Latvia admission guidance", "Latvia visa consultants", "study abroad Latvia", "Indian students in Latvia", "Latvia university admission", "Latvia scholarship guidance"],
+  title: "Study in Latvia Consultants: Get Expert Education Advice",
+  description: "Study in Latvia consultants help you pick the best course. We handle your visa, Living and university apply. meet our expert to Guide You",
+  keywords: ["Study In Latvia Consultants", "Latvia Education Consultants", "Study Abroad Consultants", "Latvia Student Visa Consultant", "Study In Latvia", "Latvia Universities", "Latvia Admission Consultants", "Overseas Education Consultants", "Study In Europe", "Latvia Scholarships", "Latvia Student Visa", "Study Abroad in Latvia", "Latvia University Admission", "Higher Education in Latvia", "Latvia Consultants India"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/about"
   },
@@ -24,9 +24,9 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "About Study in Latvia Centre | Trusted Latvia Education Consultants",
+      "Study in Latvia Consultants: Get Expert Education Advice",
     description:
-      "Discover how Study in Latvia Centre helps Indian students with admissions and visa guidance.",
+      "Study in Latvia consultants help you pick the best course. We handle your visa, Living and university apply. meet our expert to Guide You",
     url: "https://www.studyinLatvia.in/about/",
     siteName: "Study in Latvia Centre",
     images: [
@@ -42,9 +42,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "About Study in Latvia Centre | Trusted Latvia Education Consultants",
+      "Study in Latvia Consultants: Get Expert Education Advice",
     description:
-      "Learn how Study in Latvia Centre supports Indian students.",
+      "Study in Latvia consultants help you pick the best course. We handle your visa, Living and university apply. meet our expert to Guide You",
     images: [
       "https://www.studyinLatvia.in/images/contact/our-expert.webp",
     ],
@@ -66,7 +66,7 @@ const page = () => {
           "url": "https://www.studyinLatvia.in/images/logos/logo.png"
         },
         "description":
-          "Study in Latvia Centre helps Indian students with admissions, scholarships, visa guidance, and study abroad support."
+          "Study in Latvia consultants help you pick the best course. We handle your visa, Living and university apply. meet our expert to Guide You"
       },
       {
         "@type": "WebSite",
@@ -81,9 +81,9 @@ const page = () => {
         "url":
           "https://www.studyinLatvia.in/about/",
         "name":
-          "About Study in Latvia Centre",
+          "About Us - Study in Latvia Centre",
         "description":
-          "Trusted education consultancy supporting Indian students studying in Latvia.",
+          "Study in Latvia consultants help you pick the best course. We handle your visa, Living and university apply. meet our expert to Guide You",
         "isPartOf": {
           "@id":
             "https://www.studyinLatvia.in/#website"
@@ -175,7 +175,7 @@ const page = () => {
 
   return (
     <>
-     <Breadcrumb heading={'Who​‍​‌‍​‍‌​‍​‌‍​‍‌ We Are – Your Trustworthy Study Abroad Consultants for Latvia & ​‍​‌‍​‍‌​‍​‌‍​‍‌Europe'}/>
+     <Breadcrumb heading={'Who​‍​‌‍​‍‌​‍​‌‍​‍‌ We Are – Your Trustworthy Study Abroad Consultants for Latvia'}/>
      <div className='mx-auto max-w-6xl'>
          <div className='py-10 px-5'>
                <h2 className='font-aino text-2xl md:text-4xl'>Who We Are?</h2>
@@ -186,7 +186,7 @@ const page = () => {
                 Our experienced counsellors provide personalised guidance for students planning to pursue
                 Bachelor's, Master's, PhD, and other higher education programmes in Latvia and other leading
                 European destinations. We believe every student deserves expert support, clear information,
-                and confidence throughout the study abroad process.</p>
+                and confidence throughout the Latvia process.</p>
               <div className='mt-10'>
                 <h2 className='font-roboto text-xl md:text-2xl'>What We Offer</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 justify-center mt-4 gap-3'>

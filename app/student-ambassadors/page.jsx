@@ -2,9 +2,9 @@ import Breadcrumb from '../components/Breadcrumb'
 import Image from 'next/image'
 
 export const metadata = {
-  title: "Student Experiences in Latvia | Study in Latvia Centre Ambassadors",
-  description: "Discover real student experiences in Latvia through Study in Latvia Centre Ambassadors. Learn about university life, academics, accommodation, culture, career opportunities, and student success stories from Indian students studying in Latvia",
-  keywords: ["student experiences in Latvia", "Study in Latvia Centre ambassadors", "Indian students in Latvia", "Latvia student testimonials", "Latvia success stories", "study in Latvia experiences", "student life in Latvia", "Latvia student stories", "Latvia education experiences", "study abroad Latvia"],
+  title: "Indian Students In Latvia | Student Ambassadors | Study in Latvia",
+  description: "Connect with experienced Indian Students In Latvia through our Student Ambassador program. Get guidance on universities, admissions, visas, and student life.",
+  keywords: ["Indian Students In Latvia", "Student Ambassadors Latvia", "Study In Latvia", "Indian Students Study In Latvia", "Latvia Universities", "Study Abroad Latvia", "Latvia Student Visa", "Latvia Education Consultants"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/student-ambassadors"
   },
@@ -15,9 +15,9 @@ export const metadata = {
     openGraph: {
     type: "article",
     title:
-      "Student Experiences in Latvia | Study in Latvia Centre Ambassadors",
+      "Indian Students In Latvia | Student Ambassadors | Study in Latvia",
     description:
-      "Read real experiences and success stories from students studying in Latvia.",
+      "Connect with experienced Indian Students In Latvia through our Student Ambassador program. Get guidance on universities, admissions, visas, and student life.",
     url:
       "https://www.studyinLatvia.in/student-ambassadors/",
     siteName: "Study in Latvia Centre",
@@ -34,9 +34,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Student Experiences in Latvia | Study in Latvia Centre Ambassadors",
+      "Indian Students In Latvia | Student Ambassadors | Study in Latvia",
     description:
-      "Read real experiences and success stories from students studying in Latvia.",
+      "Connect with experienced Indian Students In Latvia through our Student Ambassador program. Get guidance on universities, admissions, visas, and student life.",
     images: [
       "https://www.studyinLatvia.in/images/student-ambassadors/student-01.webp",
     ],

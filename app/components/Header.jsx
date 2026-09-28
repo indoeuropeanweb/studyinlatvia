@@ -23,7 +23,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const darkHeader = !isHomePage || scrolled;
+  // const darkHeader = !isHomePage || scrolled;
 
   return (
     <header
@@ -44,8 +44,8 @@ const Header = () => {
             <Image
               src={ "/images/logos/study-in-latvia-logo.png"}
               alt="Study in Latvia"
-              width={125}
-              height={45}
+              width={160}
+              height={80}
               loading="lazy"
               className="transition duration-300"
             />

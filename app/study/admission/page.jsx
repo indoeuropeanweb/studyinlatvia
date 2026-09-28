@@ -3,9 +3,9 @@ import { IoIosArrowForward } from "react-icons/io"
 
 
 export const metadata = {
-  title: "Study in Latvia Admission  | Admission Requirements, Documents & Application Process",
-  description: "Apply to study in Latvia with ease. Learn about admission requirements, required documents, application process, English requirements, and university deadlines for Bachelor's, Master's, and PhD programs.",
-  keywords: ["Study in Latvia Admission", "Latvia Admission Process", "Latvia University Admission", "Admission Requirements Latvia", "Apply to Study in Latvia", "Latvia Student Visa", "Latvia Universities Admission", "Documents Required for Latvia Admission", "Bachelor's Admission Latvia", "Master's Admission Latvia", "PhD Admission Latvia", "Latvia Application Process", "Study Abroad Latvia", "International Students Latvia", "Latvia Education", "Latvia Universities", "Latvia Admission Requirements", "Latvia Scholarships", "Latvia Intake 2026", "Latvia Student Application"],
+  title: "Get Latvia University Admission | Step by Step Explanation",
+  description: "Start your Latvia university admission process with expert guidance. Check eligibility, documents, and admission requirements. Apply your Application Now",
+  keywords: ["Latvia University Admission", "Latvia Admission", "Study in Latvia", "Latvia Universities", "Admission in Latvia Universities", "Latvia University Application", "Apply to Latvia Universities", "Latvia Student Admission", "Latvia Higher Education", "Study Abroad Latvia",  "Latvian Universities Admission", "Latvia Admission Requirements", "Latvia University for International Students", "Latvia Education Consultants", "Study in Latvia for Indian Students", "Latvia University Admission Process", "Top Universities in Latvia", "Admission Consultants for Latvia", "Latvia Student Visa", "Study in Europe"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/study/admission"
   },
@@ -19,9 +19,9 @@ export const metadata = {
   url: "https://www.studyinLatvia.in/study/admission/",
   siteName: "Study in Latvia",
   title:
-    "Study in Latvia Admission 2026 | Admission Requirements & Application Process",
+    "Get Latvia University Admission | Step by Step Explanation",
   description:
-    "Learn about Latvia admission requirements, application process, eligibility criteria, required documents and student visa procedures.",
+    "Start your Latvia university admission process with expert guidance. Check eligibility, documents, and admission requirements. Apply your Application Now ",
   images: [
     {
       url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
@@ -206,7 +206,7 @@ const page = () => {
       "@id":
         "https://www.studyinLatvia.in/study/admission/#image",
       contentUrl:
-        "https://www.studyinLatvia.in/wp-content/uploads/study-in-Latvia-admission.jpg",
+        "https://www.studyinLatvia.in/images/study/study.webp",
       caption:
         "Admission Process for International Students in Latvia",
       representativeOfPage: true,

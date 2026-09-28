@@ -1,9 +1,9 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 
 export const metadata = {
-  title: "Latvian Language Guide  | Official Language of Latvia, Usage & Student Life",
-  description: "Learn about the Latvian language, the official language of Latvia and one of the oldest living Indo-European languages. Discover its importance, usage in daily life, English proficiency, and language opportunities for international students studying in Latvia.",
-  keywords: ["Latvian Language", "Official Language of Latvia", "Language in Latvia", "Latvian Speaking Population", "Study in Latvia Language", "English in Latvia", "Latvia Language Guide", "Latvian Culture and Language", "Latvian for International Students", "Latvia Education Language", "Baltic Languages", "Indo-European Languages", "Latvian Communication", "Latvia Student Life", "Learn Latvian", "Latvia Language Course", "Latvian Heritage", "Latvia Living Guide", "Latvia for International Students", "Latvian Language Facts"],
+  title: "Latvian Language Guide for Indian Students",
+  description: "Learn about the Latvian Language, its importance for Indian students, daily communication, and study opportunities in Latvia.  Get the guide you need now.",
+  keywords: ["Latvian Language", "Latvia Language", "Official Language of Latvia", "Learn Latvian Language", "Latvian Language for International Students", "Study in Latvia", "Latvian Language Guide", "Languages Spoken in Latvia", "Education in Latvia", "Study Abroad Latvia"],
   alternates: {
     canonical:"https://www.studyinlatvia.in/latvia/language"
   },
@@ -17,9 +17,9 @@ export const metadata = {
     url: "https://www.studyinlatvia.in/latvia/language/",
     siteName: "Study in Latvia",
     title:
-      "Latvian Language Guide 2026 | Official Language of Latvia, Usage & Student Life",
+      "Latvian Language Guide for Indian Students",
     description:
-      "Discover the Latvian language, its history, significance, English usage, and language opportunities for international students studying in latvia.",
+      "Learn about the Latvian Language, its importance for Indian students, daily communication, and study opportunities in Latvia.  Get the guide you need now.",
     images: [
       {
         url: "https://www.studyinlatvia.in/images/logos/logo.webp",
@@ -30,9 +30,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "latvian Language Guide 2026 | Official Language of latvia, Usage & Student Life",
+      "Latvian Language Guide for Indian Students",
     description:
-      "Discover the latvian language, its history, significance, English usage, and language opportunities for international students studying in latvia.",
+      "Learn about the Latvian Language, its importance for Indian students, daily communication, and study opportunities in Latvia.  Get the guide you need now.",
     images: [
       "https://www.studyinlatvia.in/images/logos/logo.webp",
     ],

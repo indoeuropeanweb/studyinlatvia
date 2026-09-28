@@ -142,7 +142,6 @@ export default async function BlogPage({ params }) {
     <>
     <section className="py-10 px-5">
       <div className="container mx-auto max-w-4xl">
-
         <Image
           src={blog.image}
           alt={blog.title}
@@ -150,17 +149,13 @@ export default async function BlogPage({ params }) {
           width={720}
           height={540}
         />
-
         <h1 className="text-4xl font-bold font-aino mt-8">
           {blog.title}
         </h1>
-
         <p className="text-gray-500 mt-4 text-inter text-justify">
           {blog.date}
         </p>
-
       {blog.sections.map((section, index) => {
-
         if (section.type === "image") {
           return (
             <Image
@@ -173,7 +168,6 @@ export default async function BlogPage({ params }) {
             />
           );
         }
-
         if (section.type === "heading") {
           return (
             <h2
@@ -184,7 +178,6 @@ export default async function BlogPage({ params }) {
             </h2>
           );
         }
-
         if (section.type === "subheading") {
           return (
             <h3
@@ -195,7 +188,6 @@ export default async function BlogPage({ params }) {
             </h3>
           );
         }
-
         if (section.type === "paragraph") {
           return (
             <p
@@ -213,7 +205,7 @@ export default async function BlogPage({ params }) {
                         <Link
                           key={i}
                           href={item.href}
-                          className="text-primary font-medium hover:underline"
+                          target={item.target === true ? "_blank": "_self"}                          className="text-primary font-medium hover:underline"
                         >
                           {item.text}
                         </Link>
@@ -226,7 +218,6 @@ export default async function BlogPage({ params }) {
             </p>
           );
         }
-
       if (section.type === "list") {
         return (
           <ul
@@ -248,10 +239,8 @@ export default async function BlogPage({ params }) {
           </ul>
         );
       }
-
       return null;
     })}
-
         <div className="mt-10">
           {blog?.faqs?.length > 0 && <h2 className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-primary mb-5">
             FAQs
@@ -269,7 +258,6 @@ export default async function BlogPage({ params }) {
             </div>
           ))}
         </div>
-
       </div>
     </section>
       <Script

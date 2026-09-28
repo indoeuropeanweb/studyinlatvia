@@ -4,11 +4,11 @@ import { IoIosArrowForward } from 'react-icons/io'
 import Script from 'next/script'
 
 export const metadata = {
-  title: "Master’s Programs in Latvia  | Study Master's Degree in Latvia for Indian Students",
-  description: "Study Master's programs in Latvia with affordable tuition fees, English-taught courses, scholarships, and globally recognized degrees.",
-  keywords: ["Masters in Latvia", "Master's Programs Latvia", "Study Masters in Latvia", "Postgraduate Courses Latvia", "MSc in Latvia", "MBA in Latvia", "Engineering Masters Latvia", "IT Masters Latvia", "Business Masters Latvia", "Latvia Universities", "Latvia Higher Education", "International Students Latvia", "English Taught Masters Latvia", "Study Abroad Latvia", "Latvia Scholarships", "Affordable Masters Europe", "Latvia Student Visa", "Latvia Education", "Masters Degree Europe", "Postgraduate Study Latvia"],
+  title: "Best Master's Degrees in Latvia: Get Fees and Admission Tips",
+  description: "Study in Latvia for your master's degree. Learn about Admission needs, affordable fees and Visa. Start your application and find program at a top university today.",
+  keywords: ["master's degree in Latvia", "Masters in Latvia", "Study Masters in Latvia", "Latvia Masters Programs", "Master's Degree in Latvia for International Students", "Latvia Universities", "Study in Latvia", "Affordable Masters in Europe", "Latvia Student Visa", "Masters Admission Latvia", "Scholarships in Latvia", "Higher Education Latvia", "Indian Students in Latvia", "Study Abroad Latvia", "Masters Courses in Latvia"],
   alternates: {
-    canonical: "https://www.studyinLatvia.in/study/programmes/masters"
+    canonical: "https://www.studyinLatvia.in/study/masters"
   },
   robots: {
     index: true,
@@ -16,12 +16,12 @@ export const metadata = {
   },
     openGraph: {
     type: "website",
-    url: "https://www.studyinLatvia.in/study/programmes/masters/",
+    url: "https://www.studyinLatvia.in/study/masters/",
     siteName: "Study in Latvia",
     title:
-      "Master's Programs in Latvia 2026 | Study Master's Degree in Latvia",
+      "Best Master's Degrees in Latvia: Get Fees and Admission Tips",
     description:
-      "Explore Master's programs in Latvia including tuition fees, scholarships, admission requirements, and top universities.",
+      "Study in Latvia for your master's degree. Learn about Admission needs, affordable fees and Visa. Start your application and find program at a top university today.",
     images: [
       {
         url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
@@ -36,9 +36,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Master's Programs in Latvia 2026 | Study Master's Degree in Latvia",
+      "Best Master's Degrees in Latvia: Get Fees and Admission Tips",
     description:
-      "Explore Master's programs in Latvia including tuition fees, scholarships, admission requirements, and top universities.",
+      "Study in Latvia for your master's degree. Learn about Admission needs, affordable fees and Visa. Start your application and find program at a top university today.",
     images: [
       "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
     ],
@@ -78,9 +78,9 @@ const page = () => {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinLatvia.in/study/programmes/masters/#webpage",
+        "https://www.studyinLatvia.in/study/masters/#webpage",
       url:
-        "https://www.studyinLatvia.in/study/programmes/masters/",
+        "https://www.studyinLatvia.in/study/masters/",
       name: "Master's Programs in Latvia",
       description:
         "Explore Master's degree programs in Latvia for international students including admission requirements, tuition fees, scholarships and career opportunities.",
@@ -92,9 +92,9 @@ const page = () => {
     {
       "@type": "CollectionPage",
       "@id":
-        "https://www.studyinLatvia.in/study/programmes/masters/#collectionpage",
+        "https://www.studyinLatvia.in/study/masters/#collectionpage",
       url:
-        "https://www.studyinLatvia.in/study/programmes/masters/",
+        "https://www.studyinLatvia.in/study/masters/",
       name: "Master's Programs in Latvia",
       description:
         "Browse Master's degree programs offered by Latvian universities for international students.",
@@ -102,14 +102,14 @@ const page = () => {
     {
       "@type": "Article",
       "@id":
-        "https://www.studyinLatvia.in/study/programmes/masters/#article",
+        "https://www.studyinLatvia.in/study/masters/#article",
       headline:
         "Master's Programs in Latvia for International Students",
       description:
         "Comprehensive guide to Master's studies in Latvia including universities, tuition fees, scholarships, admission requirements and career opportunities.",
       mainEntityOfPage: {
         "@id":
-          "https://www.studyinLatvia.in/study/programmes/masters/#webpage",
+          "https://www.studyinLatvia.in/study/masters/#webpage",
       },
       publisher: {
         "@id": "https://www.studyinLatvia.in/#organization",
@@ -144,14 +144,14 @@ const page = () => {
           "@type": "ListItem",
           position: 3,
           name: "Programmes",
-          item: "https://www.studyinLatvia.in/study/programmes/",
+          item: "https://www.studyinLatvia.in/study/",
         },
         {
           "@type": "ListItem",
           position: 4,
           name: "Master's",
           item:
-            "https://www.studyinLatvia.in/study/programmes/masters/",
+            "https://www.studyinLatvia.in/study/masters/",
         },
       ],
     },
@@ -200,7 +200,7 @@ const page = () => {
     {
       "@type": "ImageObject",
       "@id":
-        "https://www.studyinLatvia.in/study/programmes/masters/#image",
+        "https://www.studyinLatvia.in/study/masters/#image",
       contentUrl:
         "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
       caption:
@@ -224,7 +224,7 @@ const page = () => {
           destination for postgraduate studies.</p>
         <div className='mt-10'>
           <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Master's Courses in Latvia</h2>
-          <p className='text-base font-inter mt-3'>Master's degree programmes in Latvia generally last 1.5 to 2 years, depending on the
+          <p className='text-base font-inter mt-3'>Master's courses in Latvia generally last 1.5 to 2 years, depending on the
             university and field of study.</p>
           <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Popular Master's Courses</h2>
           <ul className='mt-5 space-y-2'>
@@ -244,7 +244,7 @@ const page = () => {
         </div>
         <div className='mt-10'>
             <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Eligibility Requirements</h2>
-            <p className='text-base font-inter mt-3'>Students applying for a Master's degree in Latvia generally need:</p>
+            <p className='text-base font-inter mt-3'>Students applying for a Master's course in Latvia generally need:</p>
             <ul className='mt-5 space-y-2'>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;A recognised Bachelor's degree</li>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Academic transcripts and certificates</li>

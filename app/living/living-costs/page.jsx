@@ -5,9 +5,9 @@ import Image from "next/image";
 
 
 export const metadata = {
-  title: "Cost of Living in Latvia  | Student Expenses, Accommodation & Monthly Budget",
-  description: "Discover the cost of living in Latvia for international students, including accommodation, food, transportation, utilities, and monthly expenses. Learn how Latvia offers an affordable European lifestyle with excellent student benefits",
-  keywords: ["Cost of Living in Latvia", "Latvia Living Costs", "Student Expenses Latvia", "Living Expenses Latvia", "Study in Latvia Cost", "Latvia Monthly Budget", "Accommodation Cost Latvia", "Food Cost Latvia", "Transportation Cost Latvia", "International Students Latvia", "Latvia Student Life", "Affordable Living Europe", "Latvia Cost of Living for Students", "Latvia Daily Expenses", "Latvia Student Budget", "Latvia Living Guide", "Latvia Education Costs", "Latvia Housing Costs", "Latvia Affordable Study Destination", "Living in Latvia"],
+  title: "Cost of Living in Latvia for Students: Budget Guide by Expert",
+  description: "Explore the Cost of Living in Latvia for Indian students, including accommodation, food, transport, utilities, and monthly expenses. Apply  & start your Journey now.",
+  keywords: ["Cost of Living in Latvia, Latvia Living Cost", "Cost of Living in Latvia for International Students", "Living Expenses in Latvia", "Accommodation in Latvia", "Student Accommodation in Latvia", "Rent in Latvia", "Monthly Cost of Living in Latvia", "Latvia Student Budget", "Housing in Latvia", "Study in Latvia", "Latvia Education", "International Students in Latvia", "Affordable Living in Latvia", "Student Life in Latvia"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/living/living-costs"
   },
@@ -20,9 +20,9 @@ export const metadata = {
     url: "https://www.studyinLatvia.in/living/living-costs/",
     siteName: "Study in Latvia",
     title:
-      "Cost of Living in Latvia 2026 | Student Expenses, Accommodation & Monthly Budget",
+      "Cost of Living in Latvia for Students: Budget Guide by Expert",
     description:
-      "Explore living costs in Latvia including accommodation, food, transportation, utilities and monthly student expenses.",
+      "Explore the Cost of Living in Latvia for Indian students, including accommodation, food, transport, utilities, and monthly expenses. Apply  & start your Journey now.",
     images: [
       {
         url: "https://www.studyinLatvia.in/images/living/living-cost/living-cost.webp",
@@ -37,9 +37,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Cost of Living in Latvia 2026 | Student Expenses, Accommodation & Monthly Budget",
+      "Cost of Living in Latvia for Students: Budget Guide by Expert",
     description:
-      "Explore living costs in Latvia including accommodation, food, transportation, utilities and monthly student expenses.",
+      "Explore the Cost of Living in Latvia for Indian students, including accommodation, food, transport, utilities, and monthly expenses. Apply  & start your Journey now.",
     images: [
       "https://www.studyinLatvia.in/images/living/living-cost/living-cost.webp",
     ],

@@ -4,9 +4,9 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 
 export const metadata = {
-    title: "Lifestyle and Character of Latvia | Culture, Values, Student Life & Living Experience",
-    description: "Explore the lifestyle and character of Latvia, including its friendly people, safety, work-life balance, modern European lifestyle, student-friendly environment, cultural values, and quality of life for international students. latvia offers a peaceful, affordable, and welcoming atmosphere in the heart of Europe.",
-    keywords: ["Latvia lifestyle", "Latvia character", "life in Latvia", "Latvia people", "Latvia student life", "Latvia quality of life", "Latvia culture and lifestyle", "living in Latvia", "Latvia work life balance", "Latvia international students", "Latvia safety", "Latvia European lifestyle", "Latvia society", "Latvia living experience", "Latvia student experience", "Latvia affordable living", "Latvia friendly people", "Latvia modern lifestyle", "study in Latvia", "Latvia daily life"],
+    title: "Study in Latvia: Monthly Living Costs for Indian Students",
+    description: "Discover the cost of living in Latvia for international students, including accommodation, food, transportation, healthcare, and monthly expenses. for more Contact us",
+    keywords: ["cost of living in Latvia", "Latvia living expenses", "cost of living in Latvia for international students", "monthly expenses in Latvia", "student budget in Latvia", "accommodation cost in Latvia", "food cost in Latvia", "transportation cost in Latvia", "study in Latvia", "living in Latvia", "Latvia student expenses", "study in Latvia for Indian students", "Latvia education consultants", "study abroad Latvia"],
     alternates: {
         canonical: "https://www.studyinlatvia.in/latvia/life-style-and-character"
     },

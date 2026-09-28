@@ -2,9 +2,9 @@ import Breadcrumb from '../components/Breadcrumb';
 import { Testimonials } from "@/public/data/testimonials";
 
 export const metadata = {
-  title: "Student Success Stories & Video Reviews | Study in Latvia Centre",
-  description: "Hear directly from students who successfully secured admissions, scholarships, and visas to study in Latvia. Watch their video reviews and explore moments from their international education journey.",
-  keywords: ["Study in Latvia Centre reviews", "student success stories Latvia", "Latvia student video reviews", "Latvia visa success stories", "Latvia scholarship success", "Indian students in Latvia", "study in Latvia testimonials", "Latvia admission success", "study abroad student reviews", "Latvia education journey"],
+  title: "Latvia Student Life | Gallery of Student Experiences & Campus Life",
+  description: "Explore Latvia Student Life through our gallery featuring university campuses, student events, cultural experiences, accommodation, and daily life in Latvia.",
+  keywords: ["Latvia Student Life", "Study in Latvia", "Student Life in Latvia", "Latvia University Campus", "International Students in Latvia", "Study Abroad Latvia", "Latvia Student Experience", "Latvia Education", "Student Gallery Latvia"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/gallery"
   },
@@ -15,9 +15,9 @@ export const metadata = {
   openGraph: {
   type: "website",
   title:
-    "Student Success Stories & Video Reviews | Study in Latvia Centre",
+    "Latvia Student Life | Gallery of Student Experiences & Campus Life",
   description:
-    "Watch real student video reviews and success stories from students studying in Latvia.",
+    "Explore Latvia Student Life through our gallery featuring university campuses, student events, cultural experiences, accommodation, and daily life in Latvia.",
   url: "https://www.studyinLatvia.in/gallery/",
   siteName: "Study in Latvia Centre",
   images: [
@@ -33,9 +33,9 @@ export const metadata = {
 twitter: {
   card: "summary_large_image",
   title:
-    "Student Success Stories & Video Reviews | Study in Latvia Centre",
+    "Latvia Student Life | Gallery of Student Experiences & Campus Life",
   description:
-    "Watch student success stories and video reviews.",
+    "Explore Latvia Student Life through our gallery featuring university campuses, student events, cultural experiences, accommodation, and daily life in Latvia.",
   images: [
     "https://www.studyinLatvia.in/images/logos/logo.png",
   ],

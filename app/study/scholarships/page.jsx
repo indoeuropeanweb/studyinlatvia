@@ -3,9 +3,9 @@ import { IoIosArrowForward } from 'react-icons/io'
 
 
 export const metadata = {
-  title: "Scholarships in Latvia  | Study Grants, Tuition Waivers & Funding for indian Students",
-  description: "Explore scholarships in Latvia for international students, including tuition fee waivers, government grants, university scholarships, and financial aid opportunities for Bachelor's, Master's, and PhD programs.",
-  keywords: ["Scholarships in Latvia", "Latvia Scholarships", "Study in Latvia Scholarships", "Latvia Government Scholarships", "Latvia University Scholarships", "International Student Scholarships Latvia", "Bachelor's Scholarships Latvia", "Master's Scholarships Latvia", "PhD Scholarships Latvia", "Tuition Fee Waiver Latvia", "Financial Aid Latvia", "VILNIUS TECH Scholarship", "Vilnius University Scholarship", "Study Abroad Scholarships", "European Scholarships", "Latvia Education Funding", "Latvia Study Grants", "Fully Funded Scholarships Latvia", "Merit Scholarships Latvia", "International Students Latvia"],
+  title: "Study in Latvia: Top Scholarships for Indian Students",
+  description: "Find the best scholarships in Latvia for Indian students. Check eligibility, funding, and application steps. Start your degree for less today.",
+  keywords: ["Scholarships in Latvia", "Latvia scholarships", "Scholarships in Latvia for Indian students", "Study in Latvia scholarships", "Latvia government scholarships", "University scholarships in Latvia", "Scholarships for international students in Latvia", "Fully funded scholarships in Latvia", "Financial aid Latvia", "Latvia education scholarships", "Study abroad scholarships Latvia", "Latvian university scholarships"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/study/scholarships"
   },
@@ -19,9 +19,9 @@ export const metadata = {
     url: "https://www.studyinLatvia.in/study/scholarships/",
     siteName: "Study in Latvia",
     title:
-      "Scholarships in Latvia 2026 | Study Grants, Tuition Waivers & Funding",
+      "Study in Latvia: Top Scholarships for Indian Students",
     description:
-      "Discover scholarships, grants, tuition fee waivers and financial aid opportunities for international students studying in Latvia.",
+      "Find the best scholarships in Latvia for Indian students. Check eligibility, funding, and application steps. Start your degree for less today.",
     images: [
       {
         url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",

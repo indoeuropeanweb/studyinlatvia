@@ -3,9 +3,9 @@ import Image from "next/image"
 import { IoIosArrowForward } from "react-icons/io"
 
 export const metadata = {
-  title: "Universities in latvia  | Top latvian Universities for International Students",
-  description: "Explore the top universities in latvia for international students. Compare programs, tuition fees, rankings, admission requirements, scholarships, and study opportunities at leading latvian universities for Bachelor's, Master's, and PhD studies. Supported by globally recognized degrees and English-taught programs",
-  keywords: ["Universities in latvia", "latvia Universities", "Study in latvia Universities", "Top Universities in latvia", "latvian Universities", "latvia Higher Education", "Best Universities in latvia", "Vilnius University", "VILNIUS TECH", "Kaunas University of Technology", "Vytautas Magnus University", "Mykolas Romeris University", "ISM University", "Klaipeda University", "SMK University", "Kauno Kolegija", "Study in Europe", "International Students latvia", "English Taught Programs latvia", "latvia Education"],
+  title: "Study with Top Universities in Latvia for Indian Students",
+  description: "Find the best universities in Latvia for Indian students. We compare top courses, costs, and admission rules. Get expert help to apply now.",
+  keywords: ["Universities in Latvia", "Latvia Universities", "Best Universities in Latvia", "Top Universities in Latvia", "Universities in Latvia for International Students", "Latvia University for Indian Students", "Study in Latvia Universities", "Public Universities in Latvia", "Private Universities in Latvia", "Latvia Higher Education", "Latvia University Admission", "Latvia University Fees", "English Universities in Latvia", "Study in Latvia"],
   alternates: {
     canonical: "https://www.studyinlatvia.in/study/universities"
   },
@@ -19,13 +19,13 @@ export const metadata = {
     url: "https://www.studyinlatvia.in/study/universities/",
     siteName: "Study in latvia",
     title:
-    "Universities in latvia 2026 | Top latvian Universities for International Students",
+    "Study with Top Universities in Latvia for Indian Students",
     description:
-    "Explore the best universities in latvia offering Bachelor's, Master's and PhD programs for international students.",
+    "Find the best universities in Latvia for Indian students. We compare top courses, costs, and admission rules. Get expert help to apply now.",
     images: [
     {
     url: "https://www.studyinlatvia.in/images/study/latvia-01.webp",
-    alt: "Top Universities in latvia",
+    alt: "Universities in latvia",
     },
   ],
 },
@@ -160,6 +160,45 @@ const universitiesData = [
       "Project Management",
     ],
   },
+  {
+    id: 10,
+    name: "Daugavpils University",
+    img_url: "/images/universities/10.webp",
+    rankingRecognition: "One of Latvia's well-established public universities, recognised for its research, teacher education, and international study programmes in science and humanities.",
+    academicStrength: [
+      "Education",
+      "Biology",
+      "Environmental Science",
+      "Computer Science",
+      "Business Administration"
+    ]
+  },
+  {
+    id: 11,
+    name: "Ventspils University of Applied Sciences",
+    img_url: "/images/universities/11.webp",
+    rankingRecognition: "A modern public university known for its practical learning approach, international partnerships, and strong focus on digital technologies and business education.",
+    academicStrength: [
+      "Information Technology",
+      "Translation Studies",
+      "Business Administration",
+      "Electronics",
+      "International Management"
+    ]
+  },
+  {
+    id: 12,
+    name: "EKA University of Applied Sciences",
+    img_url: "/images/universities/12.webp",
+    rankingRecognition: "A leading private university in Latvia offering career-focused education with emphasis on business, technology, and creative industries.",
+    academicStrength: [
+      "Business Management",
+      "Information Technology",
+      "Marketing",
+      "Design",
+      "Entrepreneurship"
+    ]
+  }
 ];
 
 const schema = {
@@ -346,9 +385,9 @@ const schema = {
           <h2 className="font-aino text-2xl md:text-4xl">Discover Leading Universities in Latvia</h2>
           <div className="mt-5">
                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {universitiesData.map((university) => (
+                    {universitiesData?.map((university, index) => (
                     <div
-                      key={university.id}
+                      key={index}
                       className="group relative overflow-hidden rounded-3xl bg-white border border-gray-100 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
                     >
                       <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-primary via-secondary to-tertiary" />
@@ -393,7 +432,7 @@ const schema = {
                           </div>
 
                           <div className="flex flex-wrap gap-2">
-                            {university.academicStrength.map((course, index) => (
+                            {university?.academicStrength?.map((course, index) => (
                               <span
                                 key={index}
                                 className="px-3 py-1.5 text-xs font-medium rounded-full

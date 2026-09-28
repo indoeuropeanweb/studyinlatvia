@@ -5,9 +5,9 @@ import Image from "next/image";
 
 
 export const metadata = {
-  title: "Working in Latvia  | Student Jobs, Part-Time Work & Career Opportunities",
-  description: "Discover working opportunities in Latvia for international students, including part-time jobs, work rights, salaries, internships, and post-study employment opportunities.",
-  keywords: ["Working in Latvia", "Student Jobs Latvia", "Part Time Jobs Latvia", "Work While Studying Latvia", "Latvia Student Employment", "Jobs in Latvia for International Students", "Latvia Work Permit", "Latvia Career Opportunities", "Latvia Internship Opportunities", "Latvia Graduate Jobs", "Latvia Student Work Rights", "Latvia Job Market", "Latvia Employment Guide", "Work in Europe", "Latvia Post Study Work", "Latvia Work and Study", "Latvia Student Life", "Latvia Salaries", "International Students Latvia", "Latvia Career Development"],
+  title: "Study and Work Opportunities in Latvia for Indian Students",
+  description: "Explore study and work opportunities in Latvia for Indian student. Discover pay scales, permit laws, and how to land your first role. Apply and Contact Us Now",
+  keywords: ["Work Opportunities in Latvia", "Work Opportunities in Latvia for International Students", "Jobs in Latvia", "Part Time Jobs in Latvia", "Study and Work in Latvia", "Latvia Work Permit", "Post Study Work in Latvia", "Student Jobs in Latvia", "Career Opportunities in Latvia", "Working in Latvia", "Latvia Employment", "Jobs in Latvia for Indian Students"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/living/working"
   },
@@ -20,9 +20,9 @@ export const metadata = {
     url: "https://www.studyinLatvia.in/living/working/",
     siteName: "Study in Latvia",
     title:
-      "Working in Latvia 2026 | Student Jobs, Part-Time Work & Career Opportunities",
+      "Study and Work Opportunities in Latvia for Indian Students",
     description:
-      "Explore student jobs, internships, work rights, salaries and career opportunities in Latvia for international students.",
+      "Explore study and work opportunities in Latvia for Indian student. Discover pay scales, permit laws, and how to land your first role. Apply and Contact Us Now",
     images: [
       {
         url: "https://www.studyinLatvia.in/images/living/working/working.webp",
@@ -37,9 +37,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Working in Latvia 2026 | Student Jobs, Part-Time Work & Career Opportunities",
+      "Study and Work Opportunities in Latvia for Indian Students",
     description:
-      "Explore student jobs, internships, work rights, salaries and career opportunities in Latvia for international students.",
+      "Explore study and work opportunities in Latvia for Indian student. Discover pay scales, permit laws, and how to land your first role. Apply and Contact Us Now",
     images: [
       "https://www.studyinLatvia.in/images/living/working/working.webp",
     ],

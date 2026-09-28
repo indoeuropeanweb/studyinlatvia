@@ -3,9 +3,9 @@ import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
 
 export const metadata = {
-  title: "Nature and Climate of Latvia | Weather, Seasons & Student Life",
-  description: "Explore Latvia's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in latvia",
-  keywords: ["Latvia nature and climate", "Latvia weather", "climate in Latvia", "Latvia seasons", "Latvia forests", "Latvia lakes", "Latvia environment", "Latvia student life", "study in Latvia", "Latvia weather for students"],
+  title: "Latvia Climate Guide: What Indian Students Should Know",
+  description: "Explore Latvia climate, seasonal weather, and temperatures throughout the year. Learn what international students can expect in every season.",
+  keywords: ["Latvia Climate", "Climate in Latvia", "Latvia Weather", "Latvia Seasons", "Weather in Latvia", "Latvia Temperature", "Latvia Nature and Climate", "Study in Latvia", "Latvia Climate for International Students", "Latvia Winter", "Latvia Summer", "Latvia Weather Guide, Latvia Environment", "Living in Latvia", "Study Abroad Latvia"],
   alternates: {
     canonical: "https://www.studyinlatvia.in/latvia/nature-and-climate"
   },
@@ -16,9 +16,9 @@ export const metadata = {
     openGraph: {
     type: "article",
     title:
-      "Nature and Climate of latvia | Weather, Seasons & Student Life",
+      "Latvia Climate Guide: What Indian Students Should Know",
     description:
-      "Explore latvia's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in latvia.",
+      "Explore Latvia climate, seasonal weather, and temperatures throughout the year. Learn what international students can expect in every season.",
     url: "https://www.studyinlatvia.in/latvia/nature-and-climate/",
     siteName: "Study in latvia",
     images: [
@@ -34,9 +34,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Nature and Climate of latvia | Weather, Seasons & Student Life",
+      "Latvia Climate Guide: What Indian Students Should Know",
     description:
-      "Explore latvia's nature and climate, from beautiful forests and lakes to its four distinct seasons.",
+      "Explore Latvia climate, seasonal weather, and temperatures throughout the year. Learn what international students can expect in every season.",
     images: [
       "https://www.studyinlatvia.in/images/nature-and-weather/nature-and-weather.webp",
     ],
