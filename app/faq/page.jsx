@@ -5,7 +5,20 @@ import FAQ from '../components/FAQ';
 export const metadata = {
   title: "Study in Latvia Consultant: Expert FAQ Guide for Indian Students",
   description: "Get clear facts from a study in Latvia consultant. Our FAQ helps Indian students with costs, permits, and top university. See how to move to Latvia now.",
-  keywords: ["Study In Latvia Consultants", "Latvia Study Consultants", "Study In Latvia", "Latvia Education Consultants", "Latvia Student Visa Consultants", "Study Abroad Consultants", "Latvia Universities", "Study In Latvia For Indian Students", "Latvia Admission Consultants", "Latvia Scholarships", "Latvia Student Visa", "Study In Europe Consultants"],
+  keywords: [
+      "Study In Latvia Consultants",
+      "Latvia Study Consultants",
+      "Study In Latvia",
+      "Latvia Education Consultants",
+      "Latvia Student Visa Consultants",
+      "Study Abroad Consultants",
+      "Latvia Universities",
+      "Study In Latvia For Indian Students",
+      "Latvia Admission Consultants",
+      "Latvia Scholarships",
+      "Latvia Student Visa",
+      "Study In Europe Consultants"
+  ],
   alternates: {
     canonical: "https://www.studyinLatvia.in/faq"
   },
@@ -19,7 +32,7 @@ export const metadata = {
       "Study in Latvia Consultant: Expert FAQ Guide for Indian Students",
     description:
       "Get clear facts from a study in Latvia consultant. Our FAQ helps Indian students with costs, permits, and top university. See how to move to Latvia now.",
-    url: "https://www.studyinLatvia.in/faq/",
+    url: "https://www.studyinLatvia.in/faq",
     siteName: "Study in Latvia Centre",
     images: [
       {

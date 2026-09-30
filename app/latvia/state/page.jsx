@@ -10,11 +10,11 @@ export const metadata = {
   alternates: {
     canonical: "https://www.studyinlatvia.in/latvia/state"
   },
-      robots: {
+  robots: {
     index: true,
     follow: true,
   },
-     openGraph: {
+    openGraph: {
     type: "website",
     title:
       "Best State Universities in Latvia for Indian Students",

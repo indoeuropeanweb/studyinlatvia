@@ -3,7 +3,18 @@ import HomeClient from "./HomeClient";
 export const metadata = {
   title: "Study in Latvia Consultant | Top Universities, Student Visa & Admission",
   description: "Study in Latvia consultant. We provide clear steps by step for top university Admission and visa approvals. Check out our top University lists and apply today.",
-  keywords: ["Study in Latvia", "Study in Latvia for Indian Students", "Latvia Universities", "Study Abroad Latvia", "Latvia Student Visa", "Latvia Education Consultants", "Universities in Latvia", "Study in Europe", "Latvia Admission", "Latvia Scholarships"],
+  keywords: [  
+  "Study in Latvia",
+  "Study in Latvia for Indian Students",
+  "Latvia Universities",
+  "Study Abroad Latvia",
+  "Latvia Student Visa",
+  "Latvia Education Consultants",
+  "Universities in Latvia",
+  "Study in Europe",
+  "Latvia Admission",
+  "Latvia Scholarships"
+],
   alternates: {
     canonical: "https://www.studyinlatvia.in"
   },

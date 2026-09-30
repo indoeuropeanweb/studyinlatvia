@@ -4,158 +4,169 @@ import Breadcrumb from "../components/Breadcrumb";
 import Image from "next/image";
 
 
-export const metadata = {
-  title: "Best Study in Latvia Consultants Blog: By Our Top Expert Advice",
-  description: "Explore Study in Latvia Consultants Blogs for expert advice on Latvian universities, student visas, admissions, scholarships, living costs, and student life.",
-  keywords: ["Study in Latvia Consultants Blogs", "Study in Latvia Blogs", "Latvia Study Abroad Blogs", "Study in Latvia Consultants", "Latvia Universities", "Latvia Student Visa", "Study in Latvia for Indian Students", "Latvia Scholarships", "Latvia Admission Process", "Study Abroad Consultants"],
-  alternates: {
-    canonical: "https://www.studyinlatvia.in/blogs/"
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-    openGraph: {
-    type: "website",
-    url: "https://www.studyinlatvia.in/blogs/",
-    title:
-      "Best Study in Latvia Consultants Blog: By Our Top Expert Advice",
-    description:
-      "Explore Study in Latvia Consultants Blogs for expert advice on Latvian universities, student visas, admissions, scholarships, living costs, and student life.",
-    siteName: "Study in latvia",
-    locale: "en_US",
-    images: [
+  export const metadata = {
+    title: "Best Study in Latvia Consultants Blog: By Our Top Expert Advice",
+    description: "Explore Study in Latvia Consultants Blogs for expert advice on Latvian universities, student visas, admissions, scholarships, living costs, and student life.",
+    keywords: [
+        "Study in Latvia Consultants Blogs",
+        "Study in Latvia Blogs",
+        "Latvia Study Abroad Blogs",
+        "Study in Latvia Consultants",
+        "Latvia Universities",
+        "Latvia Student Visa",
+        "Study in Latvia for Indian Students",
+        "Latvia Scholarships",
+        "Latvia Admission Process",
+        "Study Abroad Consultants"
+    ],
+    alternates: {
+      canonical: "https://www.studyinlatvia.in/blogs/"
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+      openGraph: {
+      type: "website",
+      url: "https://www.studyinlatvia.in/blogs/",
+      title:
+        "Best Study in Latvia Consultants Blog: By Our Top Expert Advice",
+      description:
+        "Explore Study in Latvia Consultants Blogs for expert advice on Latvian universities, student visas, admissions, scholarships, living costs, and student life.",
+      siteName: "Study in latvia",
+      locale: "en_US",
+      images: [
+        {
+          url: "https://www.studyinlatvia.in/images/logos/logo.png",
+          width: 1200,
+          height: 630,
+          alt: "International Students Blog Latvia",
+        },
+      ],
+    },
+  }
+
+  export default function Blogs() {
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
       {
-        url: "https://www.studyinlatvia.in/images/logos/logo.png",
-        width: 1200,
-        height: 630,
-        alt: "International Students Blog Latvia",
+        "@type": "Organization",
+        "@id": "https://www.studyinlatvia.in/#organization",
+        name: "Study in latvia",
+        url: "https://www.studyinlatvia.in",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.studyinlatvia.in/wp-content/uploads/logo.png",
+        },
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.studyinlatvia.in/#website",
+        url: "https://www.studyinlatvia.in",
+        name: "Study in latvia",
+        publisher: {
+          "@id": "https://www.studyinlatvia.in/#organization",
+        },
+        potentialAction: {
+          "@type": "SearchAction",
+          target:
+            "https://www.studyinlatvia.in/?s={search_term_string}",
+          "query-input": "required name=search_term_string",
+        },
+      },
+      {
+        "@type": "Blog",
+        "@id": "https://www.studyinlatvia.in/blogs/#blog",
+        url: "https://www.studyinlatvia.in/blogs/",
+        name: "Best Study in Latvia Consultants Blog: By Our Top Expert Advice",
+        description:
+          "Explore Study in Latvia Consultants Blogs for expert advice on Latvian universities, student visas, admissions, scholarships, living costs, and student life.",
+        publisher: {
+          "@id": "https://www.studyinlatvia.in/#organization",
+        },
+        inLanguage: "en",
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.studyinlatvia.in/blogs/#webpage",
+        url: "https://www.studyinlatvia.in/blogs/",
+        name: "Best Study in Latvia Consultants Blog: By Our Top Expert Advice",
+        description:
+          "Explore Study in Latvia Consultants Blogs for expert advice on Latvian universities, student visas, admissions, scholarships, living costs, and student life.",
+        isPartOf: {
+          "@id": "https://www.studyinlatvia.in/#website",
+        },
+        breadcrumb: {
+          "@id": "https://www.studyinlatvia.in/blogs/#breadcrumb",
+        },
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://www.studyinlatvia.in/blogs/#collectionpage",
+        url: "https://www.studyinlatvia.in/blogs/",
+        name: "Best Study in Latvia Consultants Blog: By Our Top Expert Advice",
+        description:
+          "Explore Study in Latvia Consultants Blogs for expert advice on Latvian universities, student visas, admissions, scholarships, living costs, and student life.",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.studyinlatvia.in/blogs/#breadcrumb",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://www.studyinlatvia.in/",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Blogs",
+            item: "https://www.studyinlatvia.in/blogs/",
+          },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "What topics are covered in the Study in latvia Blog?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "The blog covers universities, admissions, scholarships, visas, accommodation, student life, living costs, work opportunities and study abroad guidance.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Are these blogs useful for Indian students?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Yes, the blogs are designed to help Indian students understand the admission process, visa requirements, scholarships and life in latvia.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Can I find scholarship and visa updates on this blog?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Yes, the blog regularly publishes information about scholarships, university deadlines, admissions and visa procedures.",
+            },
+          },
+        ],
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.studyinlatvia.in/blogs/#image",
+        contentUrl:
+          "https://www.studyinlatvia.in/wp-content/uploads/study-in-latvia-blog.jpg",
+        caption: "Study in latvia Blog for International Students",
+        representativeOfPage: true,
       },
     ],
-  },
-}
-
-export default function Blogs() {
-
-const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://www.studyinlatvia.in/#organization",
-      name: "Study in latvia",
-      url: "https://www.studyinlatvia.in",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.studyinlatvia.in/wp-content/uploads/logo.png",
-      },
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlatvia.in/#website",
-      url: "https://www.studyinlatvia.in",
-      name: "Study in latvia",
-      publisher: {
-        "@id": "https://www.studyinlatvia.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlatvia.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
-      "@type": "Blog",
-      "@id": "https://www.studyinlatvia.in/blogs/#blog",
-      url: "https://www.studyinlatvia.in/blogs/",
-      name: "Study in latvia Blog",
-      description:
-        "Educational resources, admission guides, scholarship updates, visa information, student life tips and university insights for international students planning to study in latvia.",
-      publisher: {
-        "@id": "https://www.studyinlatvia.in/#organization",
-      },
-      inLanguage: "en",
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://www.studyinlatvia.in/blogs/#webpage",
-      url: "https://www.studyinlatvia.in/blogs/",
-      name: "Study in latvia Blog",
-      description:
-        "Explore blogs about latvian universities, admissions, scholarships, visas, accommodation, living costs and student life.",
-      isPartOf: {
-        "@id": "https://www.studyinlatvia.in/#website",
-      },
-      breadcrumb: {
-        "@id": "https://www.studyinlatvia.in/blogs/#breadcrumb",
-      },
-    },
-    {
-      "@type": "CollectionPage",
-      "@id": "https://www.studyinlatvia.in/blogs/#collectionpage",
-      url: "https://www.studyinlatvia.in/blogs/",
-      name: "Study in latvia Blogs",
-      description:
-        "Collection of blog articles and study guides for international students.",
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.studyinlatvia.in/blogs/#breadcrumb",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "Home",
-          item: "https://www.studyinlatvia.in/",
-        },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: "Blogs",
-          item: "https://www.studyinlatvia.in/blogs/",
-        },
-      ],
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What topics are covered in the Study in latvia Blog?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The blog covers universities, admissions, scholarships, visas, accommodation, student life, living costs, work opportunities and study abroad guidance.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Are these blogs useful for Indian students?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, the blogs are designed to help Indian students understand the admission process, visa requirements, scholarships and life in latvia.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I find scholarship and visa updates on this blog?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, the blog regularly publishes information about scholarships, university deadlines, admissions and visa procedures.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://www.studyinlatvia.in/blogs/#image",
-      contentUrl:
-        "https://www.studyinlatvia.in/wp-content/uploads/study-in-latvia-blog.jpg",
-      caption: "Study in latvia Blog for International Students",
-      representativeOfPage: true,
-    },
-  ],
-};
+  };
 
   return (
     <>
