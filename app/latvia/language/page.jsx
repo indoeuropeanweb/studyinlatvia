@@ -1,4 +1,6 @@
-import Breadcrumb from '@/app/components/Breadcrumb'
+import Breadcrumb from '@/app/components/Breadcrumb';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Latvian Language Guide for Indian Students",
@@ -12,10 +14,10 @@ export const metadata = {
     follow: true,
   },
     openGraph: {
-    type: "article",
+    type: "website",
     locale: "en_US",
     url: "https://www.studyinlatvia.in/latvia/language/",
-    siteName: "Study in Latvia",
+    siteName: "Study in Latvia Center",
     title:
       "Latvian Language Guide for Indian Students",
     description:
@@ -55,21 +57,6 @@ const page = () => {
       },
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlatvia.in/#website",
-      url: "https://www.studyinlatvia.in",
-      name: "Study in Latvia",
-      publisher: {
-        "@id": "https://www.studyinlatvia.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlatvia.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinlatvia.in/latvia/language/#webpage",
@@ -89,31 +76,6 @@ const page = () => {
           "https://www.studyinlatvia.in/latvia/language/#country",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlatvia.in/latvia/language/#article",
-      headline: "latvian Language",
-      description:
-        "Comprehensive guide to the Latvian language, one of the oldest living Indo-European languages, and its role in education, culture, and everyday life in latvia.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlatvia.in/latvia/language/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlatvia.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Latvia",
-      },
-      datePublished: "2026-06-11",
-      dateModified: "2026-06-11",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinlatvia.in/images/logos/logo.webp",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -140,24 +102,6 @@ const page = () => {
         },
       ],
     },
-    {
-      "@type": "Country",
-      "@id":
-        "https://www.studyinlatvia.in/latvia/language/#country",
-      name: "latvia",
-      description:
-        "Latvian is the official language of Latvia and one of the oldest living Indo-European languages. English is widely spoken among students and young professionals, making latvia an attractive destination for international students.",
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlatvia.in/latvia/language/#image",
-      contentUrl:
-        "https://www.studyinlatvia.in/images/logos/logo.webp",
-      caption:
-        "latvian language, culture and education in latvia",
-      representativeOfPage: true,
-    },
   ],
 };
 
@@ -171,7 +115,12 @@ const page = () => {
          Latvia is a country with a rich linguistic heritage. The country's official language is Latvian. It is one of the oldest languages in the Baltic region and plays an important role in Latvian culture, traditions, and national identity. Latvian is used in government, public services, and everyday communication across the country.
           <br />
          Indian students generally do not have problems communicating, as English is widely spoken, especially by young people, university students, and academic staff. Most universities offer English-taught programs so that Indian students can comfortably study while experiencing the culture and daily life of Latvia. 
+          <br />
+          Indian ‍ ‌‍ ‍‌ students who apart from acquiring knowledge of the local language can also attend a variety of English taught courses at universities of Latvia. A student planning for <Link className='font-semibold hover:underline' href={'/study'}>Study in Latvia</Link> can pick up various degree programmes in a multilingual education and international work environment setting.
         </p>
+        </div>
+        <div className='mt-5 flex justify-end items-center'>
+           <Link className='text-blue-500 hover:underline' href={'/study'}>Read About Study in Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
         </div>
       </div>
       <script

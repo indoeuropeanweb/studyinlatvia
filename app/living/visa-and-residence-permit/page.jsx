@@ -2,7 +2,8 @@ import React from 'react'
 import Breadcrumb from '@/app/components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Latvia Study Visa: Requirements and Residence Permits",
@@ -18,14 +19,14 @@ export const metadata = {
    openGraph: {
     type: "article",
     url: "https://www.studyinLatvia.in/living/visa-and-residence-permit/",
-    siteName: "Study in Latvia",
+    siteName: "Study in Latvia Center",
     title:
       "Latvia Study Visa: Requirements and Residence Permits",
     description:
       "Get your Latvia student visa | Check documents, fees, and wait times for Indian students. Meet our expert to guide you and Start your application process today.",
     images: [
       {
-        url: "https://www.studyinLatvia.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
+        url: "https://www.studyinLatvia.in/images/logos/logo.png",
         width: 1200,
         height: 630,
         alt: "Latvia Student Visa and Residence Permit",
@@ -41,7 +42,7 @@ export const metadata = {
     description:
       "Get your Latvia student visa | Check documents, fees, and wait times for Indian students. Meet our expert to guide you and Start your application process today.",
     images: [
-      "https://www.studyinLatvia.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
+      "https://www.studyinLatvia.in/images/living/logos/logo.png",
     ],
   },
 }
@@ -54,26 +55,11 @@ const page = () => {
     {
       "@type": "Organization",
       "@id": "https://www.studyinLatvia.in/#organization",
-      name: "Study in Latvia",
+      name: "Study in Latvia Center",
       url: "https://www.studyinLatvia.in",
       logo: {
         "@type": "ImageObject",
         url: "https://www.studyinLatvia.in/images/logos/logo.webp",
-      },
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinLatvia.in/#website",
-      url: "https://www.studyinLatvia.in",
-      name: "Study in Latvia",
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinLatvia.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
       },
     },
     {
@@ -93,32 +79,6 @@ const page = () => {
           "https://www.studyinLatvia.in/living/visa-and-residence-permit/#breadcrumb",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinLatvia.in/living/visa-and-residence-permit/#article",
-      headline:
-        "Latvia Student Visa and Residence Permit Guide",
-      description:
-        "Everything international students need to know about Latvia student visas, temporary residence permits, application procedures and immigration requirements.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinLatvia.in/living/visa-and-residence-permit/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Latvia",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinLatvia.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -145,83 +105,6 @@ const page = () => {
             "https://www.studyinLatvia.in/living/visa-and-residence-permit/",
         },
       ],
-    },
-    {
-      "@type": "HowTo",
-      name: "How to Apply for a Latvia Student Visa and Residence Permit",
-      step: [
-        {
-          "@type": "HowToStep",
-          name: "Receive Admission Letter from a Latvian University",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Prepare Required Documents",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Apply for National Visa (D) or TRP",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Submit Biometrics and Supporting Documents",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Receive Visa Approval",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Travel to Latvia and Register Residence",
-        },
-      ],
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "Do international students need a visa to study in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Students from non-EU and non-EEA countries generally need a National Visa (D) or a Temporary Residence Permit to study in Latvia.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What is a Temporary Residence Permit (TRP)?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "A Temporary Residence Permit allows international students to legally reside in Latvia for the duration of their studies and can be renewed when required.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What documents are required for a Latvia student visa?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Students typically need an admission letter, valid passport, proof of financial means, health insurance, accommodation proof, photographs and other supporting documents.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students work while studying in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. International students holding the appropriate residence permit can legally work while studying in Latvia according to current immigration regulations.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinLatvia.in/living/visa-and-residence-permit/#image",
-      contentUrl:
-        "https://www.studyinLatvia.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
-      caption:
-        "Latvia Student Visa and Temporary Residence Permit Guide",
-      representativeOfPage: true,
     },
   ],
 };
@@ -326,6 +209,9 @@ const page = () => {
                   complete the process quickly and concentrate on building a successful academic future in
                   Latvia.</p>
               </div>
+            </div>
+            <div className='mt-5 flex justify-end items-center'>
+              <Link className='text-blue-500 hover:underline' href={'/living/working'}>Read About Working in Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
             </div>
         </div>
         <script

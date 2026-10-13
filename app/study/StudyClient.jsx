@@ -1,6 +1,8 @@
 import Breadcrumb from '../components/Breadcrumb'
 import Image from 'next/image'
 import { IoIosArrowForward } from "react-icons/io";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const StudyClient = () => {
   return (
@@ -8,15 +10,15 @@ const StudyClient = () => {
          <Breadcrumb heading={'Discover​‍​‌‍​‍‌ Your Career Opportunities with College Degree in ​‍​‌‍​‍‌Latvia'}/>
          <div className='py-5 px-5'>
                <h2 className='font-aino text-2xl md:text-4xl'>Study in Latvia – Where European Education Meets Opportunity</h2>
-               <p className='text-justify font-roboto text-lg mt-3'>Latvia has emerged as one of Europe&#39;s most attractive study destinations for international
+               <p className='text-justify font-roboto text-base mt-3'>Latvia has emerged as one of Europe&#39;s most attractive study destinations for international
                 students seeking quality education, affordable costs, and global career opportunities. With
                 internationally recognised universities, English-taught programmes, and a welcoming academic
                 environment, Latvia offers students the chance to earn a valuable European degree while
                 enjoying a high standard of living.<br />Whether you are planning to pursue undergraduate, postgraduate, or research studies, Latvia
                 provides a strong foundation for academic success and professional growth.</p>
-              <div className='mt-2'>
-                <h4 className='text-lg font-inter'>What Makes Latvia an Attractive Study Destination?</h4>
-                <p className='text-base font-inter mt-3'>Students from around the world choose Latvia for its combination of educational excellence,
+              <div className='mt-8'>
+                <h4 className='text-lg font-inter font-semibold'>What Makes Latvia an Attractive Study Destination?</h4>
+                <p className='text-base font-inter'>Students from around the world choose Latvia for its combination of educational excellence,
                   affordability, and international exposure.</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 justify-center mt-4 gap-3'>
                       <ul className='mt-3 space-y-3'>
@@ -29,23 +31,19 @@ const StudyClient = () => {
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Multicultural campuses with international student communities</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Opportunity to travel within the Schengen region</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Growing demand for skilled graduates in various industries</li>
-                      </ul>
-                   <Image className="h-90 w-70 rounded-md" src="/images/study/study.webp" width={240} height={320} alt="study abroad Latvia" />
-                 </div>
-                 <div className=''>
-                  <ul className='mt-3 space-y-3'>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Practical learning and career-focused education</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Access to research, innovation, and technology-driven sectors</li>
-                  </ul>
+                       <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Access to research, innovation, and technology-driven sectors</li>
+                      </ul>
+                   <Image className="h-100 w-80 rounded-md" src="/images/study/study.webp" width={300} height={500} alt="study abroad Latvia" />
                  </div>
                </div>
                <div className='mt-5'>
-                      <h2 className='font-aino text-2xl md:text-4xl my-5'>Why Study at Universities in Latvia?</h2>
+                      <h2 className='font-aino text-2xl md:text-4xl mt-8'>Why Study at Universities in Latvia?</h2>
                       <p className='font-inter text-base'>Latvian universities are known for delivering high-quality education that combines academic knowledge with real-world application.</p>
                       <ul className='space-y-3 mt-5'>
                           <li className='font-roboto text-justify'>
                             <h4 className='text-lg font-roboto font-semibold'>Globally Recognised Education</h4>
-                            <p className='text-base font-inter text-justify'>Universities in Latvia follow European higher education standards, ensuring degrees are
+                            <p className='text-base font-inter text-justify'><Link className="font-semibold hover:underline" href={'/study/universities'}>Universities in Latvia</Link> follow European higher education standards, ensuring degrees are
                               respected by employers and institutions worldwide.</p>
                           </li>
                           <li className='font-roboto text-justify'>
@@ -67,10 +65,13 @@ const StudyClient = () => {
                </div>
                <div className='my-5'>
                     <h2 className='font-aino text-2xl md:text-4xl my-3'>Build Your Future in Europe</h2>
-                    <p className='text-lg font-inter'>Studying in Latvia is more than earning a degree—it&#39;s an opportunity to gain international
+                    <p className='text-base font-inter'>Studying in Latvia is more than earning a degree—it&#39;s an opportunity to gain international
                       exposure, develop professional skills, and experience life in a modern European country. With
                       quality education, affordable study options, and strong career prospects, Latvia continues to
                       attract ambitious students looking to build a successful global future.</p>
+               </div>
+               <div className='mt-5 flex justify-end items-center'>
+                  <Link className='text-blue-500 hover:underline' href={'/study/universities'}>Read About Latvia Universities&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
                </div>
          </div>
       </>

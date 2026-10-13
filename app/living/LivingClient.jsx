@@ -2,6 +2,8 @@ import React from 'react'
 import Breadcrumb from '../components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const LivingClient = () => {
   return (
@@ -15,7 +17,7 @@ const LivingClient = () => {
                 lifestyle in one of the best and most deserving destinations. With classy cities, smooth public
                 transport, digital facilities, and a reliable environment, learners may easily adapt to regular life
                 while maintaining their concentration on studies.<br />
-                Living in Latvia allows students to experience European culture without the high costs of
+                <Link className="font-semibold hover:underline" href="/living/accommodation">Accommodation in Latvia</Link> allows students to experience European culture without the high costs of
                 coordinating with several Western European countries. Affordable accommodation, manageable
                 living expenses, and student discounts make Latvia an attractive choice for those searching for
                 quality education and a lifestyle that can be easily balanced. <br />Additionally, international students may have the opportunity to work part-time to gain practical
@@ -51,6 +53,9 @@ const LivingClient = () => {
                   campus amenities, and settle comfortably into their new life.<br />Learners may study and live in Latvia and enjoy the secure European lifestyle while acquiring
                   the academic and professional skills for future success.</p>
             </div>
+        <div className='mt-5 flex justify-end items-center'>
+           <Link className='text-blue-500 hover:underline' href={'/living/accommodation'}>Read About Accommodation in Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+        </div>
         </div>
     </>
   )

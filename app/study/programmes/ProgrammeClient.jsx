@@ -12,6 +12,8 @@ import useFetch from "@/utils/customhooks/useFetch";
 import { FaSearch } from "react-icons/fa";
 import Pagination from '@mui/material/Pagination';
 import CourseCard from "@/app/components/CourseCard.jsx";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const ProgrammeClient = () => {
    const [filterEl, setFilterEl] = useState({
@@ -88,7 +90,7 @@ const ProgrammeClient = () => {
         <Breadcrumb heading={"Earn​‍​‌‍​‍‌ your programme's degree in Latvia: quality education at lower ​‍​‌‍​‍‌prices"}/>
       <div className='py-6 px-10'>
         <h2 className='text-2xl md:text-4xl font-aino'>Programmes for Latvia</h2>
-        <p className='mt-3 text-justify text-roboto'>Explore​‍​‌‍​‍‌ Bachelor's, Master's, PhD, and Short-Term programs at internationally recognized universities in Latvia. You will find a wide variety of high-quality study options complete with reasonable tuition fees, courses in English, state-of-the-art learning facilities, as well as degrees recognized worldwide from different fields. Thus, Latvia can offer very good conditions for foreign students not only to fulfill their study plans but also to create a promising international ​‍​‌‍​‍‌career.</p>
+        <p className='mt-3 text-justify text-roboto'>Explore​‍​‌‍​‍‌ <Link className="font-semibold hover:underline" href="/study/bachelors">Bachelor's</Link>, Master's, PhD, and Short-Term programs at internationally recognized universities in Latvia. You will find a wide variety of high-quality study options complete with reasonable tuition fees, courses in English, state-of-the-art learning facilities, as well as degrees recognized worldwide from different fields. Thus, Latvia can offer very good conditions for foreign students not only to fulfill their study plans but also to create a promising international ​‍​‌‍​‍‌career.</p>
       </div>
       <section className="my-5">
         <div className="mx-auto max-w-6xl px-4">
@@ -191,6 +193,9 @@ const ProgrammeClient = () => {
                 }}
               />
              </div>
+          </div>
+          <div className='mt-5 flex justify-end items-center'>
+            <Link className='text-blue-500 hover:underline' href={'/study/bachelors'}>Read About Bachelors in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
           </div>
         </div>
       </section>

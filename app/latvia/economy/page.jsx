@@ -1,12 +1,14 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import Image from 'next/image';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Latvia Economy: Growth, Industries & Business for Students",
   description: "Analyze the Latvia economy and top industries. See how GDP and job trends help Indian students find great careers. Start your journey now.",
   keywords: ["Latvia economy", "Economy of Latvia", "Latvia GDP", "Latvia economic growth", "Latvia industries", "Latvia business opportunities", "Latvia employment", "Study in Latvia", "Latvia for international students", "Latvia education", "Latvia jobs", "Latvia market economy", "Latvia investment", "Latvia economic sectors", "Latvia universities"],
   alternates: {
-    canonical: "https://www.studyinlatvia.in/latvia/economy"
+    canonical: "https://www.studyinlatvia.in/latvia/economy/"
   },
   robots: {
     index: true,
@@ -14,7 +16,7 @@ export const metadata = {
   },
 
   openGraph: {
-    type: "article",
+    type: "website",
     title:
       "Latvia Economy: Growth, Industries & Business for Students",
     description:
@@ -24,7 +26,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.studyinlatvia.in/images/economy/economy/economy.webp",
+        url: "https://www.studyinlatvia.in/images/latvia/economy/economy.webp",
         alt: "latvia Economy",
       },
     ],
@@ -63,21 +65,6 @@ const page = () => {
       ],
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlatvia.in/#website",
-      url: "https://www.studyinlatvia.in",
-      name: "Study in latvia",
-      publisher: {
-        "@id": "https://www.studyinlatvia.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlatvia.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinlatvia.in/latvia/economy/#webpage",
@@ -97,35 +84,6 @@ const page = () => {
           "https://www.studyinlatvia.in/latvia/economy/#country",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlatvia.in/latvia/economy/#article",
-      headline: "Economy of latvia",
-      description:
-        "Comprehensive guide covering latvia's economy, GDP, industries, exports, technology sector, manufacturing, innovation, and business opportunities.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlatvia.in/latvia/economy/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlatvia.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in latvia",
-      },
-      datePublished: "2026-06-10",
-      dateModified: "2026-06-10",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinlatvia.in/images/logos/logo.png",
-      },
-      about: {
-        "@id":
-          "https://www.studyinlatvia.in/latvia/economy/#country",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -151,24 +109,6 @@ const page = () => {
           item: "https://www.studyinlatvia.in/latvia/economy/",
         },
       ],
-    },
-    {
-      "@type": "Country",
-      "@id":
-        "https://www.studyinlatvia.in/latvia/economy/#country",
-      name: "latvia",
-      description:
-        "latvia has a modern, high-income European economy driven by services, manufacturing, information technology, biotechnology, laser technology, exports, and innovation. The country is recognized as one of the most digitalized and startup-friendly economies in Europe.",
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlatvia.in/latvia/economy/#image",
-      contentUrl:
-        "https://www.studyinlatvia.in/images/latvia/economy/economy.webp",
-      caption:
-        "latvia's modern economy, business districts and innovation ecosystem",
-      representativeOfPage: true,
     },
   ],
 };
@@ -246,7 +186,11 @@ const page = () => {
             </li>
             <li className=''>
               <h4 className='text-lg md:text-xl font-semibold'>Career Development Potential</h4>
-              <p className='text-base font-roboto mt-3'>The country's expanding economy allows graduates to explore career opportunities across multiple sectors while gaining valuable international work experience</p>
+              <p className='text-base font-roboto mt-3'>The country's expanding economy allows graduates to explore career opportunities across multiple sectors while gaining valuable international work experience
+              <br />
+              <br />
+              <Link className='font-semibold hover:underline' href={'/latvia/culture'}>Latvia’s unique culture</Link> gives international students the chance to experience local traditions, festivals, art and the friendly European lifestyle. It means that students can learn about culture, practice communication skills, develop international relationships and learn how to work in a variety of settings.
+              </p>
             </li>
            </ul>
         </div>
@@ -257,6 +201,9 @@ const page = () => {
             For students looking for higher education in Europe, Latvia offers more than just quality academia. Its strong economy, international business environment, and expanding industries provide a firm foundation for career success and professional development.<br />
             By choosing Latvia, you will gain access to a vibrant European economy, and at the same time you will acquire the skills and experience to be competitive in a globalized world. 
            </p>
+        </div>
+        <div className='mt-5 flex justify-end items-center'>
+           <Link className='text-blue-500 hover:underline' href={'/latvia/culture'}>Read About Latvia Culture&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
         </div>
       </div>
       <script

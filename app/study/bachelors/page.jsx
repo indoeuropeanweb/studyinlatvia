@@ -2,7 +2,8 @@ import Breadcrumb from '@/app/components/Breadcrumb'
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io'
 import Script from 'next/script'
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Bachelor's Degree in Latvia: Guide for Indian Students",
@@ -54,20 +55,11 @@ const page = () => {
     {
       "@type": "Organization",
       "@id": "https://www.studyinLatvia.in/#organization",
-      name: "Study in Latvia",
+      name: "Study in Latvia Center",
       url: "https://www.studyinLatvia.in",
       logo: {
         "@type": "ImageObject",
         url: "https://www.studyinLatvia.in/images/logos/logo.webp",
-      },
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinLatvia.in/#website",
-      url: "https://www.studyinLatvia.in",
-      name: "Study in Latvia",
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
       },
     },
     {
@@ -83,70 +75,6 @@ const page = () => {
         "@id": "https://www.studyinLatvia.in/#website",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "EducationalOccupationalProgram",
-      name: "Bachelor's Degree Programs in Latvia",
-      educationalLevel: "Undergraduate",
-      timeToComplete: "P3Y-P4Y",
-      occupationalCategory: "Higher Education",
-      provider: {
-        "@type": "Organization",
-        name: "Latvian Universities",
-      },
-      description:
-        "Undergraduate degree programs offered in English across Engineering, IT, Business, Health Sciences, Social Sciences and other disciplines.",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinLatvia.in/study/bachelors/#article",
-      headline:
-        "Bachelor's Programs in Latvia for International Students",
-      description:
-        "Comprehensive guide to Bachelor's studies in Latvia including tuition fees, admission requirements, universities and career opportunities.",
-      author: {
-        "@type": "Organization",
-        name: "Study in Latvia",
-      },
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinLatvia.in/images/logos/Latvia-01.webp",
-      },
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "How long is a Bachelor's degree in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Most Bachelor's degree programs in Latvia take 3 to 4 years to complete.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students study in English?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, many Latvian universities offer Bachelor's programs fully taught in English.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What are the tuition fees?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Tuition fees generally range from €1,300 to €4,000 per year.",
-          },
-        },
-      ],
     },
     {
       "@type": "BreadcrumbList",
@@ -166,15 +94,8 @@ const page = () => {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Programmes",
-          item: "https://www.studyinLatvia.in/study/",
-        },
-        {
-          "@type": "ListItem",
-          position: 4,
-          name: "Bachelor's",
-          item:
-            "https://www.studyinLatvia.in/study/bachelors/",
+          name: "bachelors",
+          item: "https://www.studyinLatvia.in/study/bachelors",
         },
       ],
     },
@@ -245,6 +166,9 @@ const page = () => {
             gain international exposure, and prepare for long-term career success in a competitive global
             environment.</p>
         </div>
+          <div className='mt-5 flex justify-end items-center'>
+            <Link className='text-blue-500 hover:underline' href={'/study/masters'}>Read About Masters in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+          </div>
       </div>
       <Script
         id="bachelors-schema"

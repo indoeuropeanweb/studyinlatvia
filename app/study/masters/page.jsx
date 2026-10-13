@@ -2,10 +2,12 @@ import Breadcrumb from '@/app/components/Breadcrumb'
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io'
 import Script from 'next/script'
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Best Master's Degrees in Latvia: Get Fees and Admission Tips",
-  description: "Study in Latvia for your master's degree. Learn about Admission needs, affordable fees and Visa. Start your application and find program at a top university today.",
+  description: "Study in Latvia for your master's degree. Learn about Admission needs, affordable fees and Visa. Start your application and find program at top university today",
   keywords: ["master's degree in Latvia", "Masters in Latvia", "Study Masters in Latvia", "Latvia Masters Programs", "Master's Degree in Latvia for International Students", "Latvia Universities", "Study in Latvia", "Affordable Masters in Europe", "Latvia Student Visa", "Masters Admission Latvia", "Scholarships in Latvia", "Higher Education Latvia", "Indian Students in Latvia", "Study Abroad Latvia", "Masters Courses in Latvia"],
   alternates: {
     canonical: "https://www.studyinLatvia.in/study/masters"
@@ -17,11 +19,11 @@ export const metadata = {
     openGraph: {
     type: "website",
     url: "https://www.studyinLatvia.in/study/masters/",
-    siteName: "Study in Latvia",
+    siteName: "Study in Latvia Center",
     title:
       "Best Master's Degrees in Latvia: Get Fees and Admission Tips",
     description:
-      "Study in Latvia for your master's degree. Learn about Admission needs, affordable fees and Visa. Start your application and find program at a top university today.",
+      "Study in Latvia for your master's degree. Learn about Admission needs, affordable fees and Visa. Start your application and find program at top university today",
     images: [
       {
         url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
@@ -38,7 +40,7 @@ export const metadata = {
     title:
       "Best Master's Degrees in Latvia: Get Fees and Admission Tips",
     description:
-      "Study in Latvia for your master's degree. Learn about Admission needs, affordable fees and Visa. Start your application and find program at a top university today.",
+      "Study in Latvia for your master's degree. Learn about Admission needs, affordable fees and Visa. Start your application and find program at top university today",
     images: [
       "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
     ],
@@ -61,21 +63,6 @@ const page = () => {
       },
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinLatvia.in/#website",
-      url: "https://www.studyinLatvia.in",
-      name: "Study in Latvia",
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinLatvia.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinLatvia.in/study/masters/#webpage",
@@ -83,47 +70,11 @@ const page = () => {
         "https://www.studyinLatvia.in/study/masters/",
       name: "Master's Programs in Latvia",
       description:
-        "Explore Master's degree programs in Latvia for international students including admission requirements, tuition fees, scholarships and career opportunities.",
+        "Study in Latvia for your master's degree. Learn about Admission needs, affordable fees and Visa. Start your application and find program at top university today",
       isPartOf: {
         "@id": "https://www.studyinLatvia.in/#website",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "CollectionPage",
-      "@id":
-        "https://www.studyinLatvia.in/study/masters/#collectionpage",
-      url:
-        "https://www.studyinLatvia.in/study/masters/",
-      name: "Master's Programs in Latvia",
-      description:
-        "Browse Master's degree programs offered by Latvian universities for international students.",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinLatvia.in/study/masters/#article",
-      headline:
-        "Master's Programs in Latvia for International Students",
-      description:
-        "Comprehensive guide to Master's studies in Latvia including universities, tuition fees, scholarships, admission requirements and career opportunities.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinLatvia.in/study/masters/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Latvia",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -143,69 +94,10 @@ const page = () => {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Programmes",
-          item: "https://www.studyinLatvia.in/study/",
-        },
-        {
-          "@type": "ListItem",
-          position: 4,
-          name: "Master's",
-          item:
-            "https://www.studyinLatvia.in/study/masters/",
+          name: "masters",
+          item: "https://www.studyinLatvia.in/study/masters",
         },
       ],
-    },
-    {
-      "@type": "EducationalOccupationalProgram",
-      name: "Master's Degree Programs in Latvia",
-      educationalLevel: "Postgraduate",
-      timeToComplete: "P1Y-P2Y",
-      occupationalCategory: "Higher Education",
-      provider: {
-        "@type": "Organization",
-        name: "Latvian Universities",
-      },
-      description:
-        "Master's degree programs offered in English across Engineering, Information Technology, Business, Management, Health Sciences, Social Sciences and other disciplines.",
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "How long does a Master's degree take in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Most Master's degree programs in Latvia take between 1 and 2 years to complete.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students study Master's programs in English in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, many Latvian universities offer Master's degree programs fully taught in English.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What are the tuition fees for Master's programs in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Tuition fees generally range from €2,000 to €6,000 per year depending on the university and program.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinLatvia.in/study/masters/#image",
-      contentUrl:
-        "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
-      caption:
-        "Master's Programs in Latvia for International Students",
-      representativeOfPage: true,
     },
   ],
 };
@@ -269,9 +161,12 @@ to admission requirements.</p>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Strong career prospects across Europe and internationally</li>
           </ul>
           <p className='text-base font-inter mt-5'>A Master's degree in Latvia provides students with advanced expertise, international exposure,
-and valuable professional skills that support long-term career success in today's global job
-market.</p>
+            and valuable professional skills that support long-term career success in today's global job
+            market.</p>
         </div>
+          <div className='mt-5 flex justify-end items-center'>
+            <Link className='text-blue-500 hover:underline' href={'/study/phd'}>Read About PhD in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+          </div>
       </div>
       <Script
         id="masters-schema"

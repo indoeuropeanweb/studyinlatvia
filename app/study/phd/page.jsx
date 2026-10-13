@@ -1,5 +1,7 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import { IoIosArrowForward } from 'react-icons/io'
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "PhD Programs in Latvia: Complete Guide for Indian Students",
@@ -15,14 +17,14 @@ export const metadata = {
    openGraph: {
     type: "website",
     url: "https://www.studyinLatvia.in/study/phd/",
-    siteName: "Study in Latvia",
+    siteName: "Study in Latvia Center",
     title:
       "PhD Programs in Latvia: Complete Guide for Indian Students",
     description:
       "Explore Phd programs in Latvia for Indian students. Learn about university entry needs and low tuition fees. See how to secure a scholarship and start now.",
     images: [
       {
-        url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
+        url: "https://www.studyinLatvia.in/images/logos/logo.png",
         width: 1200,
         height: 630,
         alt: "PhD Programs in Latvia",
@@ -38,7 +40,7 @@ export const metadata = {
     description:
       "Explore Phd programs in Latvia for Indian students. Learn about university entry needs and low tuition fees. See how to secure a scholarship and start now.",
     images: [
-      "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
+      "https://www.studyinLatvia.in/images/logos/logo.png",
     ],
   },
 }
@@ -60,21 +62,6 @@ const page = () => {
       },
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinLatvia.in/#website",
-      url: "https://www.studyinLatvia.in",
-      name: "Study in Latvia",
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinLatvia.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinLatvia.in/study/phd/#webpage",
@@ -87,42 +74,6 @@ const page = () => {
         "@id": "https://www.studyinLatvia.in/#website",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "CollectionPage",
-      "@id":
-        "https://www.studyinLatvia.in/study/phd/#collectionpage",
-      url:
-        "https://www.studyinLatvia.in/study/phd/",
-      name: "PhD Programs in Latvia",
-      description:
-        "Browse doctoral and research programs offered by Latvian universities.",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinLatvia.in/study/phd/#article",
-      headline:
-        "PhD Programs in Latvia for International Students",
-      description:
-        "Comprehensive guide to doctoral studies in Latvia, including universities, research opportunities, scholarships, funding, and admission requirements.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinLatvia.in/study/phd/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Latvia",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -142,69 +93,10 @@ const page = () => {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Programmes",
-          item: "https://www.studyinLatvia.in/study/",
-        },
-        {
-          "@type": "ListItem",
-          position: 4,
           name: "PhD",
-          item:
-            "https://www.studyinLatvia.in/study/phd/",
+          item: "https://www.studyinLatvia.in/study/phd",
         },
       ],
-    },
-    {
-      "@type": "EducationalOccupationalProgram",
-      name: "PhD Programs in Latvia",
-      educationalLevel: "Doctoral",
-      timeToComplete: "P4Y",
-      occupationalCategory: "Higher Education",
-      provider: {
-        "@type": "Organization",
-        name: "Latvian Universities",
-      },
-      description:
-        "Doctoral research programs in Engineering, Information Technology, Business, Economics, Health Sciences, Social Sciences, Natural Sciences, and other disciplines.",
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "How long does a PhD take in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Most PhD programs in Latvia take approximately four years of full-time study and research.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Are scholarships available for PhD students in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, many Latvian universities and government institutions offer scholarships, research grants, and funding opportunities for doctoral students.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students pursue a PhD in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, Latvia welcomes international researchers and offers several PhD programs conducted in English across multiple disciplines.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinLatvia.in/study/phd/#image",
-      contentUrl:
-        "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
-      caption:
-        "PhD Programs and Research Opportunities in Latvia",
-      representativeOfPage: true,
     },
   ],
 };
@@ -220,10 +112,10 @@ const page = () => {
           supervision, modern research facilities, and international collaboration. <br />With internationally recognised universities, affordable study costs, and growing research
           opportunities, Latvia has become an attractive destination for doctoral studies across various
           disciplines.</p>
-        <h2 className='text-xl md:text-2xl font-roboto'>PhD Programmes in Latvia</h2>
-        <p className='mt-3 text-justify text-roboto'>In Latvia, a doctoral programme usually takes 3 to 4 years and includes original research,
+        <h2 className='text-xl md:text-2xl font-roboto mt-10'>PhD Programmes in Latvia</h2>
+        <p className='text-justify text-roboto'>In Latvia, a doctoral programme usually takes 3 to 4 years and includes original research,
          academic development and contribution of scientific knowledge to a specialised field.</p> 
-        <div className='mt-10'>
+        <div className='mt-5'>
           <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Popular PhD Fields</h2>
           <ul className='mt-5 space-y-2'>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Engineering</li>
@@ -253,21 +145,16 @@ const page = () => {
             </ul>
         </div>
         <div className='mt-10'>
-          <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Why Pursue a PhD in Latvia?</h2>
-          <ul className='mt-5 space-y-2'>
-            <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Internationally recognised doctoral qualification</li>
-            <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Research-focused academic environment</li>
-            <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Experienced supervisors and faculty support</li>
-            <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Modern laboratories and research facilities</li>
-            <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Opportunities for international collaboration</li>
-            <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Affordable tuition fees and living expenses</li>
-            <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Access to European research networks</li>
-            <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Strong academic and professional development opportunities</li>
-          </ul>
+          <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Admission in Latvia Universities</h2>
+          <p className='mt-4'>
+            <Link className='font-semibold hover:underline' href={'/study/admission'}>Admission requirements for PhD programs in Latvia</Link> vary between universities but generally require a recognized Master’s degree, academic transcripts, a research proposal and evidence of English language proficiency. 
+            <br />
+            Before applying, students need to check the university’s own entry requirements, find a suitable supervisor for their research and prepare the required documents. Proper planning can ease admission in the universities of Latvia and make a smooth transition to doctoral studies.
+          </p>
         </div>
-            <p className='mt-5'>A PhD in Latvia allows students to contribute to innovative research, expand their academic
-expertise, and build a successful career in research, higher education, industry, or international
-organisations.</p>
+          <div className='mt-5 flex justify-end items-center'>
+            <Link className='text-blue-500 hover:underline' href={'/study/admission'}>Read About Admission in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+          </div>
       </div>
       <script
         type="application/ld+json"

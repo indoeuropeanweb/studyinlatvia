@@ -2,6 +2,8 @@ import React from 'react'
 import Breadcrumb from '@/app/components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Living Cost & Accommodation In Latvia for Indian Students",
@@ -53,26 +55,11 @@ const page = () => {
     {
       "@type": "Organization",
       "@id": "https://www.studyinLatvia.in/#organization",
-      name: "Study in Latvia",
+      name: "Study in Latvia Center",
       url: "https://www.studyinLatvia.in",
       logo: {
         "@type": "ImageObject",
         url: "https://www.studyinLatvia.in/images/logos/logo.webp",
-      },
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinLatvia.in/#website",
-      url: "https://www.studyinLatvia.in",
-      name: "Study in Latvia",
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinLatvia.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
       },
     },
     {
@@ -88,31 +75,6 @@ const page = () => {
         "@id": "https://www.studyinLatvia.in/#website",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinLatvia.in/living/accommodation/#article",
-      headline: "Student Accommodation in Latvia",
-      description:
-        "Complete guide to student housing, university dormitories, private rentals, accommodation costs and living arrangements in Latvia.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinLatvia.in/living/accommodation/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Latvia",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "hhttps://www.studyinLatvia.in/images/living/accommodation/accommodation.webp",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -137,59 +99,6 @@ const page = () => {
             "https://www.studyinLatvia.in/living/accommodation/",
         },
       ],
-    },
-    {
-      "@type": "Residence",
-      name: "Student Accommodation in Latvia",
-      description:
-        "Accommodation options available for international students including university dormitories, student residences, shared apartments and private housing.",
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "Do Latvian universities provide accommodation?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Most Latvian universities offer dormitories and student residences with modern facilities and internet access.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What types of accommodation are available in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Students can choose university dormitories, shared apartments, private rentals, student residences and short-term housing options.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is accommodation affordable in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Latvia is considered one of the most affordable study destinations in Europe, with reasonable housing and living costs.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students rent private apartments in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. International students can rent private apartments or shared accommodation through local housing platforms and rental agencies.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinLatvia.in/living/accommodation/#image",
-      contentUrl:
-        "https://www.studyinLatvia.in/images/living/accommodation/accommodation.webp",
-      caption:
-        "Student Accommodation and Housing Options in Latvia",
-      representativeOfPage: true,
     },
   ],
 };
@@ -277,7 +186,13 @@ const page = () => {
               <p className='text-base font-inter mt-3'>Universities often assist international students with accommodation guidance before arrival,
                 helping them find suitable housing and settle into their new environment smoothly. <br />With affordable accommodation options, modern facilities, and a safe living environment, Latvia
                 provides international students with a comfortable and enjoyable place to live while pursuing
-                their education in Europe.</p>
+                their education in Europe.
+                <br />
+                Find out more about <Link className='font-semibold hover:underline' href={'/living/living-costs'}>cost of living in Latvia</Link> to help you plan your accommodation, food, transportation and other daily expenses as an international student.
+                </p>
+            </div>
+            <div className='mt-5 flex justify-end items-center'>
+              <Link className='text-blue-500 hover:underline' href={'/living/living-costs'}>Read About Living Costs in Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
             </div>
         </div>
         <script

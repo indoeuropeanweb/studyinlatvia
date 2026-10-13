@@ -1,5 +1,7 @@
 import Breadcrumb from "@/app/components/Breadcrumb"
 import { IoIosArrowForward } from "react-icons/io"
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 
 export const metadata = {
@@ -17,18 +19,28 @@ export const metadata = {
   type: "website",
   locale: "en_US",
   url: "https://www.studyinLatvia.in/study/admission/",
-  siteName: "Study in Latvia",
+  siteName: "Study in Latvia Center",
   title:
     "Get Latvia University Admission | Step by Step Explanation",
   description:
-    "Start your Latvia university admission process with expert guidance. Check eligibility, documents, and admission requirements. Apply your Application Now ",
+    "Start your Latvia university admission process with expert guidance. Check eligibility, documents, and admission requirements. Apply your Application Now",
   images: [
     {
-      url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
+      url: "https://www.studyinLatvia.in/images/logos/logo.png",
       alt: "Study in Latvia Admission",
     },
   ],
 },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Get Latvia University Admission | Step by Step Explanation",
+    description:
+      "Start your Latvia university admission process with expert guidance. Check eligibility, documents, and admission requirements. Apply your Application Now",
+    images: [
+      "https://www.studyinLatvia.in/images/logos/logo.png",
+    ],
+  },
 }
 
 const page = () => {
@@ -47,21 +59,6 @@ const page = () => {
       },
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinLatvia.in/#website",
-      url: "https://www.studyinLatvia.in",
-      name: "Study in Latvia",
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinLatvia.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinLatvia.in/study/admission/#webpage",
@@ -77,27 +74,6 @@ const page = () => {
           "https://www.studyinLatvia.in/study/admission/#breadcrumb",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinLatvia.in/study/admission/#article",
-      headline: "Admission Process for Studying in Latvia",
-      description:
-        "Complete guide to admission requirements, documents, application process, visa procedures and eligibility criteria for international students in Latvia.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinLatvia.in/study/admission/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Latvia",
-      },
-      datePublished: "2026-06-11",
-      dateModified: "2026-06-11",
     },
     {
       "@type": "BreadcrumbList",
@@ -123,93 +99,6 @@ const page = () => {
           item: "https://www.studyinLatvia.in/study/admission/",
         },
       ],
-    },
-    {
-      "@type": "HowTo",
-      name: "How to Apply for Admission in Latvia",
-      description:
-        "Step-by-step admission process for international students applying to Latvian universities.",
-      step: [
-        {
-          "@type": "HowToStep",
-          name: "Choose a University and Program",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Check Eligibility Requirements",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Prepare Academic Documents",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Submit Online Application",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Attend Interview or English Test (if required)",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Receive Admission Offer Letter",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Pay Tuition Fees",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Apply for Visa and Residence Permit",
-        },
-      ],
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What documents are required for admission in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Students generally need academic transcripts, degree certificates, passport copy, English proficiency proof or MOI, SOP, recommendation letters and passport-size photographs.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I study in Latvia without IELTS?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Many Latvian universities accept a Medium of Instruction (MOI) certificate or conduct their own English assessment instead of IELTS.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How long does the admission process take?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The admission process typically takes between 2 and 8 weeks depending on the university, program and document verification process.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students apply directly to Latvian universities?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, international students can apply directly through the university admission portal or with the assistance of authorized admission partners.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinLatvia.in/study/admission/#image",
-      contentUrl:
-        "https://www.studyinLatvia.in/images/study/study.webp",
-      caption:
-        "Admission Process for International Students in Latvia",
-      representativeOfPage: true,
     },
   ],
 };
@@ -320,6 +209,12 @@ const page = () => {
                   Latvia gives excellent opportunities for students searching for a degree. Timely application and
                   careful preparation can make the admission process straightforward and successful.</p>
                 </div>
+                <div className="mt-5">
+                  <p className="text-base font-roboto mt-3"><Link className="font-semibold hover:underline" href={'/study/scholarships'}>Scholarships in Latvia</Link> Students can look for merit-based scholarships, discounts on tuition fees, and research funding to reduce the cost of studies in Latvia, subject to the eligibility criteria of universities.</p>
+                </div>
+          <div className='mt-5 flex justify-end items-center'>
+            <Link className='text-blue-500 hover:underline' href={'/study/scholarships'}>Read About Scholarships in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+          </div>
          </div>
          <script
           type="application/ld+json"

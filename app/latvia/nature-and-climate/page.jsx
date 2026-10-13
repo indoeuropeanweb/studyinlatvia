@@ -1,10 +1,12 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Latvia Climate Guide: What Indian Students Should Know",
-  description: "Explore Latvia climate, seasonal weather, and temperatures throughout the year. Learn what international students can expect in every season.",
+  description: "Explore Latvia climate, seasonal weather, and temperatures throughout the year. Learn what indian students can expect in every season.",
   keywords: ["Latvia Climate", "Climate in Latvia", "Latvia Weather", "Latvia Seasons", "Weather in Latvia", "Latvia Temperature", "Latvia Nature and Climate", "Study in Latvia", "Latvia Climate for International Students", "Latvia Winter", "Latvia Summer", "Latvia Weather Guide, Latvia Environment", "Living in Latvia", "Study Abroad Latvia"],
   alternates: {
     canonical: "https://www.studyinlatvia.in/latvia/nature-and-climate"
@@ -13,14 +15,14 @@ export const metadata = {
     index: true,
     follow: true,
   },
-    openGraph: {
-    type: "article",
+  openGraph: {
+    type: "website",
     title:
       "Latvia Climate Guide: What Indian Students Should Know",
     description:
-      "Explore Latvia climate, seasonal weather, and temperatures throughout the year. Learn what international students can expect in every season.",
+      "Explore Latvia climate, seasonal weather, and temperatures throughout the year. Learn what indian students can expect in every season.",
     url: "https://www.studyinlatvia.in/latvia/nature-and-climate/",
-    siteName: "Study in latvia",
+    siteName: "Study in Latvia Center",
     images: [
       {
         url: "https://www.studyinlatvia.in/images/nature-and-weather/nature-and-weather.webp",
@@ -64,21 +66,6 @@ const page = () => {
       ],
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlatvia.in/#website",
-      url: "https://www.studyinlatvia.in",
-      name: "Study in latvia",
-      publisher: {
-        "@id": "https://www.studyinlatvia.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlatvia.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinlatvia.in/latvia/nature-and-climate/#webpage",
@@ -99,36 +86,6 @@ const page = () => {
           "https://www.studyinlatvia.in/latvia/nature-and-climate/#breadcrumb",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlatvia.in/latvia/nature-and-climate/#article",
-      headline: "Nature and Climate in latvia",
-      description:
-        "Comprehensive guide to latvia's weather, seasons, forests, lakes, national parks, and natural environment.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlatvia.in/latvia/nature-and-climate/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlatvia.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in latvia",
-      },
-      datePublished: "2026-06-10",
-      dateModified: "2026-06-10",
-      image: {
-        "@type": "ImageObject",
-        url:
-          "https://www.studyinlatvia.in/images/latvia/nature-and-weather/nature-and-weather.webp",
-      },
-      about: {
-        "@id":
-          "https://www.studyinlatvia.in/latvia/nature-and-climate/#country",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -156,25 +113,6 @@ const page = () => {
         },
       ],
     },
-    {
-      "@type": "Country",
-      "@id":
-        "https://www.studyinlatvia.in/latvia/nature-and-climate/#country",
-      name: "latvia",
-      description:
-        "latvia is a Baltic country known for its extensive forests, over 3,000 lakes, national parks, rich biodiversity, and four distinct seasons.",
-      url:
-        "https://www.studyinlatvia.in/latvia/nature-and-climate/",
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlatvia.in/latvia/nature-and-climate/#image",
-      contentUrl:
-        "https://www.studyinlatvia.in/wp-content/uploads/latvia-nature-climate.jpg",
-      caption: "Forests, lakes and natural landscapes of latvia",
-      representativeOfPage: true,
-    },
   ],
 };
 
@@ -182,7 +120,7 @@ const page = () => {
     <>
       <Breadcrumb heading={"Discover​‍​‌‍​‍‌ Latvia's Diverse Nature and Climate Changing With All Four ​‍​‌‍​‍‌Seasons"} />
       <div className='px-5 py-5'>
-        <h2 className='text-2xl md:text-4xl font-aino'>Nature and Weather</h2>
+        <h2 className='text-2xl md:text-4xl font-aino'>Nature and Climate</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         <p className='text-md font-roboto mt-3 text-justify'>
           Latvia is one of the greenest countries in Europe, known for its beautiful forests, pristine lakes, sandy beaches, and unspoiled natural landscapes. The country offers a peaceful environment where students and visitors can enjoy a balanced lifestyle surrounded by nature. From national parks and coastal areas to scenic countryside views, Latvia provides countless opportunities to explore the outdoors throughout the year.
@@ -262,6 +200,9 @@ const page = () => {
             <br />
             The country's clean environment, scenic landscapes, and comfortable climate continue to make Latvia an attractive destination for international students from around the world.
           </p>
+        </div>
+        <div className='mt-5 flex justify-end items-center'>
+           <Link className='text-blue-500 hover:underline' href={'/latvia/economy'}>Read About Latvia Economy&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
         </div>
       </div>
       <script

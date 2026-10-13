@@ -1,6 +1,8 @@
 import Breadcrumb from "@/app/components/Breadcrumb"
 import Image from "next/image"
 import { IoIosArrowForward } from "react-icons/io"
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Study with Top Universities in Latvia for Indian Students",
@@ -17,18 +19,24 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.studyinlatvia.in/study/universities/",
-    siteName: "Study in latvia",
-    title:
-    "Study with Top Universities in Latvia for Indian Students",
-    description:
-    "Find the best universities in Latvia for Indian students. We compare top courses, costs, and admission rules. Get expert help to apply now.",
+    siteName: "Study in latvia Center",
+    title: "Study with Top Universities in Latvia for Indian Students",
+    description: "Find the best universities in Latvia for Indian students. We compare top courses, costs, and admission rules. Get expert help to apply now.",
     images: [
     {
-    url: "https://www.studyinlatvia.in/images/study/latvia-01.webp",
-    alt: "Universities in latvia",
+      url: "https://www.studyinlatvia.in/images/logos/logo.png",
+      alt: "Universities in latvia",
     },
   ],
 },
+  twitter: {
+    card: "summary_large_image",
+    title: "Study with Top Universities in Latvia for Indian Students",
+    description: "Find the best universities in Latvia for Indian students. We compare top courses, costs, and admission rules. Get expert help to apply now.",
+    images: [
+      "https://www.studyinLatvia.in/images/logos/logo.png",
+    ],
+  },
 }
 
 const page = () => {
@@ -205,166 +213,58 @@ const schema = {
       "@context": "https://schema.org",
       "@graph": [
       {
-      "@type": "Organization",
-      "@id": "https://www.studyinlatvia.in/#organization",
-      name: "Study in latvia",
-      url: "https://www.studyinlatvia.in",
-      logo: {
-      "@type": "ImageObject",
-      url: "https://www.studyinlatvia.in/images/study/latvia-01.webp",
-      },
-      },
-      {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlatvia.in/#website",
-      url: "https://www.studyinlatvia.in",
-      name: "Study in latvia",
-      publisher: {
-      "@id": "https://www.studyinlatvia.in/#organization",
-      },
-      potentialAction: {
-      "@type": "SearchAction",
-      target:
-      "https://www.studyinlatvia.in/?s={search_term_string}",
-      "query-input": "required name=search_term_string",
-      },
+        "@type": "Organization",
+        "@id": "https://www.studyinlatvia.in/#organization",
+        name: "Study in latvia",
+        url: "https://www.studyinlatvia.in",
+        logo: {
+        "@type": "ImageObject",
+        url: "https://www.studyinlatvia.in/images/study/latvia-01.webp",
+        },
       },
       {
-      "@type": "WebPage",
-      "@id":
-      "https://www.studyinlatvia.in/study/universities/#webpage",
-      url: "https://www.studyinlatvia.in/study/universities/",
-      name: "Universities in latvia",
-      description:
-      "Explore top universities in latvia offering Bachelor's, Master's and PhD programs for international students.",
-      isPartOf: {
-      "@id": "https://www.studyinlatvia.in/#website",
+        "@type": "WebPage",
+        "@id":
+        "https://www.studyinlatvia.in/study/universities/#webpage",
+        url: "https://www.studyinlatvia.in/study/universities/",
+        name: "Universities in latvia",
+        description:
+        "Explore top universities in latvia offering Bachelor's, Master's and PhD programs for international students.",
+        isPartOf: {
+        "@id": "https://www.studyinlatvia.in/#website",
       },
       breadcrumb: {
-      "@id":
-      "https://www.studyinlatvia.in/study/universities/#breadcrumb",
+        "@id":
+        "https://www.studyinlatvia.in/study/universities/#breadcrumb",
       },
       inLanguage: "en",
-      },
-      {
-      "@type": "CollectionPage",
-      "@id":
-      "https://www.studyinlatvia.in/study/universities/#collectionpage",
-      url: "https://www.studyinlatvia.in/study/universities/",
-      name: "Universities in latvia",
-      description:
-      "A comprehensive list of universities and colleges in latvia for international students.",
-      mainEntity: {
-      "@id":
-      "https://www.studyinlatvia.in/study/universities/#itemlist",
-      },
-      },
-      {
-      "@type": "Article",
-      "@id":
-      "https://www.studyinlatvia.in/study/universities/#article",
-      headline:
-      "Top Universities in latvia for International Students",
-      description:
-      "Explore latvia's leading universities, admission requirements, tuition fees, scholarships and study opportunities.",
-      mainEntityOfPage: {
-      "@id":
-      "https://www.studyinlatvia.in/study/universities/#webpage",
-      },
-      publisher: {
-      "@id": "https://www.studyinlatvia.in/#organization",
-      },
-      author: {
-      "@type": "Organization",
-      name: "Study in latvia",
-      },
-      datePublished: "2026-06-11",
-      dateModified: "2026-06-11",
-      },
-      {
+    },
+    {
       "@type": "BreadcrumbList",
       "@id":
       "https://www.studyinlatvia.in/study/universities/#breadcrumb",
       itemListElement: [
-      {
-      "@type": "ListItem",
-      position: 1,
-      name: "Home",
-      item: "https://www.studyinlatvia.in/",
-      },
-      {
-      "@type": "ListItem",
-      position: 2,
-      name: "Study",
-      item: "https://www.studyinlatvia.in/study/",
-      },
-      {
-      "@type": "ListItem",
-      position: 3,
-      name: "Universities",
-      item: "https://www.studyinlatvia.in/study/universities/",
-      },
+        {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.studyinlatvia.in/",
+        },
+        {
+        "@type": "ListItem",
+        position: 2,
+        name: "Study",
+        item: "https://www.studyinlatvia.in/study/",
+        },
+        {
+        "@type": "ListItem",
+        position: 3,
+        name: "Universities",
+        item: "https://www.studyinlatvia.in/study/universities/",
+        },
       ],
-      },
-      {
-      "@type": "ItemList",
-      "@id":
-      "https://www.studyinlatvia.in/study/universities/#itemlist",
-      name: "Top Universities in latvia",
-      itemListElement: [
-      {
-      "@type": "CollegeOrUniversity",
-      position: 1,
-      name: "Vilnius University",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 2,
-      name: "Vilnius Gediminas Technical University (VILNIUS TECH)",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 3,
-      name: "Kaunas University of Technology",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 4,
-      name: "Vytautas Magnus University",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 5,
-      name: "Mykolas Romeris University",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 6,
-      name: "latvian University of Health Sciences",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 7,
-      name: "ISM University of Management and Economics",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 8,
-      name: "Klaipeda University",
-      },
-      ],
-      },
-      {
-      "@type": "ImageObject",
-      "@id":
-      "https://www.studyinlatvia.in/study/universities/#image",
-      contentUrl:
-      "https://www.studyinlatvia.in/study/latvia-01.webp",
-      caption:
-      "Top Universities in latvia for International Students",
-      representativeOfPage: true,
-      },
-      ],
+    },
+    ],
 };
 
 
@@ -454,7 +354,7 @@ const schema = {
              <ul className="mt-4 space-y-2">
                <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Internationally recognised European degrees</li>
                <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Affordable tuition fees and living costs</li>
-               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English-taught Bachelor's and Master's programmes</li>
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English-taught <Link className="font-semibold hover:underline" href={'/study/programme'}>Bachelor's and Master's programmes in Latvia</Link></li>
                <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Modern campuses and research facilities</li>
                <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Industry-oriented learning approach</li>
                <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Multicultural student environment</li>
@@ -471,6 +371,9 @@ const schema = {
               growing career opportunities, Latvia continues to attract students looking to build a successful
               future in Europe.</p>
           </div>
+          </div>
+          <div className='mt-5 flex justify-end items-center'>
+            <Link className='text-blue-500 hover:underline' href={'/study/programme'}>Read About Programmes in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
           </div>
       </div>
       <script

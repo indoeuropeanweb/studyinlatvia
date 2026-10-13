@@ -54,9 +54,8 @@ const HomeClient = () => {
       <h4 className="font-aino text-xl md:text-2xl mb-4">What is...</h4>
       <h2 className="font-aino text-2xl md:text-4xl mb-4">Study in Latvia?</h2>
       <p className="text-lg md:text-xl mb-6">
-        Studying in Latvia offers international students the opportunity to earn a globally recognised
-        European degree in a modern, affordable, and student-friendly environment. Latvian universities
-        provide high-quality education, English-taught programmes, and career-focused learning across
+        Study in Latvia Center offers international students the opportunity to earn a globally recognised
+        European degree in a modern, affordable, and student-friendly environment. <Link className="font-semibold hover:underline" href={'/study/universities'}>Latvian universities</Link> provide high-quality education, English-taught programmes, and career-focused learning across
         a wide range of academic disciplines.
         <br />
         <br />
@@ -66,7 +65,7 @@ const HomeClient = () => {
         gain valuable international exposure while building strong foundations for future career success.
      </p>
      <div className="flex justify-end items-end">
-     <Link href={'/about'} className="text-blue-500 font-roboto hover:underline">Read more <FaArrowRightLong className="inline-block"/></Link>
+       <Link href={'/about'} className="text-blue-500 font-roboto hover:underline">Read more <FaArrowRightLong className="inline-block"/></Link>
      </div>
      </div>
     </section>
@@ -117,7 +116,7 @@ const HomeClient = () => {
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/study/programmes'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>
-            <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />
+          <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />
           </div>
           </div>
       </div>

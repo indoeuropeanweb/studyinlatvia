@@ -3,7 +3,24 @@ import ProgrammeClient from "./ProgrammeClient"
 export const metadata = {
   title: "Study Programmes in Latvia | Find Your Degree Course Here",
   description: "Looking for study programmes in Latvia? Compare top courses, degree, tuition costs. We make admission simple for Indian students. Start your application.",
-  keywords: ["bachelors degree", "bachelors degree in Latvia", "study bachelors degree in Latvia", "bachelor's programs in Latvia", "Latvia universities", "undergraduate degree Latvia", "study in Latvia", "Latvia bachelor courses", "bachelor's degree for Indian students", "affordable bachelor's degree Europe", "English taught bachelor's programs", "study abroad Latvia", "higher education Latvia", "Latvia admission consultants", "Indo European"],
+  keywords: [
+      "study programmes in Latvia",
+      "study programs in Latvia",
+      "courses in Latvia",
+      "study in Latvia",
+      "bachelor's programmes in Latvia",
+      "master's programmes in Latvia",
+      "PhD programmes in Latvia",
+      "English taught courses in Latvia",
+      "universities in Latvia",
+      "higher education in Latvia",
+      "study in Latvia for Indian students",
+      "Latvia university courses",
+      "degree programmes in Latvia",
+      "short term courses in Latvia",
+      "best courses to study in Latvia",
+      "Latvia university admission"
+  ],
   alternates: {
     canonical: "https://www.studyinLatvia.in/study/programmes"
   },
@@ -14,14 +31,14 @@ export const metadata = {
    openGraph: {
     type: "website",
     url: "https://www.studyinLatvia.in/study/programmes/",
-    siteName: "Study in Latvia",
+    siteName: "Study in Latvia Center",
     title:
       "Study Programmes in Latvia | Find Your Degree Course Here",
     description:
       "Looking for study programmes in Latvia? Compare top courses, degree, tuition costs. We make admission simple for Indian students. Start your application.",
     images: [
       {
-        url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
+        url: "https://www.studyinLatvia.in/images/logos/logo.png",
         width: 1200,
         height: 630,
         alt: "Programmes in Latvia",
@@ -37,17 +54,69 @@ export const metadata = {
     description:
       "Looking for study programmes in Latvia? Compare top courses, degree, tuition costs. We make admission simple for Indian students. Start your application.",
     images: [
-      "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
+      "https://www.studyinLatvia.in/images/logos/logo.png",
     ],
   },
 }
 
 const page = () => {
- 
+
+  const schemaScript = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.studyinlatvia.in/#organization",
+      "name": "Study in Latvia Center",
+      "url": "https://www.studyinlatvia.in/"
+    },
+    {
+        "@type": "WebPage",
+        "@id": "https://www.studyinlatvia.in/study/programmes/#webpage",
+        "url": "https://www.studyinlatvia.in/study/programmes/",
+        "name": "Study Programmes in Latvia",
+        "description": "Explore Bachelor's, Master's and PhD study programmes in Latvia. Find courses, universities and higher education opportunities for international students.",
+        "inLanguage": "en",
+        "publisher": {
+          "@id": "https://www.studyinlatvia.in/#organization"
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.studyinlatvia.in/study/programmes/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.studyinlatvia.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Study",
+          "item": "https://www.studyinlatvia.in/study/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Programmes",
+          "item": "https://www.studyinlatvia.in/study/programmes/"
+        }
+      ]
+    }
+  ]
+}
 
   return (
     <>
      <ProgrammeClient />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaScript),
+        }}
+      />
     </>
   )
 }

@@ -2,7 +2,8 @@ import React from 'react'
 import Breadcrumb from '@/app/components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Study and Work Opportunities in Latvia for Indian Students",
@@ -18,14 +19,14 @@ export const metadata = {
    openGraph: {
     type: "article",
     url: "https://www.studyinLatvia.in/living/working/",
-    siteName: "Study in Latvia",
+    siteName: "Study in Latvia Center",
     title:
       "Study and Work Opportunities in Latvia for Indian Students",
     description:
       "Explore study and work opportunities in Latvia for Indian student. Discover pay scales, permit laws, and how to land your first role. Apply and Contact Us Now",
     images: [
       {
-        url: "https://www.studyinLatvia.in/images/living/working/working.webp",
+        url: "https://www.studyinLatvia.in/images/logos/logo.png",
         width: 1200,
         height: 630,
         alt: "Working in Latvia for International Students",
@@ -41,7 +42,7 @@ export const metadata = {
     description:
       "Explore study and work opportunities in Latvia for Indian student. Discover pay scales, permit laws, and how to land your first role. Apply and Contact Us Now",
     images: [
-      "https://www.studyinLatvia.in/images/living/working/working.webp",
+      "https://www.studyinLatvia.in/images/logos/logo.png",
     ],
   },
 }
@@ -54,7 +55,7 @@ const page = () => {
       {
         "@type": "Organization",
         "@id": "https://www.studyinLatvia.in/#organization",
-        name: "Study in Latvia",
+        name: "Study in Latvia Center",
         url: "https://www.studyinLatvia.in",
         logo: {
           "@type": "ImageObject",
@@ -62,25 +63,10 @@ const page = () => {
         },
       },
       {
-        "@type": "WebSite",
-        "@id": "https://www.studyinLatvia.in/#website",
-        url: "https://www.studyinLatvia.in",
-        name: "Study in Latvia",
-        publisher: {
-          "@id": "https://www.studyinLatvia.in/#organization",
-        },
-        potentialAction: {
-          "@type": "SearchAction",
-          target:
-            "https://www.studyinLatvia.in/?s={search_term_string}",
-          "query-input": "required name=search_term_string",
-        },
-      },
-      {
         "@type": "WebPage",
         "@id": "https://www.studyinLatvia.in/living/working/#webpage",
         url: "https://www.studyinLatvia.in/living/working/",
-        name: "Working in Latvia",
+        name: "Working in Latvia Center",
         description:
           "Learn about student jobs, part-time work, internships, salaries, work rights and career opportunities in Latvia for international students.",
         isPartOf: {
@@ -91,30 +77,6 @@ const page = () => {
             "https://www.studyinLatvia.in/living/working/#breadcrumb",
         },
         inLanguage: "en",
-      },
-      {
-        "@type": "Article",
-        "@id": "https://www.studyinLatvia.in/living/working/#article",
-        headline: "Working in Latvia for International Students",
-        description:
-          "Comprehensive guide to part-time work, internships, work rights, salaries and career opportunities in Latvia.",
-        mainEntityOfPage: {
-          "@id":
-            "https://www.studyinLatvia.in/living/working/#webpage",
-        },
-        publisher: {
-          "@id": "https://www.studyinLatvia.in/#organization",
-        },
-        author: {
-          "@type": "Organization",
-          name: "Study in Latvia",
-        },
-        datePublished: "2026-06-12",
-        dateModified: "2026-06-12",
-        image: {
-          "@type": "ImageObject",
-          url: "https://www.studyinLatvia.in/images/living/working/working.webp",
-        },
       },
       {
         "@type": "BreadcrumbList",
@@ -140,81 +102,6 @@ const page = () => {
             item: "https://www.studyinLatvia.in/living/working/",
           },
         ],
-      },
-      {
-        "@type": "HowTo",
-        name: "How to Find a Student Job in Latvia",
-        step: [
-          {
-            "@type": "HowToStep",
-            name: "Obtain Your Student Residence Permit",
-          },
-          {
-            "@type": "HowToStep",
-            name: "Prepare a European-Style CV",
-          },
-          {
-            "@type": "HowToStep",
-            name: "Search for Part-Time Jobs and Internships",
-          },
-          {
-            "@type": "HowToStep",
-            name: "Attend Interviews",
-          },
-          {
-            "@type": "HowToStep",
-            name: "Sign an Employment Contract",
-          },
-          {
-            "@type": "HowToStep",
-            name: "Start Working Legally in Latvia",
-          },
-        ],
-      },
-      {
-        "@type": "FAQPage",
-        mainEntity: [
-          {
-            "@type": "Question",
-            name: "Can international students work while studying in Latvia?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "Yes. International students are permitted to work while studying in Latvia, subject to current immigration and residence permit regulations.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "Do students need a work permit in Latvia?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "Students holding the appropriate temporary residence permit for studies can work without obtaining a separate work permit.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "What jobs are available for students in Latvia?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "Students commonly find opportunities in customer service, hospitality, retail, logistics, IT, administration, internships and university-related roles.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "Can students stay and work in Latvia after graduation?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "Yes. Graduates may apply for residence permits that allow them to remain in Latvia and seek employment after completing their studies.",
-            },
-          },
-        ],
-      },
-      {
-        "@type": "ImageObject",
-        "@id": "https://www.studyinLatvia.in/living/working/#image",
-        contentUrl:
-          "https://www.studyinLatvia.in/images/living/working/working.webp",
-        caption: "Working in Latvia for International Students",
-        representativeOfPage: true,
       },
     ],
   };
@@ -307,6 +194,9 @@ const page = () => {
                 their resumes, and gain insights into the international job market. Combined with a recognised
                 European degree, these experiences can significantly enhance long-term career opportunities
                 both in Latvia and internationally.</p>
+            </div>
+            <div className='mt-5 flex justify-end items-center'>
+              <Link className='text-blue-500 hover:underline' href={'/living/student-ambassadors'}>Read About Student Ambassadors of Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
             </div>
         </div>
         <script

@@ -2,11 +2,24 @@ import Breadcrumb from '@/app/components/Breadcrumb'
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Best State Universities in Latvia for Indian Students",
   description: "Explore the Best State Universities in Latvia offering globally recognized degrees, affordable tuition fees, and excellent career opportunities.",
-  keywordds: ["Best State Universities in Latvia", "State Universities in Latvia", "Public Universities in Latvia", "Latvia State Universities", "Top State Universities in Latvia", "Latvia Public Universities for International Students", "Study in Latvia", "Universities in Latvia", "Higher Education in Latvia", "Latvia Universities", "Latvia Education", "Study Abroad Latvia", "Latvia Admission", "Latvia Student Visa", "Indo European"],
+  keywords: [
+  "Latvia State",
+  "Latvia country information",
+  "Latvia government",
+  "Latvia political system",
+  "Republic of Latvia",
+  "Latvia geography",
+  "Latvia state facts",
+  "Latvia European Union",
+  "Latvia country overview",
+  "Latvia for Indian students"
+  ],
   alternates: {
     canonical: "https://www.studyinlatvia.in/latvia/state"
   },
@@ -20,14 +33,14 @@ export const metadata = {
       "Best State Universities in Latvia for Indian Students",
     description:
       "Explore the Best State Universities in Latvia offering globally recognized degrees, affordable tuition fees, and excellent career opportunities.",
-    url: "https://www.studyinlatvia.in/contact/",
+    url: "https://www.studyinlatvia.in/latvia/state/",
     siteName: "Study in latvia Centre",
     images: [
       {
-        url: "https://www.studyinlatvia.in/images/contact/our-expert.webp",
+        url: "https://www.studyinlatvia.in/images/logos/logo.png",
         width: 1200,
         height: 630,
-        alt: "Contact Study in latvia Centre",
+        alt: "Study in latvia Centre",
       },
     ],
   },
@@ -55,23 +68,14 @@ const page = () => {
       "url": "https://www.studyinlatvia.in/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.studyinlatvia.in/wp-content/uploads/logo.png"
-      }
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlatvia.in/#website",
-      "url": "https://www.studyinlatvia.in/",
-      "name": "Study in latvia",
-      "publisher": {
-        "@id": "https://www.studyinlatvia.in/#organization"
+        "url": "https://www.studyinlatvia.in/images/logos/logo.png"
       }
     },
     {
       "@type": "WebPage",
       "@id": "https://www.studyinlatvia.in/latvia/state/#webpage",
       "url": "https://www.studyinlatvia.in/latvia/state/",
-      "name": "Study in latvia",
+      "name": "Study in latvia center",
       "description":
         "Discover latvia, one of Europe's fastest-growing study destinations offering affordable education, globally recognized universities, scholarships, and excellent career opportunities.",
       "isPartOf": {
@@ -80,39 +84,6 @@ const page = () => {
       "about": {
         "@id": "https://www.studyinlatvia.in/latvia/state/#country"
       }
-    },
-    {
-      "@type": "Article",
-      "@id": "https://www.studyinlatvia.in/latvia/state/#article",
-      "headline": "Study in latvia",
-      "description":
-        "latvia is one of Europe's leading destinations for international students seeking quality education at an affordable cost.",
-      "mainEntityOfPage": {
-        "@id": "https://www.studyinlatvia.in/latvia/state/#webpage"
-      },
-      "author": {
-        "@id": "https://www.studyinlatvia.in/#organization"
-      },
-      "publisher": {
-        "@id": "https://www.studyinlatvia.in/#organization"
-      }
-    },
-    {
-      "@type": "Country",
-      "@id": "https://www.studyinlatvia.in/latvia/state/#country",
-      "name": "latvia",
-      "alternateName": "Republic of latvia",
-      "url": "https://www.studyinlatvia.in/latvia/state/",
-      "description":
-        "latvia is a Baltic nation known for affordable higher education, safe cities, vibrant student life, and internationally recognized universities."
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://www.studyinlatvia.in/latvia/state/#image",
-      "contentUrl":
-        "https://www.studyinlatvia.in/wp-content/uploads/latvia.jpg",
-      "name": "Study in latvia",
-      "caption": "latvia - European Study Destination"
     },
     {
       "@type": "BreadcrumbList",
@@ -138,11 +109,6 @@ const page = () => {
         }
       ]
     },
-    {
-      "@type": "SpeakableSpecification",
-      "@id": "https://www.studyinlatvia.in/latvia/state/#speakable",
-      "cssSelector": ["h1", ".entry-content p"]
-    }
   ]
 };
 
@@ -194,6 +160,10 @@ const page = () => {
               <h4 className='text-lg md:text-xl text-roboto'>Access to Europe</h4>
               <p className='mt-2 text-roboto'>As part of the Schengen Area, Latvia provides students with opportunities to explore other European countries during their studies. This international exposure enhances both personal and professional development.</p>
             </div>
+            <div className='mt-3'>
+              <h4 className='text-lg md:text-xl text-roboto'>Nature and Climate of Latvia</h4>
+              <p className='mt-2 text-roboto'>Latvia is famous for its beautiful natural landscapes, green forests, peaceful lakes and picturesque beaches. The <Link className="font-semibold hover:underline" href="/latvia/nature-and-climate">climate and nature of Latvia</Link> offers a refreshing environment for Indian students, with its comfortable summers, snowy winters and chances to explore outdoors all year round.</p>
+            </div>
           </div>
           <div className="mt-10">
             <div className='mt-3'>
@@ -211,6 +181,9 @@ const page = () => {
               <p className='text-md text-justify font-inter mt-2'>For Indian students looking for an affordable European study destination, Latvia offers an excellent combination of quality education, global exposure, and career development opportunities. The country's welcoming atmosphere, growing international student population, and internationally recognized universities make it an attractive choice for higher education abroad.</p>
               <p className='text-md text-justify font-inter mt-2'>Whether your goal is academic advancement, international work experience, or long-term career growth, Latvia provides the foundation to achieve your ambitions while enjoying the benefits of studying in Europe.</p>
             </div>
+          </div>
+          <div className='mt-5 flex justify-end items-center'>
+              <Link className='text-blue-500 hover:underline' href={'/latvia/nature-and-climate'}>Read About Nature and Climate&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
           </div>
       </div>
       <script

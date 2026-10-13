@@ -2,7 +2,8 @@ import React from 'react'
 import Breadcrumb from '@/app/components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Cost of Living in Latvia for Students: Budget Guide by Expert",
@@ -15,17 +16,17 @@ export const metadata = {
     index: true,
     follow: true,
   },
-   openGraph: {
-    type: "article",
+  openGraph: {
+    type: "website",
     url: "https://www.studyinLatvia.in/living/living-costs/",
-    siteName: "Study in Latvia",
+    siteName: "Study in Latvia Center",
     title:
       "Cost of Living in Latvia for Students: Budget Guide by Expert",
     description:
       "Explore the Cost of Living in Latvia for Indian students, including accommodation, food, transport, utilities, and monthly expenses. Apply  & start your Journey now.",
     images: [
       {
-        url: "https://www.studyinLatvia.in/images/living/living-cost/living-cost.webp",
+        url: "https://www.studyinLatvia.in/images/logos/logo.png",
         width: 1200,
         height: 630,
         alt: "Cost of Living in Latvia",
@@ -41,7 +42,7 @@ export const metadata = {
     description:
       "Explore the Cost of Living in Latvia for Indian students, including accommodation, food, transport, utilities, and monthly expenses. Apply  & start your Journey now.",
     images: [
-      "https://www.studyinLatvia.in/images/living/living-cost/living-cost.webp",
+      "https://www.studyinLatvia.in/images/logos/logo.png",
     ],
   },
 }
@@ -54,26 +55,11 @@ const page = () => {
     {
       "@type": "Organization",
       "@id": "https://www.studyinLatvia.in/#organization",
-      name: "Study in Latvia",
+      name: "Study in Latvia Center",
       url: "https://www.studyinLatvia.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.studyinLatvia.in/images/logoa/logo.webp",
-      },
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinLatvia.in/#website",
-      url: "https://www.studyinLatvia.in",
-      name: "Study in Latvia",
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinLatvia.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
+        url: "https://www.studyinLatvia.in/images/logoa/logo.png",
       },
     },
     {
@@ -89,32 +75,6 @@ const page = () => {
         "@id": "https://www.studyinLatvia.in/#website",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinLatvia.in/living/living-costs/#article",
-      headline:
-        "Cost of Living in Latvia for International Students",
-      description:
-        "Comprehensive guide to accommodation costs, food expenses, transportation, utilities and overall student living costs in Latvia.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinLatvia.in/living/living-costs/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinLatvia.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Latvia",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinLatvia.in/images/living/living-cost/living-cost.webp",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -141,53 +101,6 @@ const page = () => {
             "https://www.studyinLatvia.in/living/living-costs/",
         },
       ],
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "How much does it cost to live in Latvia as a student?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "International students typically spend between €400 and €900 per month depending on their city, accommodation type and lifestyle.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is Latvia affordable for international students?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Latvia is considered one of the most affordable countries in Europe for international students, with lower living and accommodation costs than many Western European countries.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How much does student accommodation cost in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "University dormitories generally cost between €80 and €250 per month, while private apartments may range from €250 to €600 per month depending on location.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Do students receive discounts in Latvia?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Students can benefit from discounted public transportation, cultural events, museums and various student services.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinLatvia.in/living/living-costs/#image",
-      contentUrl:
-       "https://www.studyinLatvia.in/images/living/living-cost/living-cost.webp",
-      caption:
-        "Cost of Living in Latvia for International Students",
-      representativeOfPage: true,
     },
   ],
 };
@@ -272,6 +185,9 @@ const page = () => {
                 students can enjoy a comfortable European lifestyle without the financial pressures often found
                 in many other study destinations.<br /> <br /> Careful budgeting and student discounts can help international students make the most of their
                 experience while studying in Latvia.</p>
+            </div>
+            <div className='mt-5 flex justify-end items-center'>
+              <Link className='text-blue-500 hover:underline' href={'/living/visa-and-residence-permit'}>Read About Visa and Residence in Permit&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
             </div>
         </div>
         <script

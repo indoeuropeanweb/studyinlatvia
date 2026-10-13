@@ -1,6 +1,7 @@
 import Breadcrumb from "@/app/components/Breadcrumb";
 import { IoIosArrowForward } from 'react-icons/io'
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Study in Latvia: Top Scholarships for Indian Students",
@@ -17,16 +18,26 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.studyinLatvia.in/study/scholarships/",
-    siteName: "Study in Latvia",
+    siteName: "Study in Latvia Center",
     title:
       "Study in Latvia: Top Scholarships for Indian Students",
     description:
       "Find the best scholarships in Latvia for Indian students. Check eligibility, funding, and application steps. Start your degree for less today.",
     images: [
       {
-        url: "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
+        url: "https://www.studyinLatvia.in/images/logos/logo.png",
         alt: "Scholarships in Latvia",
       },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Study in Latvia: Top Scholarships for Indian Students",
+    description:
+      "Find the best scholarships in Latvia for Indian students. Check eligibility, funding, and application steps. Start your degree for less today.",
+    images: [
+      "https://www.studyinLatvia.in/images/logos/logo.png",
     ],
   },
 }
@@ -39,26 +50,11 @@ const page = () => {
         {
           "@type": "Organization",
           "@id": "https://www.studyinLatvia.in/#organization",
-          name: "Study in Latvia",
+          name: "Study in Latvia Center",
           url: "https://www.studyinLatvia.in",
           logo: {
             "@type": "ImageObject",
             url: "https://www.studyinLatvia.in/",
-          },
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.studyinLatvia.in/#website",
-          url: "https://www.studyinLatvia.in",
-          name: "Study in Latvia",
-          publisher: {
-            "@id": "https://www.studyinLatvia.in/#organization",
-          },
-          potentialAction: {
-            "@type": "SearchAction",
-            target:
-              "https://www.studyinLatvia.in/?s={search_term_string}",
-            "query-input": "required name=search_term_string",
           },
         },
         {
@@ -77,28 +73,6 @@ const page = () => {
               "https://www.studyinLatvia.in/study/scholarships/#breadcrumb",
           },
           inLanguage: "en",
-        },
-        {
-          "@type": "Article",
-          "@id":
-            "https://www.studyinLatvia.in/study/scholarships/#article",
-          headline:
-            "Scholarships in Latvia for International Students",
-          description:
-            "Complete guide to scholarships, grants, tuition waivers and financial aid opportunities available for Bachelor's, Master's and PhD students in Latvia.",
-          mainEntityOfPage: {
-            "@id":
-              "https://www.studyinLatvia.in/study/scholarships/#webpage",
-          },
-          publisher: {
-            "@id": "https://www.studyinLatvia.in/#organization",
-          },
-          author: {
-            "@type": "Organization",
-            name: "Study in Latvia",
-          },
-          datePublished: "2026-06-11",
-          dateModified: "2026-06-11",
         },
         {
           "@type": "BreadcrumbList",
@@ -124,59 +98,6 @@ const page = () => {
               item: "https://www.studyinLatvia.in/study/scholarships/",
             },
           ],
-        },
-        {
-          "@type": "FinancialAid",
-          name: "Scholarships in Latvia",
-          description:
-            "Financial support opportunities including tuition fee waivers, government scholarships, university grants, merit-based scholarships and research funding for international students.",
-        },
-        {
-          "@type": "FAQPage",
-          mainEntity: [
-            {
-              "@type": "Question",
-              name: "Can international students get scholarships in Latvia?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Yes. Latvian universities and government organizations offer scholarships, tuition fee waivers and grants for international students based on academic merit and eligibility.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Are scholarships available for Bachelor's students in Latvia?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Yes. Several Latvian universities offer tuition fee reductions, partial scholarships and full tuition waivers for eligible Bachelor's degree students.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Are there scholarships for Master's and PhD students?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Yes. Master's and PhD students can apply for university scholarships, research grants, government-funded scholarships and tuition support programs.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "How much scholarship can I get in Latvia?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Scholarships vary by university and program. Students may receive partial tuition discounts, full tuition waivers or monthly stipends depending on eligibility.",
-              },
-            },
-          ],
-        },
-        {
-          "@type": "ImageObject",
-          "@id":
-            "https://www.studyinLatvia.in/study/scholarships/#image",
-          contentUrl:
-            "https://www.studyinLatvia.in/images/study/Latvia-01.webp",
-          caption:
-            "Scholarships and Financial Aid Opportunities in Latvia",
-          representativeOfPage: true,
         },
       ],
     };
@@ -235,7 +156,7 @@ const page = () => {
                         <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Passport copy</li>
                         <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;University admission letter</li>
                         <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Statement of Purpose (SOP)</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbspCV/Resume</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;CV/Resume</li>
                         <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English proficiency proof</li>
                         <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Scholarship application documents (if applicable)</li>
                      </ul>
@@ -253,12 +174,12 @@ const page = () => {
 
                       <div className="space-y-6">
                         <div className="relative flex gap-5">
-                          <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#048D4E] text-white font-bold shadow-lg">
+                          <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#BE3A34] text-white font-bold shadow-lg">
                             1
                           </div>
 
                           <div className="flex-1 bg-white border border-[#048D4E]/15 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
-                            <h5 className="text-lg font-semibold text-[#15803D]">
+                            <h5 className="text-lg font-semibold text-[#BE3A34]">
                               Choose Your University
                             </h5>
                             <p className="mt-2 text-gray-600 text-sm leading-relaxed">
@@ -285,12 +206,12 @@ const page = () => {
                         </div>
 
                         <div className="relative flex gap-5">
-                          <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#BE3A34] text-white font-bold shadow-lg">
+                          <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#048D4E] text-white font-bold shadow-lg">
                             3
                           </div>
 
                           <div className="flex-1 bg-white border border-[#BE3A34]/20 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
-                            <h5 className="text-lg font-semibold text-[#BE3A34]">
+                            <h5 className="text-lg font-semibold text-[#048D4E]">
                               Submit Your Application
                             </h5>
                             <p className="mt-2 text-gray-600 text-sm leading-relaxed">
@@ -304,12 +225,15 @@ const page = () => {
                   </div>
                   <div className="mt-10">
                       <h4 className="text-xl md:text-2xl font-roboto">Make Your European Education More Affordable</h4>
-                      <p className="text-base font-inter mt-3">Scholarships in Latvia provide valuable financial assistance for students who want to study in
-                        Europe while managing educational expenses effectively. By researching available funding
+                      <p className="text-base font-inter mt-3">Scholarships in Latvia provide valuable financial assistance for students who want to <Link className="font-semibold hover:underline" href={'https://indoeuropean.in/destinations/study-in-europe'}>study in
+                        Europe</Link> while managing educational expenses effectively. By researching available funding
                         opportunities and preparing strong applications, students can make their study abroad journey
                         more accessible and rewarding.</p>
                   </div>
                 </div>
+          <div className='mt-5 flex justify-end items-center'>
+            <Link className='text-blue-500 hover:underline' href={'/living'}>Read About Living in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+          </div>
          </div>
       <script
         type="application/ld+json"

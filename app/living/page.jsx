@@ -25,7 +25,7 @@ export const metadata = {
     follow: true,
   },
   openGraph: {
-    type: "article",
+    type: "website",
     title:
       "Living in Latvia as an Indian Student | Cost, Accommodation & Lifestyle",
     description:
@@ -68,15 +68,6 @@ const schemaData = {
       },
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlatvia.in/#website",
-      "url": "https://www.studyinlatvia.in/",
-      "name": "Study in Latvia",
-      "publisher": {
-        "@id": "https://www.studyinlatvia.in/#organization",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id": "https://www.studyinlatvia.in/living/#webpage",
       "url": "https://www.studyinlatvia.in/living/",
@@ -91,71 +82,23 @@ const schemaData = {
         "@id": "https://www.studyinlatvia.in/#organization",
       },
     },
-    {
-      "@type": "Article",
-      "@id": "https://www.studyinlatvia.in/living/#article",
-      "headline":
-        "Living in Latvia as an Indian Student | Cost, Accommodation & Lifestyle",
-      "description":
-        "Learn about student life in Latvia, including living costs, accommodation, transportation, healthcare, safety, culture, food, and daily expenses for Indian and international students.",
-      "url": "https://www.studyinlatvia.in/living/",
-      "mainEntityOfPage": {
-        "@id": "https://www.studyinlatvia.in/living/#webpage",
-      },
-      "publisher": {
-        "@id": "https://www.studyinlatvia.in/#organization",
-      },
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.studyinlatvia.in/living/#faq",
-      "mainEntity": [
+          {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.studyinlatvia.in/living/#breadcrumb",
+      "itemListElement": [
         {
-          "@type": "Question",
-          "name": "What is the cost of living in Latvia for students?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text":
-              "The cost of living in Latvia varies depending on the city, accommodation, lifestyle, transportation, food, and other personal expenses.",
-          },
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.studyinlatvia.in/"
         },
         {
-          "@type": "Question",
-          "name": "Is Latvia safe for international students?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text":
-              "Latvia is a popular destination for international students, with students living and studying in cities such as Riga and other university towns.",
-          },
+          "@type": "ListItem",
+          "position": 2,
+          "name": "living",
+          "item": "https://www.studyinlatvia.in/living/"
         },
-        {
-          "@type": "Question",
-          "name": "What accommodation options are available for students in Latvia?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text":
-              "Students in Latvia can choose from university accommodation, student residences, shared apartments, and private rental accommodation depending on availability and budget.",
-          },
-        },
-        {
-          "@type": "Question",
-          "name": "Can Indian students work while studying in Latvia?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text":
-              "International students may have opportunities to work while studying in Latvia, subject to the conditions and regulations applicable to their residence permit and study program.",
-          },
-        },
-        {
-          "@type": "Question",
-          "name": "What is student life like in Latvia?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text":
-              "Student life in Latvia combines European education, cultural experiences, public transportation, student communities, and access to various recreational and social activities.",
-          },
-        },
-      ],
+      ]
     },
   ],
 };

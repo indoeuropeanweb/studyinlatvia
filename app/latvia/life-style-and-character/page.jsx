@@ -1,7 +1,8 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import Image from 'next/image';
 import { IoIosArrowForward } from 'react-icons/io';
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
     title: "Study in Latvia: Monthly Living Costs for Indian Students",
@@ -14,6 +15,34 @@ export const metadata = {
       index: true,
       follow: true,
     },
+    openGraph: {
+    type: "website",
+    title:
+      "Study in Latvia: Monthly Living Costs for Indian Students",
+    description:
+      "Discover the cost of living in Latvia for international students, including accommodation, food, transportation, healthcare, and monthly expenses. for more Contact us",
+    url: "https://www.studyinlatvia.in/latvia/life-style-and-character/",
+    siteName: "Study in latvia Center",
+    images: [
+      {
+        url: "https://www.studyinlatvia.in/images/life-style-and-character/life-style-and-character.webp",
+        width: 1200,
+        height: 630,
+        alt: "Life Style and Character of Latvia",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Study in Latvia: Monthly Living Costs for Indian Students",
+    description:
+      "Discover the cost of living in Latvia for international students, including accommodation, food, transportation, healthcare, and monthly expenses. for more Contact us",
+    images: [
+      "https://www.studyinlatvia.in/images/life-style-and-character/life-style-and-character.webp",
+    ],
+  },
 }
 
 const page = () => {
@@ -82,10 +111,14 @@ const page = () => {
             <li className='text-base font-inter'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Access to beautiful natural surroundings</li>
             <li className='text-base font-inter'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Friendly and multicultural student communities</li>
             <li className='text-base font-inter'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Balanced approach to work, study, and personal life</li>
+            <li className='text-base font-inter'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Opportunity to learn the <Link className='font-semibold hover:underline' href={'/latvia/language'}>language of Latvia</Link> and gain practical communication abilities by experiencing the local culture and connecting with Latvian communities.</li>
           </ul>
           <p className='text-base text-justify font-inter mt-5'>Latvia offers more than just academic opportunities—it provides a lifestyle that encourages personal growth, international exposure, and a rewarding European experience. For students seeking quality education in a country that values both tradition and progress, Latvia presents an excellent place to live, learn, and prepare for the future.</p>
         </div>
       </div>
+      <div className='mt-5 flex justify-end items-center'>
+           <Link className='text-blue-500 hover:underline' href={'/latvia/language'}>Read About Latvian Language&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+        </div>
     </div>
   )
 }

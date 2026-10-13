@@ -1,6 +1,8 @@
 import Breadcrumb from '../components/Breadcrumb'
 import Image from 'next/image'
 import { IoIosArrowForward } from "react-icons/io";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const latviaClient = () => {
   return (
@@ -33,15 +35,15 @@ const latviaClient = () => {
                            management, computer science, artificial intelligence, engineering, healthcare, tourism, finance,
                            and social sciences. These programs combine academic knowledge with practical learning
                            experiences.</li>
+                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Global Learning Environment:</b> Latvia welcomes students from different parts of the world, creating a diverse and multicultural academic atmosphere. This international exposure helps students develop valuable communication skills and build global networks.</li>
                       </ul>
                    <Image className="h-100 w-85 rounded-md" src="/images/latvia/study-in-latvia.webp" width={250} height={125} alt="study in latvia centre" />
                  </div>
                  <div className=''>
                   <ul className='mt-3 space-y-3'>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Global Learning Environment:</b> Latvia welcomes students from different parts of the world, creating a diverse and multicultural academic atmosphere. This international exposure helps students develop valuable communication skills and build global networks.</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Part-Time Work Opportunities:</b> International students can work while studying, allowing them to gain practical experience, improve their professional skills, and contribute towards their living expenses. This experience can be highly beneficial when entering the job market after graduation.</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Career Opportunities After Graduation:</b> Latvia's strategic location within the European Union provides graduates with access to a wider European job market. Many students choose Latvia not only for education but also for the long-term career opportunities available after completing their studies.</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Safe and Comfortable Student Life:</b> Known for its safety, modern infrastructure, and welcoming communities, Latvia offers an excellent quality of life for international students. Students can focus on their studies while enjoying a balanced and enriching lifestyle.</li>
+                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Safe and Comfortable Student Life:</b> The <Link className="font-semibold hover:underline" href="/latvia/state">Latvia State</Link> offers a peaceful, welcoming, and multicultural environment for Indian students. Known for its safety, modern infrastructure, and welcoming communities, Latvia offers an excellent quality of life for international students. Students can focus on their studies while enjoying a balanced and enriching lifestyle.</li>
                   </ul>
                  </div>
                </div>
@@ -58,6 +60,9 @@ const latviaClient = () => {
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Pre-Departure Assistance:</b> Preparing for life in a new country involves more than securing admission. Guidance on accommodation, travel arrangements, and settling into student life helps students transition confidently to Latvia.</li>
                       </ul>
                       <p className='mt-5 text-justify'>Start your journey towards a globally recognized European education and discover why more students are choosing to study in Latvia for academic success, international exposure, and long-term career growth.</p>
+               </div>
+               <div className='mt-5 flex justify-end items-center'>
+                  <Link className='text-blue-500 hover:underline' href={'/latvia/state'}>Read About State of Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
                </div>
          </div>
       </>
