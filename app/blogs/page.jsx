@@ -2,7 +2,7 @@ import Link from "next/link";
 import { blogs } from "@/public/data/blogs";
 import Breadcrumb from "../components/Breadcrumb";
 import Image from "next/image";
-
+import { FaArrowRightLong } from "react-icons/fa6";
 
   export const metadata = {
     title: "Best Study in Latvia Consultants Blog: By Our Top Expert Advice",
@@ -203,6 +203,9 @@ import Image from "next/image";
             </div>
           </Link>
         ))}
+      </div>
+      <div className='mt-5 flex justify-end items-center'>
+          <Link className='text-blue-500 hover:underline' href='/gallery'>Read about Gallery of Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
       </div>
     </div>
     <script

@@ -239,7 +239,7 @@ const page = () => {
         <div className='mt-10'>
             <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Modern Lifestyle with European Values</h2>
             <p className='text-base font-inter text-justify'>
-             While Latvia proudly preserves its traditions, it is also a modern European country with advanced infrastructure, digital services, and a progressive outlook. Students benefit from a balanced <Link className='font-semibold hover:underline' href={'/latvia/life-style-and-character'}>lifestyle in latvia</Link> that combines cultural heritage with contemporary opportunities.
+             While Latvia proudly preserves its traditions, it is also a modern European country with advanced infrastructure, digital services, and a progressive outlook. Students benefit from a balanced <Link className='font-semibold hover:underline' href='/latvia/life-style-and-character'>lifestyle in latvia</Link> that combines cultural heritage with contemporary opportunities.
               <br />
              This mix of tradition and innovation creates an enriching environment for personal growth, academic success, and international exposure.
             </p>
@@ -255,7 +255,7 @@ const page = () => {
             </p>
         </div>
         <div className='mt-5 flex justify-end items-center'>
-           <Link className='text-blue-500 hover:underline' href={'/latvia/life-style-and-character'}>Read About Latvia Life Style and Character&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+           <Link className='text-blue-500 hover:underline' href='/latvia/life-style-and-character'>Read About Latvia Life Style and Character&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
         </div>
       </div>
       <script

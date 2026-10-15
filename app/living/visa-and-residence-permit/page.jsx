@@ -207,11 +207,15 @@ const page = () => {
                 <p className='mt-2 text-inter text-md text-justify'>Getting a Latvian student visa and residence permit is a crucial step towards your study-in-
                   Europe journey. With good preparation and timely application, international students can
                   complete the process quickly and concentrate on building a successful academic future in
-                  Latvia.</p>
+                  Latvia.
+                  <br />
+                  <br />
+                  If you are an international student, knowing the rules for <Link className='font-semibold hover:underline' href={'/living/working'}>Working in Latvia</Link> can help you to explore part-time job opportunities and manage your living expenses while studying.
+                  </p>
               </div>
             </div>
             <div className='mt-5 flex justify-end items-center'>
-              <Link className='text-blue-500 hover:underline' href={'/living/working'}>Read About Working in Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+              <Link className='text-blue-500 hover:underline' href='/living/working'>Read About Working in Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
             </div>
         </div>
         <script

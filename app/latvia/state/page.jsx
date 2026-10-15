@@ -183,7 +183,7 @@ const page = () => {
             </div>
           </div>
           <div className='mt-5 flex justify-end items-center'>
-              <Link className='text-blue-500 hover:underline' href={'/latvia/nature-and-climate'}>Read About Nature and Climate&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+              <Link className='text-blue-500 hover:underline' href='/latvia/nature-and-climate'>Read About Nature and Climate&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
           </div>
       </div>
       <script

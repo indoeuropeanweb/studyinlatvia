@@ -147,13 +147,13 @@ const page = () => {
         <div className='mt-10'>
           <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Admission in Latvia Universities</h2>
           <p className='mt-4'>
-            <Link className='font-semibold hover:underline' href={'/study/admission'}>Admission requirements for PhD programs in Latvia</Link> vary between universities but generally require a recognized Master’s degree, academic transcripts, a research proposal and evidence of English language proficiency. 
+            <Link className='font-semibold hover:underline' href='/study/admission'>Admission requirements for PhD programs in Latvia</Link> vary between universities but generally require a recognized Master’s degree, academic transcripts, a research proposal and evidence of English language proficiency. 
             <br />
             Before applying, students need to check the university’s own entry requirements, find a suitable supervisor for their research and prepare the required documents. Proper planning can ease admission in the universities of Latvia and make a smooth transition to doctoral studies.
           </p>
         </div>
           <div className='mt-5 flex justify-end items-center'>
-            <Link className='text-blue-500 hover:underline' href={'/study/admission'}>Read About Admission in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+            <Link className='text-blue-500 hover:underline' href='/study/admission'>Read About Admission in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
           </div>
       </div>
       <script

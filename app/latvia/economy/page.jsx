@@ -189,7 +189,7 @@ const page = () => {
               <p className='text-base font-roboto mt-3'>The country's expanding economy allows graduates to explore career opportunities across multiple sectors while gaining valuable international work experience
               <br />
               <br />
-              <Link className='font-semibold hover:underline' href={'/latvia/culture'}>Latvia’s unique culture</Link> gives international students the chance to experience local traditions, festivals, art and the friendly European lifestyle. It means that students can learn about culture, practice communication skills, develop international relationships and learn how to work in a variety of settings.
+              <Link className='font-semibold hover:underline' href='/latvia/culture'>Latvia’s unique culture</Link> gives international students the chance to experience local traditions, festivals, art and the friendly European lifestyle. It means that students can learn about culture, practice communication skills, develop international relationships and learn how to work in a variety of settings.
               </p>
             </li>
            </ul>
@@ -203,7 +203,7 @@ const page = () => {
            </p>
         </div>
         <div className='mt-5 flex justify-end items-center'>
-           <Link className='text-blue-500 hover:underline' href={'/latvia/culture'}>Read About Latvia Culture&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+           <Link className='text-blue-500 hover:underline' href='/latvia/culture'>Read About Latvia Culture&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
         </div>
       </div>
       <script

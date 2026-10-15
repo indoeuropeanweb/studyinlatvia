@@ -41,9 +41,9 @@ const HomeClient = () => {
         <div className="mx-5 flex items-center">
             <p className="text-white text-base">share this page</p>
             <ul className="flex items-center ms-3 gap-2">
-                <li><Link className="" href={'https://www.facebook.com/Indoeuropean.in'} target="_blank"><FaFacebook className="size-4 text-white"/></Link></li>
-                <li><Link className="" href={'https://www.instagram.com/indo_european'} target="_blank"><FaInstagram className="size-5 text-white"/></Link></li>
-                <li><Link className="" href={'https://www.youtube.com/IEESIndoEuropean'} target="_blank"><FaYoutube className="size-5 text-white"/></Link></li>
+                <li><Link className="" href='https://www.facebook.com/Indoeuropean.in' target="_blank"><FaFacebook className="size-4 text-white"/></Link></li>
+                <li><Link className="" href='https://www.instagram.com/indo_european' target="_blank"><FaInstagram className="size-5 text-white"/></Link></li>
+                <li><Link className="" href='https://www.youtube.com/IEESIndoEuropean' target="_blank"><FaYoutube className="size-5 text-white"/></Link></li>
             </ul>
         </div>
        </div>   
@@ -55,7 +55,7 @@ const HomeClient = () => {
       <h2 className="font-aino text-2xl md:text-4xl mb-4">Study in Latvia?</h2>
       <p className="text-lg md:text-xl mb-6">
         Study in Latvia Center offers international students the opportunity to earn a globally recognised
-        European degree in a modern, affordable, and student-friendly environment. <Link className="font-semibold hover:underline" href={'/study/universities'}>Latvian universities</Link> provide high-quality education, English-taught programmes, and career-focused learning across
+        European degree in a modern, affordable, and student-friendly environment. <Link className="font-semibold hover:underline" href='/study/universities'>Latvian universities</Link> provide high-quality education, English-taught programmes, and career-focused learning across
         a wide range of academic disciplines.
         <br />
         <br />
@@ -65,7 +65,7 @@ const HomeClient = () => {
         gain valuable international exposure while building strong foundations for future career success.
      </p>
      <div className="flex justify-end items-end">
-       <Link href={'/about'} className="text-blue-500 font-roboto hover:underline">Read more <FaArrowRightLong className="inline-block"/></Link>
+       <Link href='/about' className="text-blue-500 font-roboto hover:underline">Read more <FaArrowRightLong className="inline-block"/></Link>
      </div>
      </div>
     </section>
@@ -80,7 +80,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Bachelor's</h4>
                <p className="text-white text-sm md:text-md text-center">Bachelor’s programs in Latvia offer internationally recognised degrees, affordable tuition, and strong academic foundation for global career opportunities.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/programmes/bachelors'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href='/study/programmes/bachelors'>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-primary via-primary to-tertiary/10 w-full h-full" />
@@ -91,7 +91,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Master's</h4>
                <p className="text-white text-sm md:text-md text-center">Gain specialised knowledge through industry-focused postgraduate education designed to support global career advancement and professional growth.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/study/programmes/masters'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href='/study/programmes/masters'>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />
@@ -102,7 +102,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">PhD</h4>
                <p className="text-white text-sm md:text-md text-center">Pursue advanced research opportunities with expert guidance, academic innovation, and internationally recognised doctoral qualifications.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/programmes/phd'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href='/study/programmes/phd'>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-primary via-primary to-tertiary/10 w-full h-full" />
@@ -113,7 +113,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">All Programmes</h4>
                <p className="text-white text-sm md:text-md text-center">Develop practical skills through flexible learning programmes that enhance employability and support career development goals.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/study/programmes'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href='/study/programmes'>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>
           <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />
@@ -126,7 +126,7 @@ const HomeClient = () => {
       <div className="py-12 px-4 flex flex-col justify-center items-center gap-6">
         <h2 className="font-aino text-2xl md:text-4xl">Application deadlines are approaching</h2>
         <p className="font-roboto text-lg md:text-base">Visit our online admission system to apply to Bachelor's, Master's or Doctoral programmes.</p>
-      <Link className="px-6 py-2 bg-primary hover:bg-primary/75 duration-300 ease-in-out text-white text-lg rounded-full flex justify-center items-center" href={'/contact'}>Apply Now &nbsp;<FaArrowRightLong className="size-5 inline-block"/></Link>
+      <Link className="px-6 py-2 bg-primary hover:bg-primary/75 duration-300 ease-in-out text-white text-lg rounded-full flex justify-center items-center" href='/contact'>Apply Now &nbsp;<FaArrowRightLong className="size-5 inline-block"/></Link>
       </div>
     </section>
     <section className="">
@@ -162,7 +162,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Scholarships</h4>
                <p className="text-white text-sm md:text-md text-center">Scholarships in Latvia help students reduce tuition fees and living expenses. Many universities and government programs offer financial support based on academic merit and eligibility criteria.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/scholarships'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href='/study/scholarships'>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-primary via-primary to-tertiary/10 w-full h-full" />
@@ -173,7 +173,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Admission</h4>
                <p className="text-white text-sm md:text-md text-center">The admission process in Latvia is straightforward. Students generally need academic transcripts, a valid passport, proof of English proficiency, and other supporting documents before the application deadline.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/study/admission'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href='/study/admission'>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />
@@ -184,7 +184,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Working</h4>
                <p className="text-white text-sm md:text-md text-center">Indian students in Latvia can work part-time while pursuing their studies. This helps them gain practical experience, improve professional skills, and support their living expenses.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/living/working'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href='/living/working'>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-primary via-primary to-tertiary/10 w-full h-full" />
@@ -195,7 +195,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino text-center">Visa and Residence Permit</h4>
                <p className="text-white text-sm md:text-md text-center">Students admitted to Latvian universities must apply for a student visa and residence permit. These documents allow legal stay in Latvia and provide access to education, healthcare, and other student benefits.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/living/visa-and-residence-permit'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href='/living/visa-and-residence-permit'>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />
@@ -229,7 +229,7 @@ const HomeClient = () => {
                 })}
               </ul>
           <div className="flex justify-end items-center mt-12">
-            <Link className="px-4 py-2 border-2 border-primary text-primary bg-white rounded-full hover:bg-primary hover:text-white duration-300 ease-in-out" href={`/blogs`}>All Blogs &nbsp;<FaArrowRightLong className="size-6 inline-block"/></Link>
+            <Link className="px-4 py-2 border-2 border-primary text-primary bg-white rounded-full hover:bg-primary hover:text-white duration-300 ease-in-out" href="/blogs">All Blogs &nbsp;<FaArrowRightLong className="size-6 inline-block"/></Link>
           </div>
             </div>
           </div>
@@ -257,9 +257,9 @@ const HomeClient = () => {
             <div className="flex items-center gap-4">
             <span className="font-aino text-white">Follow us on :</span>
             <ul className="flex items-center gap-2">
-              <li className="text-white"><Link target="_blank" href={'https://www.facebook.com/Indoeuropean.in'}><FaFacebook className="size-6 inline-block"/></Link></li>
-              <li className="text-white"><Link target="_blank" href={'https://www.instagram.com/indo_european'}><FaInstagram className="size-6 inline-block"/></Link></li>
-              <li className="text-white"><Link target="_blank" href={'https://www.youtube.com/IEESIndoEuropean'}><FaYoutube className="size-6 inline-block"/></Link></li>
+              <li className="text-white"><Link target="_blank" href='https://www.facebook.com/Indoeuropean.in'><FaFacebook className="size-6 inline-block"/></Link></li>
+              <li className="text-white"><Link target="_blank" href='https://www.instagram.com/indo_european'><FaInstagram className="size-6 inline-block"/></Link></li>
+              <li className="text-white"><Link target="_blank" href='https://www.youtube.com/IEESIndoEuropean'><FaYoutube className="size-6 inline-block"/></Link></li>
             </ul>
            </div>
          </div>

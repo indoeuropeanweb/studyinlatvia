@@ -6,7 +6,6 @@ import Link from 'next/link';
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import Image from 'next/image';
 
-
 export const metadata = {
   title: "Study in Latvia Consultants | Expert Education Advice",
   description: "Connect with trusted Study in Latvia Consultants for expert guidance on admissions, student visas, scholarships, and university selection. Contact our team today",
@@ -176,7 +175,7 @@ const page = () => {
              <div className=''>
                 <h2 className='text-2xl md:text-4xl font-aino'>Get in Touch With Our Latvia Education Advisors</h2>
                 <h4 className='text-md md:text-lg font-roboto mt-3'>Connect With Us for Expert Study in Latvia Guidance</h4>
-                <p className='text-md font-inter mt-3 text-justify'>Thinking about studying in Latvia? Whether you&#39;re searching for the right university, exploring available scholarships, or looking for assistance with the Latvia admission and student visa process, our team is here to support you every step of the way.</p>
+                <p className='text-md font-inter mt-3 text-justify'>Thinking about <Link className="font-semibold hover:underline" href="/contact">study in Latvia</Link>? Whether you're searching for the right university, exploring available scholarships, or looking for assistance with the Latvia admission and student visa process, our team is here to support you every step of the way.</p>
                 <p className='text-md font-inter mt-3 text-justify'>Studying abroad is a major decision that can shape your future. Our experienced counsellors provide personalised advice to help students make informed choices about universities, courses, and career opportunities while ensuring a smooth and hassle-free application process.</p>
              </div>
              <div className='mt-10'>

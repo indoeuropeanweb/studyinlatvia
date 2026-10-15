@@ -202,7 +202,7 @@ const page = () => {
           </p>
         </div>
         <div className='mt-5 flex justify-end items-center'>
-           <Link className='text-blue-500 hover:underline' href={'/latvia/economy'}>Read About Latvia Economy&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+           <Link className='text-blue-500 hover:underline' href='/latvia/economy'>Read About Latvia Economy&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
         </div>
       </div>
       <script

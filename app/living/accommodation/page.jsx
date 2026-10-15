@@ -16,7 +16,7 @@ export const metadata = {
     index: true,
     follow: true,
   },
-   openGraph: {
+  openGraph: {
     type: "website",
     url: "https://www.studyinLatvia.in/living/accommodation/",
     siteName: "Study in Latvia",
@@ -188,11 +188,11 @@ const page = () => {
                 provides international students with a comfortable and enjoyable place to live while pursuing
                 their education in Europe.
                 <br />
-                Find out more about <Link className='font-semibold hover:underline' href={'/living/living-costs'}>cost of living in Latvia</Link> to help you plan your accommodation, food, transportation and other daily expenses as an international student.
+                Find out more about <Link className='font-semibold hover:underline' href='/living/living-costs'>cost of living in Latvia</Link> to help you plan your accommodation, food, transportation and other daily expenses as an international student.
                 </p>
             </div>
             <div className='mt-5 flex justify-end items-center'>
-              <Link className='text-blue-500 hover:underline' href={'/living/living-costs'}>Read About Living Costs in Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+              <Link className='text-blue-500 hover:underline' href='/living/living-costs'>Read About Living Costs in Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
             </div>
         </div>
         <script

@@ -354,7 +354,7 @@ const schema = {
              <ul className="mt-4 space-y-2">
                <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Internationally recognised European degrees</li>
                <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Affordable tuition fees and living costs</li>
-               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English-taught <Link className="font-semibold hover:underline" href={'/study/programme'}>Bachelor's and Master's programmes in Latvia</Link></li>
+               <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English-taught <Link className="font-semibold hover:underline" href='/study/programme'>Bachelor's and Master's programmes in Latvia</Link></li>
                <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Modern campuses and research facilities</li>
                <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Industry-oriented learning approach</li>
                <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Multicultural student environment</li>
@@ -373,7 +373,7 @@ const schema = {
           </div>
           </div>
           <div className='mt-5 flex justify-end items-center'>
-            <Link className='text-blue-500 hover:underline' href={'/study/programme'}>Read About Programmes in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+            <Link className='text-blue-500 hover:underline' href='/study/programme'>Read About Programmes in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
           </div>
       </div>
       <script

@@ -210,10 +210,10 @@ const page = () => {
                   careful preparation can make the admission process straightforward and successful.</p>
                 </div>
                 <div className="mt-5">
-                  <p className="text-base font-roboto mt-3"><Link className="font-semibold hover:underline" href={'/study/scholarships'}>Scholarships in Latvia</Link> Students can look for merit-based scholarships, discounts on tuition fees, and research funding to reduce the cost of studies in Latvia, subject to the eligibility criteria of universities.</p>
+                  <p className="text-base font-roboto mt-3"><Link className="font-semibold hover:underline" href='/study/scholarships'>Scholarships in Latvia</Link> Students can look for merit-based scholarships, discounts on tuition fees, and research funding to reduce the cost of studies in Latvia, subject to the eligibility criteria of universities.</p>
                 </div>
           <div className='mt-5 flex justify-end items-center'>
-            <Link className='text-blue-500 hover:underline' href={'/study/scholarships'}>Read About Scholarships in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+            <Link className='text-blue-500 hover:underline' href='/study/scholarships'>Read About Scholarships in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
           </div>
          </div>
          <script

@@ -9,6 +9,8 @@ import {
   FaLanguage,
   FaGlobeEurope,
 } from "react-icons/fa";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Study in Latvia Consultants: Get Expert Education Advice",
@@ -195,7 +197,7 @@ const page = () => {
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Admission application support</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Scholarship assistance</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Student visa guidance</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;IELTS coaching and preparation</li>
+                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<Link className="font-semibold hover:underline" href="https://indoeuropean.in/coaching">IELTS coaching</Link> and preparation</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Interview preparation</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Pre-departure counselling</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Ongoing student support</li>
@@ -225,7 +227,7 @@ const page = () => {
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;BA School of Business and Finance</li>
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Latvia University of Life Sciences and Technologies</li>
                       </ul>
-                      <p className='mt-5 text-justify'>These universities provide career-focused education, international exposure, and a supportive learning environment for students from around the world.</p>
+                      <p className='mt-5 text-justify'>These <Link className='font-semibold hover:underline' href='/study/universities'>universities of latvia</Link> provide career-focused education, international exposure, and a supportive learning environment for students from around the world.</p>
                </div>
                 <div className="my-10">
                   <div className="mb-10">
@@ -299,6 +301,9 @@ const page = () => {
                   </div>
                 </div>
          </div>
+          <div className='mt-5 flex justify-end items-center'>
+              <Link className='text-blue-500 hover:underline' href='/contact'>Contact Latvia Study Abroad Consultants&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+          </div>
          </div>
         <script
         type="application/ld+json"

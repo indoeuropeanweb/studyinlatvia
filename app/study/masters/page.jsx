@@ -165,7 +165,7 @@ to admission requirements.</p>
             market.</p>
         </div>
           <div className='mt-5 flex justify-end items-center'>
-            <Link className='text-blue-500 hover:underline' href={'/study/phd'}>Read About PhD in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+            <Link className='text-blue-500 hover:underline' href='/study/phd'>Read About PhD in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
           </div>
       </div>
       <Script

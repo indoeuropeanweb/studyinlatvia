@@ -1,5 +1,7 @@
 import Breadcrumb from '../components/Breadcrumb';
 import { Testimonials } from "@/public/data/testimonials";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Latvia Student Life | Gallery of Student Experiences & Campus Life",
@@ -151,6 +153,9 @@ const page = () => {
             })}
          </div>
        </div>
+      <div className='mt-5 flex justify-end items-center'>
+          <Link className='text-blue-500 hover:underline' href='/faq'>Read FAQs of Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+      </div>
      </section>
      <script
         type="application/ld+json"

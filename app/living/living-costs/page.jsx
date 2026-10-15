@@ -69,8 +69,7 @@ const page = () => {
       url:
         "https://www.studyinLatvia.in/living/living-costs/",
       name: "Cost of Living in Latvia",
-      description:
-        "Learn about student living expenses in Latvia, including accommodation, food, transportation, utilities and monthly budgets.",
+      description: "Learn about student living expenses in Latvia, including accommodation, food, transportation, utilities and monthly budgets.",
       isPartOf: {
         "@id": "https://www.studyinLatvia.in/#website",
       },
@@ -184,10 +183,14 @@ const page = () => {
                 reasonable accommodation costs, accessible transportation, and manageable daily expenses,
                 students can enjoy a comfortable European lifestyle without the financial pressures often found
                 in many other study destinations.<br /> <br /> Careful budgeting and student discounts can help international students make the most of their
-                experience while studying in Latvia.</p>
+                experience while studying in Latvia.
+                <br />
+                <br />
+                Students planning to study in Lithuania should also be aware of the <Link className='font-semibold hover:underline' href='/living/visa-and-residence-permit'>Visa and Residence requirements</Link> to be able to make the transition to student life in Europe as smooth as possible.
+                </p>
             </div>
             <div className='mt-5 flex justify-end items-center'>
-              <Link className='text-blue-500 hover:underline' href={'/living/visa-and-residence-permit'}>Read About Visa and Residence in Permit&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+              <Link className='text-blue-500 hover:underline' href='/living/visa-and-residence-permit'>Read About Visa and Residence in Permit&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
             </div>
         </div>
         <script

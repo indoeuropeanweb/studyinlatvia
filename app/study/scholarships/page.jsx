@@ -225,7 +225,7 @@ const page = () => {
                   </div>
                   <div className="mt-10">
                       <h4 className="text-xl md:text-2xl font-roboto">Make Your European Education More Affordable</h4>
-                      <p className="text-base font-inter mt-3">Scholarships in Latvia provide valuable financial assistance for students who want to <Link className="font-semibold hover:underline" href={'https://indoeuropean.in/destinations/study-in-europe'}>study in
+                      <p className="text-base font-inter mt-3">Scholarships in Latvia provide valuable financial assistance for students who want to <Link className="font-semibold hover:underline" href='https://indoeuropean.in/destinations/study-in-europe'>study in
                         Europe</Link> while managing educational expenses effectively. By researching available funding
                         opportunities and preparing strong applications, students can make their study abroad journey
                         more accessible and rewarding.</p>

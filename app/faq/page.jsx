@@ -1,6 +1,7 @@
 import Breadcrumb from '../components/Breadcrumb';
 import FAQ from '../components/FAQ';
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Study in Latvia Consultant: Expert FAQ Guide for Indian Students",
@@ -264,6 +265,9 @@ const faqData = [
                 return <FAQ panelNo={faq.id} key={index} question={faq.question} answer={faq.answer}/>
                })}
             </div>
+          <div className='mt-5 flex justify-end items-center'>
+              <Link className='text-blue-500 hover:underline' href='/about'>Read About Us&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+          </div>
          </div>
         <script
         type="application/ld+json"

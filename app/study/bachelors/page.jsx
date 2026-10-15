@@ -162,12 +162,12 @@ const page = () => {
             <li className='text-base font-inter'><IoIosArrowForward className="size-6 inline-block"/>&nbsp;Access to career opportunities across Europe</li>
             <li className='text-base font-inter'><IoIosArrowForward className="size-6 inline-block"/>&nbsp;Safe and welcoming study destination</li>
           </ul>
-          <p className='text-base font-inter mt-3'>Pursuing a Bachelor&#39;s degree in Latvia allows students to build a strong academic foundation,
+          <p className='text-base font-inter mt-3'>Pursuing a Bachelor's degree in Latvia allows students to build a strong academic foundation,
             gain international exposure, and prepare for long-term career success in a competitive global
             environment.</p>
         </div>
           <div className='mt-5 flex justify-end items-center'>
-            <Link className='text-blue-500 hover:underline' href={'/study/masters'}>Read About Masters in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+            <Link className='text-blue-500 hover:underline' href='/study/masters'>Read About Masters in Latvia&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
           </div>
       </div>
       <Script

@@ -23,16 +23,14 @@ export async function generateMetadata({ params }) {
     title: blog.metaTitle || blog.title,
     description: blog.metaDescription,
     keywords: blog.keywords,
-
     alternates: {
       canonical: `https://www.studyinlatvia.in/blogs/${slug}`,
     },
-
     openGraph: {
+      type: "article",
       title: blog.metaTitle || blog.title,
       description: blog.metaDescription,
       url: `https://www.studyinlatvia.in/blogs/${slug}`,
-      type: "article",
       images: [
         {
           url: blog.image,
@@ -42,22 +40,18 @@ export async function generateMetadata({ params }) {
         },
       ],
     },
-
     twitter: {
       card: "summary_large_image",
       title: blog.metaTitle || blog.title,
       description: blog.metaDescription,
       images: [blog.image],
     },
-
     robots: {
       index: true,
       follow: true,
     },
   };
 }
-
-
 
 export default async function BlogPage({ params }) {
   const { slug } = await params;
@@ -168,6 +162,7 @@ export default async function BlogPage({ params }) {
             />
           );
         }
+
         if (section.type === "heading") {
           return (
             <h2
@@ -178,16 +173,18 @@ export default async function BlogPage({ params }) {
             </h2>
           );
         }
+
         if (section.type === "subheading") {
           return (
             <h3
               key={index}
-              className="mt-6 text-xl md:text-2xl font-semibold font-aino"
+              className="mt-6 text-lg md:text-xl text-primary text-aino"
             >
               {section.content}
             </h3>
           );
         }
+
         if (section.type === "paragraph") {
           return (
             <p
@@ -218,6 +215,7 @@ export default async function BlogPage({ params }) {
             </p>
           );
         }
+
       if (section.type === "list") {
         return (
           <ul

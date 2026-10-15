@@ -116,11 +116,11 @@ const page = () => {
           <br />
          Indian students generally do not have problems communicating, as English is widely spoken, especially by young people, university students, and academic staff. Most universities offer English-taught programs so that Indian students can comfortably study while experiencing the culture and daily life of Latvia. 
           <br />
-          Indian ‍ ‌‍ ‍‌ students who apart from acquiring knowledge of the local language can also attend a variety of English taught courses at universities of Latvia. A student planning for <Link className='font-semibold hover:underline' href={'/study'}>Study in Latvia</Link> can pick up various degree programmes in a multilingual education and international work environment setting.
+          Indian ‍ ‌‍ ‍‌ students who apart from acquiring knowledge of the local language can also attend a variety of English taught courses at universities of Latvia. A student planning for <Link className='font-semibold hover:underline' href='/study'>Study in Latvia</Link> can pick up various degree programmes in a multilingual education and international work environment setting.
         </p>
         </div>
         <div className='mt-5 flex justify-end items-center'>
-           <Link className='text-blue-500 hover:underline' href={'/study'}>Read About Study in Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+           <Link className='text-blue-500 hover:underline' href='/study'>Read About Study in Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
         </div>
       </div>
       <script

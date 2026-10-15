@@ -1,5 +1,7 @@
 import Breadcrumb from '../components/Breadcrumb'
 import Image from 'next/image'
+import Link from 'next/link'
+import { FaArrowRightLong } from 'react-icons/fa6'
 
 export const metadata = {
   title: "Indian Students In Latvia | Student Ambassadors | Study in Latvia",
@@ -12,8 +14,8 @@ export const metadata = {
     index: true,
     follow: true,
   },
-    openGraph: {
-    type: "article",
+  openGraph: {
+    type: "website" ,
     title:
       "Indian Students In Latvia | Student Ambassadors | Study in Latvia",
     description:
@@ -269,6 +271,9 @@ const students = [
             );
         })}
         </div>
+          <div className='mt-5 flex justify-end items-center'>
+              <Link className='text-blue-500 hover:underline' href='/blogs'>Read blogs of Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+          </div>
        </div>
      </section>
      <script

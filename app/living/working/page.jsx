@@ -190,13 +190,13 @@ const page = () => {
             </div>
             <div className='mt-5'>
               <h5 className='text-xl md:text-2xl font-roboto'>Build Skills for a Global Career</h5>
-              <p className='text-base font-inter mt-3'>Working while studying in Latvia allows students to develop professional experience, strengthen
+              <p className='text-base font-inter mt-3'>Working while <Link className='font-semibold hover:underline' href='/'>studying in Latvia</Link> allows students to develop professional experience, strengthen
                 their resumes, and gain insights into the international job market. Combined with a recognised
                 European degree, these experiences can significantly enhance long-term career opportunities
                 both in Latvia and internationally.</p>
             </div>
             <div className='mt-5 flex justify-end items-center'>
-              <Link className='text-blue-500 hover:underline' href={'/living/student-ambassadors'}>Read About Student Ambassadors of Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
+              <Link className='text-blue-500 hover:underline' href='/student-ambassadors'>Read About Student Ambassadors of Latvia&nbsp;&nbsp;<FaArrowRightLong className='size-4 inline-block'/></Link>
             </div>
         </div>
         <script
